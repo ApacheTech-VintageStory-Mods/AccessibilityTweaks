@@ -1,0 +1,12 @@
+{
+  "Features.TextAlteration.Dialogue.Title": "Textveränderung",
+
+  "Features.TextAlteration.Dialogue.lblDuringTemporalStorm": "Während zeitlicher Stürme:",
+  "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText": "Aktiviert/Deaktiviert die automatische Änderung des Chattextes während eines zeitlichen Sturms.",
+
+  "Features.TextAlteration.Dialogue.lblWhileDrunk": "Während Betrunkenheit:",
+  "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText": "Aktivieren/Deaktivieren der automatischen Änderung des Chat-Textes unter Alkoholeinfluss.",
+
+  "Features.TextAlteration.Dialogue.lblWhileStarving": "Während des Verhungerns:",
+  "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText": "Aktiviert/deaktiviert die automatische Änderung des Chattextes während des Verhungerns."
+}

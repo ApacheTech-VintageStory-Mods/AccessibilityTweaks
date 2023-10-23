@@ -1,0 +1,34 @@
+{
+  "Features.ColourCorrection.Dialogue.Title": "Цветокоррекция",
+  "Features.ColourCorrection.Description": "Помогает людям с плохим зрением, светочувствительностью или дальтонизмом. Играя с настройками цвета, можно придать всему теплый или холодный оттенок.",
+
+  "Features.ColourCorrection.Dialogue.lblEnabled": "Включено:",
+  "Features.ColourCorrection.Dialogue.lblEnabled.HoverText": "Включает шейдер коррекции цвета.",
+
+  "Features.ColourCorrection.Dialogue.lblPreset": "Шаблон:",
+  "Features.ColourCorrection.Dialogue.lblPreset.HoverText": "Имитирует определенный тип дефицита цветового зрения.",
+
+  "Features.ColourCorrection.Dialogue.lblRedBalance": "Баланс красного:",
+  "Features.ColourCorrection.Dialogue.lblRedBalance.HoverText": "Изменяет количество красного, применяемого к сцене.",
+
+  "Features.ColourCorrection.Dialogue.lblGreenBalance": "Баланс зеленого:",
+  "Features.ColourCorrection.Dialogue.lblGreenBalance.HoverText": "Изменяет количество зеленого, применяемого к сцене.",
+
+  "Features.ColourCorrection.Dialogue.lblBlueBalance": "Баланс синего:",
+  "Features.ColourCorrection.Dialogue.lblBlueBalance.HoverText": "Изменяет количество синего, применяемого к сцене.",
+
+  "Features.ColourCorrection.Dialogue.lblSaturation": "Насыщенность:",
+  "Features.ColourCorrection.Dialogue.lblSaturation.HoverText": "Изменяет насыщенность цвета сцены. Более низкие значения приглушают цвета, более высокие значения делают цвета более яркими.",
+
+  "Features.ColourCorrection.Dialogue.btnReset": "Сброс значений",
+
+  "Features.ColourCorrection.Dialogue.Presets.Trichromacy": "Трихроматия",
+  "Features.ColourCorrection.Dialogue.Presets.Protanopia": "Протанопия",
+  "Features.ColourCorrection.Dialogue.Presets.Deuteranopia": "Дейтеранопия",
+  "Features.ColourCorrection.Dialogue.Presets.Tritanopia": "Тританопия",
+  "Features.ColourCorrection.Dialogue.Presets.Protanomaly": "Протаномалия",
+  "Features.ColourCorrection.Dialogue.Presets.Deuteranomaly": "Дейтераномалия",
+  "Features.ColourCorrection.Dialogue.Presets.Tritanomaly": "Тританомалия",
+  "Features.ColourCorrection.Dialogue.Presets.Achromatopsia": "Ахроматопсия",
+  "Features.ColourCorrection.Dialogue.Presets.Achromatomaly": "Ахроматомалия"
+}

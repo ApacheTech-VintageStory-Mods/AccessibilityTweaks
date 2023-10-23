@@ -1,0 +1,21 @@
+{
+  "Features.CameraMovement.Dialogue.Title": "Движение камеры",
+
+  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier": "Глобальный множитель искривления:",
+  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText": "Насколько сильно искривляется мир во время темпорального шторма.",
+
+  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier": "Сила искривления восприятия:",
+  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText": "Насколько сильно искривляется мир, пока вы пьяны",
+
+  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier": "Сила глюка:",
+  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText": "Насколько сильно искривляется мир во время темпорального шторма.",
+
+  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier": "Сила дрожания камеры:",
+  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText": "Дрожь, отдача при ударе и другие эффекты тактильной обратной связи.",
+
+  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement": "Непроизвольное движение мыши:",
+  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText": "Разрешить/запретить игре перемещать вашу мышь без вашего разрешения.",
+
+  "Features.CameraMovement.Dialogue.lblHeldItemBobbing": "Покачивание удерживаемого предмета:",
+  "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText": "Включает/выключает эффект покачивания удерживаемых предметов."
+}

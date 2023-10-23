@@ -1,0 +1,14 @@
+{
+  "ModTitle": "Barrierefreiheitsoptimierung",
+  "ModDescription": "Generelle Verbesserungen für Content-Ersteller und Menschen die von Bewegung/Licht/Rauschen betroffenen Epilepsien oder Lichtempfindlichkeit beeinträchtigt werden.",
+
+  "Features.AccessibilityHub.Dialogue.Support": "Unterstützt den Mod-Autor",
+  "Features.Support.Dialogue.Patreon": "Meinem Patreon beitreten",
+  "Features.Support.Dialogue.Donate": "Spenden Sie über PayPal",
+  "Features.Support.Dialogue.Coffee": "Kauf mir einen Kaffee",
+  "Features.Support.Dialogue.Twitch": "Auf Twitch.tv abonnieren",
+  "Features.Support.Dialogue.YouTube": "Abonnieren Sie auf YouTube",
+  "Features.Support.Dialogue.WishList": "Amazon-Wunschliste",
+  "Features.Support.Dialogue.Website": "Besuchen Sie meine Website",
+  "Features.Support.Dialogue.Back": "Zurück"
+}

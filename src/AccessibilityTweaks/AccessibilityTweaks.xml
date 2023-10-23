@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApacheTech.VintageMods.AccessibilityTweaks</name>
+    </assembly>
+    <members>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+                Reserved to be used by the compiler for tracking metadata.
+                This class should not be used by developers in source code.
+            </summary>
+            <remarks>
+                This definition is provided by the <i>IsExternalInit</i> NuGet package (https://www.nuget.org/packages/IsExternalInit).
+                Please see https://github.com/manuelroemer/IsExternalInit for more information.
+            </remarks>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions.IGuiComposablePart.ComposePart(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Uses the injected <see cref="T:Vintagestory.API.Client.GuiComposer"/> to compose part of a 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions.IGuiComposablePart.RefreshValues(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions.IGuiComposablePart.Bounds">
+            <summary>
+                The bounds of the element.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions.GuiElementExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions.GuiElementExtensions.TriggerOnlyOnMouseUp(Vintagestory.API.Client.GuiElementSlider,System.Boolean)">
+            <summary>
+                Triggers the only on mouse up.
+            </summary>
+            <param name="slider">The slider.</param>
+            <param name="value">if set to <c>true</c> [value].</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions.GuiElementExtensions.ComposeHoverTextElement(Vintagestory.API.Client.GuiElementSlider)">
+            <summary>
+                Composes the hover text element.
+            </summary>
+            <param name="slider">The slider.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovement">
+             <summary>
+                 - Feature: Visual Tweaks<br/><br/>
+            
+                 Various effects within the game can be harmful, and even potentially fatal to some players.<br/>
+                 This mod helps to alleviate some of these issues by allowing the player to disable various rendered effects and sound effects.<br/><br/>
+             </summary>
+             <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovement.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovement.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="api">The client-side API.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings">
+            <summary>
+                Settings for involuntary camera and mouse movements.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.GlitchStrengthMultiplier">
+            <summary>
+                Limits/Intensifies the strength of Glitch Effects within the game.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.GlobalWarpMultiplier">
+            <summary>
+                Limits/Intensifies the strength of Warp Effects within the game.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.PerceptionWarpMultiplier">
+            <summary>
+                Limits/Intensifies the strength of Perception Warp Effects within the game.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.CameraShakeMultiplier">
+            <summary>
+                Limits/Intensifies the strength of Camera Shake Effects within the game.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.InvoluntaryMouseMovement">
+            <summary>
+                Enables/Disables the ability for the game to move the mouse without the player's input.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings.HeldItemBobbing">
+            <summary>
+                Enables/Disables the "wobble" effect of held items.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.CameraMovementDialogue">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions.SingleComponentDialogue`1" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.CameraMovementDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+            Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.CameraMovementDialogue"/> class.
+            </summary>
+            <param name="capi">The capi.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent">
+            <summary>
+                Camera Movement GUI Composable Component
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions.IGuiComposablePart" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.#ctor">
+            <summary>
+                Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.#ctor(Vintagestory.API.Client.ElementBounds)">
+            <summary>
+                Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent"/> class.
+            </summary>
+            <param name="bounds">The bounds.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.LangEntry(System.String)">
+            <summary>
+                Gets an entry from the language files, for the feature this instance is representing.
+            </summary>
+            <param name="code">The entry to return.</param>
+            <returns>A localised <see cref="T:System.String"/>, for the specified language file code.</returns>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.ComposePart(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Uses the injected <see cref="T:Vintagestory.API.Client.GuiComposer" /> to compose part of a GUI.
+            </summary>
+            <param name="composer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.RefreshValues(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+            <param name="composer"></param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components.CameraMovementGuiComponent.Bounds">
+            <summary>
+                The bounds of the element.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches">
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Client.NoObf.ClientMain"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.API.Client.DrunkPerceptionEffect"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.API.Client.DrunkPerceptionEffect"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.API.Client.DrunkPerceptionEffect"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Client.NoObf.ShaderProgramBase"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Client.NoObf.SystemRenderHeldItem"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.CameraMovementSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.GameContent.SystemTemporalStability"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_ClientMain_AddCameraShake_Prefix(System.Single@)">
+            <summary>
+                Applies a Postfix patch to the "AddCameraShake" method in <see cref="T:Vintagestory.Client.NoObf.ClientMain"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_DamagedPerceptionEffect_OnBeforeGameRender_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "ApplyMotionEffects" method in the <see cref="T:Vintagestory.API.Client.DamagedPerceptionEffect"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_DrunkPerceptionEffect_OnBeforeGameRender_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "OnBeforeGameRender" method in the <see cref="T:Vintagestory.API.Client.DrunkPerceptionEffect"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_FreezingPerceptionEffect_OnBeforeGameRender_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "ApplyMotionEffects" method in the <see cref="T:Vintagestory.API.Client.FreezingPerceptionEffect"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_ShaderProgramBase_Use_Prefix(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyTranspiler"/> patch to the "Use" method of the <see cref="T:Vintagestory.Client.NoObf.ShaderProgramBase"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_SystemRenderHeldItem_rot_Postfix(System.Single@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "rot" method in the <see cref="T:Vintagestory.Client.NoObf.SystemRenderHeldItem"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_SystemRenderHeldItem_rot2_Postfix(System.Single@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "rot2" method in the <see cref="T:Vintagestory.Client.NoObf.SystemRenderHeldItem"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_SystemTemporalStability_Prepare_Cleanup">
+            <summary>
+                Prepares the class prior to patches, and cleans up the class when the patches are disposed.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.CameraMovementPatches.Patch_SystemTemporalStability_onServerData_Postfix(Vintagestory.GameContent.SystemTemporalStability)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "onServerData" method of the <see cref="T:Vintagestory.GameContent.SystemTemporalStability"/> class.
+            </summary>
+            <param name="__instance">The instance of <see cref="T:Vintagestory.GameContent.SystemTemporalStability"/> this patch has been applied to.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.PerceptionEffectsPatches">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches.PerceptionEffectsPatches.Patch_PerceptionEffects_OnOwnPlayerDataReceived_Prefix(Vintagestory.API.Client.PerceptionEffects,Vintagestory.API.Common.EntityPlayer,Vintagestory.API.Client.ICoreClientAPI,System.Collections.Generic.Dictionary{System.String,Vintagestory.API.Client.PerceptionEffect},System.Collections.Generic.Dictionary{System.String,Vintagestory.API.Client.PerceptionEffect})">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "OnOwnPlayerDataReceived" method in the <see cref="T:Vintagestory.API.Client.PerceptionEffects"/> class.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrection">
+            <summary>
+             - Feature: Colour Correction
+             
+                Helps people with poor vision, light sensitivity, or colour-blindness.Playing around with the colour settings can give everything a warm, or cool hue.
+             
+                - Choose from different presets to simulate different colour vision deficiencies.
+                - Adjust the colour balance, and saturation of the game scene.
+            </summary>
+            <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrection.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrection.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="capi">The core client-side API.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrection.Dispose">
+            <summary>
+                If this mod allows runtime reloading, you must implement this method to unregister any listeners / handlers
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings">
+            <summary>
+                User definable settings for the Colour Correction feature. Overrides the game's default colour and saturation balance.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Enabled">
+            <summary>
+                Represents a value indicating whether the colour correction shader is enabled, or not.
+            </summary>
+            <value><c>true</c> if enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Preset">
+            <summary>
+                Represents a preset of colour balance and saturation settings, used to simulate various colour vision deficiencies.
+            </summary>
+            <value>The currently active preset of <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings"/>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Red">
+            <summary>
+                Represents how much Red to apply to the scene.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the balance of the Red colour channel within the game scene.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Green">
+            <summary>
+                Represents how much Green to apply to the scene.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the balance of the Green colour channel within the game scene.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Blue">
+            <summary>
+                Represents how much Blue to apply to the scene.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the balance of the Blue colour channel within the game scene.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings.Saturation">
+            <summary>
+                Represents the colour saturation of the scene. Lower values fade colours out, higher values make colours more vibrant.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the saturation of the colours within the game scene.</value>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue.ColourCorrectionDialogue">
+            <summary>
+                User interface for the colour correction settings. Gives presets for colour blindness simulation, and allows custom configuration of colour and saturation balance.
+            </summary>
+            <seealso cref="T:Gantry.Services.FileSystem.Dialogue.FeatureSettingsDialogue`1" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue.ColourCorrectionDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue.ColourCorrectionDialogue"/> class.
+            </summary>
+            <param name="capi">The capi.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue.ColourCorrectionDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the header for the GUI.
+            </summary>
+            <param name="composer">The composer.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue.ColourCorrectionDialogue.RefreshValues">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType">
+            <summary>
+                Represents a specific form of colour vision deficiency.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Trichromacy">
+            <summary>
+                Standard human vision.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Protanopia">
+            <summary>
+                No perception of Red colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Protanomaly">
+            <summary>
+                Reduced perception of Red colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Deuteranopia">
+            <summary>
+                No perception of Green colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Deuteranomaly">
+            <summary>
+                Reduced perception of Green colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Tritanopia">
+            <summary>
+                No perception of Blue colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Tritanomaly">
+            <summary>
+                Reduced perception of Blue colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Achromatopsia">
+            <summary>
+                No perception of any colours.
+            </summary>
+        </member>
+        <member name="F:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Enums.ColourVisionType.Achromatomaly">
+            <summary>
+                Reduced perception of all colours.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer">
+            <summary>
+                Changes the hue, and saturation of the scene colours, based on user-defined settings.
+            </summary>
+            <seealso cref="T:Gantry.Core.GameContent.Shaders.IGenericRenderer`1" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer"/> class.
+            </summary>
+            <param name="capi">The capi.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.Shader">
+            <summary>
+                Gets or sets the shader used for this renderer. This is a transient dependency that can be disposed from outside of the class, when shaders are reloaded.
+            </summary>
+            <value>The shader.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.RenderOrder">
+            <inheritdoc />
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.RenderRange">
+            <inheritdoc />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.OnRenderFrame(System.Single,Vintagestory.API.Client.EnumRenderStage)">
+            <summary>
+                Called before each frame is finalised, on screen.
+            </summary>
+            <param name="dt">The time in milliseconds, between this frame, and the last successfully rendered frame.</param>
+            <param name="stage">The current render stage.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionRenderer.Dispose">
+            <summary>
+                Disposes this instance.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionShaderProgram">
+            <summary>
+                Changes the hue, and saturation of the scene colours, based on user-defined settings.
+            </summary>
+            <seealso cref="T:Vintagestory.Client.NoObf.ShaderProgram" />
+            <seealso cref="T:Gantry.Core.GameContent.Shaders.IGenericShaderProgram" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionShaderProgram.#ctor(ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.ColourCorrectionSettings)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionShaderProgram"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders.ColourCorrectionShaderProgram.UpdateUniforms">
+            <summary>
+                Runs before every frame, to set the values for the shader pass.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue">
+            <summary>
+                User interface for changing the settings for the Scene Brightness feature.
+            </summary>
+            <seealso cref="T:Gantry.Services.FileSystem.Dialogue.FeatureSettingsDialogue`1" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightnessSettings)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue"/> class.
+            </summary>
+            <param name="capi">The capi.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue.RefreshValues">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the header for the GUI.
+            </summary>
+            <param name="composer">The composer.</param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue.SceneBrightnessDialogue.PrefersUngrabbedMouse">
+            <summary>
+                Gets whether it is preferred for the mouse to be not grabbed while this dialog is opened.
+                If true (default), the Alt button needs to be held to manually grab the mouse.
+            </summary>
+            <value><c>true</c> if the GUI prefers an un-grabbed mouse; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Patches.SceneBrightnessPatches">
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Common.ClientGameCalendar"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightnessSettings" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Patches.SceneBrightnessPatches.Patch_ClientGameCalendar_DayLightStrength_Postfix(System.Single@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "DayLightStrength" method in the <see cref="T:Vintagestory.Common.ClientGameCalendar"/> class.
+            </summary>
+            <param name="__result">The <see cref="T:System.Single"/> value passed into the original method.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightness">
+            <summary>
+             - Feature: Scene Brightness
+             
+                Helps people with light sensitivity, and for content creators, compensating for compression rates on YouTube / Twitch.
+             
+               - Adjust the brightness level of the game scene.
+            </summary>
+            <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightness.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightness.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="api">The API.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightnessSettings">
+            <summary>
+                Contains all the settings that can be set by the `.superBright` chat command. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightnessSettings.Enabled">
+            <summary>
+                Gets or sets a value indicating whether SuperBright mode is enabled.
+            </summary>
+            <value><c>true</c> if SuperBright mode is enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.SceneBrightnessSettings.Brightness">
+            <summary>
+                Gets or sets the current brightness.
+            </summary>
+            <value>The current scene brightness.</value>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue">
+            <summary>
+                User interface for changing the volume and pitch settings for an individual sound effect within the game.
+            </summary>
+            <seealso cref="T:Gantry.Core.GameContent.GUI.GenericDialogue" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue"/> class.
+            </summary>
+            <param name="capi">The core client API.</param>
+            <param name="cell">The cell from main sound effects dialogue.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.LangEntry(System.String)">
+            <summary>
+                Gets an entry from the language files, for the feature this instance is representing.
+            </summary>
+            <param name="code">The entry to return.</param>
+            <returns>A localised <see cref="T:System.String"/>, for the specified language file code.</returns>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.OnOkAction">
+            <summary>
+                The action to perform when the OK button is pressed.
+            </summary>
+            <value>The <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel"/> instance, passed back from this window.</value>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.RefreshValues">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.Compose">
+            <summary>
+                Composes the GUI components for this instance.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.EditVolumeDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the header for the GUI.
+            </summary>
+            <param name="composer">The composer.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue">
+            <summary>
+                Dialogue Window: Allows the user to import waypoints from JSON files.
+            </summary>
+            <seealso cref="T:Gantry.Core.GameContent.GUI.GenericDialogue" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffectsSettings)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue" /> class.
+            </summary>
+            <param name="capi">Client API pass-through</param>
+            <param name="settings"></param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.Compose">
+            <summary>
+                Composes the GUI components for this instance.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.RefreshValues">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the main body of the dialogue window.
+            </summary>
+            <param name="composer">The GUI composer.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.OnRequireCell(ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.VolumeOverrideCellEntry,Vintagestory.API.Client.ElementBounds)">
+            <summary>
+                Called when the GUI needs to refresh or create a cell to display to the user. 
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue.OnCellClickRight(System.Int32)">
+            <summary>
+                Called when the user clicks on one of the cells in the grid.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell">
+            <summary>
+                A cell displayed within the cell list on the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue"/> screen.
+            </summary>
+            <seealso cref="T:Vintagestory.API.Client.GuiElementTextBase" />
+            <seealso cref="T:Vintagestory.API.Client.IGuiElementCell" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.VolumeOverrideCellEntry,Vintagestory.API.Client.ElementBounds)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell" /> class.
+            </summary>
+            <param name="capi">The capi.</param>
+            <param name="cell">The cell.</param>
+            <param name="bounds">The bounds.</param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.Cell">
+            <summary>
+            	The cell entry that contains the data to display within this <see cref="T:Vintagestory.API.Client.IGuiElementCell"/>.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnRenderInteractiveElements(Vintagestory.API.Client.ICoreClientAPI,System.Single)">
+            <summary>
+                Called when the GUI Composer is ready to render human interactive elements.
+            </summary>
+            <param name="capi">The capi.</param>
+            <param name="deltaTime">The delta time.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.UpdateCellHeight">
+            <summary>
+                Called when the cell is modified and needs to be updated.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnMouseDownOnElement(Vintagestory.API.Client.MouseEvent,System.Int32)">
+            <summary>
+                Called when a MouseDown event is invoked on the element.
+            </summary>
+            <param name="args">The arguments.</param>
+            <param name="elementIndex">Index of the element.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnMouseMoveOnElement(Vintagestory.API.Client.MouseEvent,System.Int32)">
+            <summary>
+                Called when a MouseMove event is invoked on the element.
+            </summary>
+            <param name="args">The arguments.</param>
+            <param name="elementIndex">Index of the element.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnMouseUpOnElement(Vintagestory.API.Client.MouseEvent,System.Int32)">
+            <summary>
+                Called when a MouseUp event is invoked on the element.
+            </summary>
+            <param name="args">The arguments.</param>
+            <param name="elementIndex">Index of the element.</param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.Bounds">
+            <inheritdoc />
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnMouseDownOnCellLeft">
+            <summary>
+                Called when the user clicks on the left side of the cell.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.OnMouseDownOnCellRight">
+            <summary>
+                Called when the user clicks on the right side of the cell.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.On">
+            <summary>
+                Disposes this instance.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsGuiCell.Dispose">
+            <summary>
+                Disposes this instance.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.VolumeOverrideCellEntry">
+            <summary>
+                Defines the information stored within a single GUI Cell Element.
+                A list of these cells is displayed in <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.SoundEffectsDialogue"/>,
+                to allow the user to import waypoints from a JSON file.
+            </summary>
+            <seealso cref="T:Vintagestory.API.Client.SavegameCellEntry" />
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue.VolumeOverrideCellEntry.Model">
+            <summary>
+                Gets the DTO model that defines the structure of the JSON import file.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Patches.SoundEffectsPatches">
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.API.Client.ILoadedSound"/> concrete implementation. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffectsSettings" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Patches.SoundEffectsPatches.Patch_LoadedSoundNative_GlobalVolume_Getter_Postfix(Vintagestory.API.Client.ILoadedSound,System.Single@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "GlobalVolume" getter method in <see cref="T:Vintagestory.API.Client.ILoadedSound"/> concrete class.
+            </summary>
+            <param name="__instance">The instance of <see cref="T:Vintagestory.API.Client.ILoadedSound"/> this patch has been applied to.</param>
+            <param name="__result">The <see cref="T:System.Single"/> value passed back from the original method.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Patches.SoundEffectsPatches.Patch_LoadedSoundNative_SetPitchOffset_Prefix(Vintagestory.API.Client.ILoadedSound,System.Single@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "SetPitchOffset" method in <see cref="T:Vintagestory.API.Client.ILoadedSound"/> concrete class.
+            </summary>
+            <param name="__instance">The instance of <see cref="T:Vintagestory.API.Client.ILoadedSound"/> this patch has been applied to.</param>
+            <param name="val">The <see cref="T:System.Single"/> value passed into the original method.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffects">
+             <summary>
+                 - Feature: Sound Effects<br/><br/>
+            
+                 The sounds within the game have not been normalised, so some sounds will be very loud, compared to others, even when played at the same game volume.<br/>
+                 This feature allows the user to selectively choose the volume level for each in-game sound, individually, so that any white-noise can be filtered out.<br/>
+                 Very useful for sufferers of Tinnitus, or white-noise affected epilepsy.<br/><br/>
+            
+                     - Change the volume of every sound in the game, individually.<br/>
+                     - Game sounds mute, when the game is paused.<br/>
+                     - Game sounds mute, when the game window loses focus.
+             </summary>
+             <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffects.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffects.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="capi">The game's core client API.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffectsSettings">
+            <summary>
+                Represents the settings for the Sound Effects feature.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffectsSettings.MuteAll">
+            <summary>
+                Gets or sets a value indicating whether to temporarily mute all game sounds.
+            </summary>
+            <value><c>true</c> if all sounds should be muted; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.SoundEffectsSettings.SoundAssets">
+            <summary>
+                Represents a list of all the sound files used by the game, including those added by mods.
+            </summary>
+            <value>A dictionary of sound files, with the asset path as the key.</value>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel">
+            <summary>
+                Represents the overridden audio settings for an individual game sound file.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel.Path">
+            <summary>
+                Gets or sets the asset path of the game sound file.
+            </summary>
+            <value>The path.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel.Muted">
+            <summary>
+                Gets or sets a value indicating whether this individual game sound is muted.
+            </summary>
+            <value><c>true</c> if muted; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel.VolumeMultiplier">
+            <summary>
+                Gets or sets the volume multiplier to apply to an individual game sound.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the volume balance of an individual game sound.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.VolumeOverrideModel.PitchMultiplier">
+            <summary>
+                Gets or sets the pitch multiplier to apply to an individual game sound.
+            </summary>
+            <value>A <see cref="T:System.Single"/> value that represents the pitch balance of an individual game sound.</value>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Patches.TextAlterationPatches.Patch_EntityBehaviorDrunkTyping_onChatKeyDown_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "onChatKeyDown" method of the <see cref="T:Vintagestory.GameContent.EntityBehaviorDrunkTyping"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Patches.TextAlterationPatches.Patch_EntityBehaviorHunger_onChatKeyDown_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "onChatKeyDown" method of the <see cref="T:Vintagestory.GameContent.EntityBehaviorHunger"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Patches.TextAlterationPatches.Patch_EntityBehaviorTemporalStabilityAffected_onChatKeyDown_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "onChatKeyDown" method of the <see cref="T:Vintagestory.GameContent.EntityBehaviorHunger"/> class.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlteration">
+             <summary>
+                 - Feature: Visual Tweaks<br/><br/>
+            
+                 Various effects within the game can be harmful, and even potentially fatal to some players.<br/>
+                 This mod helps to alleviate some of these issues by allowing the player to disable various rendered effects and sound effects.<br/><br/>
+             </summary>
+             <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlteration.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlteration.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="api">The client-side API.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlterationSettings">
+            <summary>
+                Settings for text alteration effects.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlterationSettings.DuringTemporalStorm">
+            <summary>
+                Enables/Disables the alteration of chat messages during a temporal storm.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlterationSettings.WhileDrunk">
+            <summary>
+                Enables/Disables the alteration of chat messages while the character is drunk.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.TextAlterationSettings.WhileStarving">
+            <summary>
+                Enables/Disables the alteration of chat messages while the character is starving.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Dialogue.Components.WeatherEffectsGuiComponent.RefreshValues(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Refreshes the displayed values on the form.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches">
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Client.NoObf.AmbientManager"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.GameContent.CloudRenderer"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.Client.NoObf.AmbientManager"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.GameContent.EntityBehaviorTemporalStabilityAffected"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.GameContent.WeatherSimulationLightning"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches" />
+            <summary>
+                Harmony Patches for the <see cref="T:Vintagestory.GameContent.WeatherSimulationParticles"/> class. This class cannot be inherited.
+            </summary>
+            <seealso cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_AmbientManager_UpdateAmbient_Postfix(Vintagestory.Client.NoObf.AmbientManager)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "UpdateAmbient" method in <see cref="T:Vintagestory.Client.NoObf.AmbientManager"/>.
+            </summary>
+            <param name="__instance">The instance of <see cref="T:Vintagestory.Client.NoObf.AmbientManager"/> this patch has been applied to.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_CloudRenderer_CloudTick_Prefix">
+            <summary>
+                Applies a Prefix patch to the "CloudTick" method in <see cref="T:Vintagestory.GameContent.CloudRenderer"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_DefaultShaderUniforms_Update_Prefix(Vintagestory.API.Client.DefaultShaderUniforms)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "Update" method in <see cref="T:Vintagestory.API.Client.DefaultShaderUniforms"/>.
+            </summary>
+            <param name="__instance">The instance of <see cref="T:Vintagestory.Client.NoObf.AmbientManager"/> this patch has been applied to.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_EntityBehaviorTemporalStabilityAffected_OnGameTick_Postfix(Vintagestory.API.Common.SimpleParticleProperties@)">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPostfix"/> patch to the "OnGameTick" method of the <see cref="T:Vintagestory.GameContent.EntityBehaviorTemporalStabilityAffected"/> class.
+            </summary>
+            <param name="___rustParticles">The instance of <see cref="T:Vintagestory.API.Common.SimpleParticleProperties"/> used by the original method.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_EntityBehaviorTemporalStabilityAffected_OnGameTick_Transpiler(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyTranspiler"/> patch to the "OnGameTick" method of the <see cref="T:Vintagestory.GameContent.EntityBehaviorTemporalStabilityAffected"/> class.
+            </summary>
+            <param name="instructions">The list of instructions, written in MSIL, that make up the original method.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationLightning_ClientTick_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "ClientTick" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationLightning"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationLightning_OnRenderFrame_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "OnRenderFrame" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationLightning"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationParticles_SpawnHailParticles_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "SpawnHailParticles" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationParticles"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationParticles_SpawnRainParticles_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "SpawnRainParticles" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationParticles"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationParticles_SpawnSnowParticles_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "SpawnSnowParticles" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationParticles"/> class.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches.WeatherEffectsPatches.Patch_WeatherSimulationParticles_SpawnDustParticles_Prefix">
+            <summary>
+                Applies a <see cref="T:HarmonyLib.HarmonyPrefix"/> patch to the "SpawnDustParticles" method in <see cref="T:Vintagestory.GameContent.WeatherSimulationParticles"/> class.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffects">
+             <summary>
+                 - Feature: Visual Tweaks<br/><br/>
+            
+                 Various effects within the game can be harmful, and even potentially fatal to some players.<br/>
+                 This mod helps to alleviate some of these issues by allowing the player to disable various rendered effects and sound effects.<br/><br/>
+             </summary>
+             <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffects.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffects.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="api">The client-side API.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings">
+            <summary>
+                Settings for weather effects.
+            </summary>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.RaindropsEnabled">
+            <summary>
+                Gets or sets a value indicating whether rain particle effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if rain particle effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.HailstonesEnabled">
+            <summary>
+                Gets or sets a value indicating whether hail particle effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if hail particle effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.SnowflakesEnabled">
+            <summary>
+                Gets or sets a value indicating whether snow particle effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if snow particle effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.DustParticlesEnabled">
+            <summary>
+                Gets or sets a value indicating whether dust particle effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if dust particles effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.LightningEnabled">
+            <summary>
+                Gets or sets a value indicating whether lightning flashing light effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if lightning effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.CloudsEnabled">
+            <summary>
+                Gets or sets a value indicating whether clouds should be rendered, or not.
+            </summary>
+            <value><c>true</c> if clouds should be rendered; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.FogEnabled">
+            <summary>
+                Gets or sets a value indicating whether fog effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if fog effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.WeatherEffectsSettings.MistEnabled">
+            <summary>
+                Gets or sets a value indicating whether mist effects should be rendered, or not.
+            </summary>
+            <value><c>true</c> if mist effects are enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Program">
+            <summary>
+                Entry-point for the mod. This class will configure and build the IOC Container, and Service list for the rest of the mod.
+                
+                Registrations performed within this class should be global scope; by convention, features should aim to be as stand-alone as they can be.
+            </summary>
+            <remarks>
+                Only one derived instance of this class should be added to any single mod within
+                the VintageMods domain. This class will enable Dependency Injection, and add all
+                of the domain services. Derived instances should only have minimal functionality, 
+                instantiating, and adding Application specific services to the IOC Container.
+            </remarks>
+            <seealso cref="T:Gantry.Core.DependencyInjection.ModHost" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Program.ConfigureUniversalModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Configures any services that need to be added to the IO Container, on the client side.
+            </summary>
+            <param name="services">The as-of-yet un-built services container.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Program.Dispose">
+            <summary>
+                If this mod allows runtime reloading, you must implement this method to unregister any listeners / handlers
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.AccessibilityHub">
+            <summary>
+                Provides a main GUI for the mod, as a central location to access each feature; rather than through commands.
+            </summary>
+            <seealso cref="T:Gantry.Core.ModSystems.ClientModSystem" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.AccessibilityHub.ConfigureClientModServices(ApacheTech.Common.DependencyInjection.Abstractions.IServiceCollection)">
+            <summary>
+                Allows a mod to include Singleton, or Transient services to the IOC Container.
+            </summary>
+            <param name="services">The service collection.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.AccessibilityHub.StartClientSide(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+                Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
+            </summary>
+            <param name="api">The game's core client API.</param>
+        </member>
+        <member name="P:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.AccessibilityHub.FeatureDialogues">
+            <summary>
+                The dialogue windows, from features within this mod, that will be displayed within the menu.
+            </summary>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.SupportDialogue">
+            <summary>
+                User interface that acts as a hub, to bring together all features within the mod.
+            </summary>
+            <seealso cref="T:Gantry.Core.GameContent.GUI.GenericDialogue" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.SupportDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.SupportDialogue"/> class.
+            </summary>
+            <param name="capi">The client API.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.SupportDialogue.LangEntry(System.String)">
+            <summary>
+                Gets an entry from the language files, for the feature this instance is representing.
+            </summary>
+            <param name="code">The entry to return.</param>
+            <returns>A localised <see cref="T:System.String"/>, for the specified language file code.</returns>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.SupportDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the header for the GUI.
+            </summary>
+            <param name="composer">The composer.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.AccessibilityHubDialogue">
+            <summary>
+                User interface that acts as a hub, to bring together all features within the mod.
+            </summary>
+            <seealso cref="T:Gantry.Core.GameContent.GUI.GenericDialogue" />
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.AccessibilityHubDialogue.#ctor(Vintagestory.API.Client.ICoreClientAPI,ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.AccessibilityHub)">
+            <summary>
+            	Initialises a new instance of the <see cref="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.AccessibilityHubDialogue"/> class.
+            </summary>
+            <param name="capi">The client API.</param>
+            <param name="system">The mod system that controls this dialogue window.</param>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.AccessibilityHubDialogue.LangEntry(System.String)">
+            <summary>
+                Gets an entry from the language files, for the feature this instance is representing.
+            </summary>
+            <param name="code">The entry to return.</param>
+            <returns>A localised <see cref="T:System.String"/>, for the specified language file code.</returns>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue.AccessibilityHubDialogue.ComposeBody(Vintagestory.API.Client.GuiComposer)">
+            <summary>
+                Composes the header for the GUI.
+            </summary>
+            <param name="composer">The composer.</param>
+        </member>
+        <member name="T:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions.AccessibilityHubExtensions">
+            <summary>
+                Extension methods to aid registration of hub dialogues.
+            </summary>
+        </member>
+        <member name="M:ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions.AccessibilityHubExtensions.AddAccessibilityHubDialogue``1(Vintagestory.API.Client.ICoreClientAPI,System.String)">
+            <summary>
+                Adds an accessibility hub dialogue.
+            </summary>
+        </member>
+    </members>
+</doc>

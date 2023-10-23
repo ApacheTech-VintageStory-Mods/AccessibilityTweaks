@@ -1,0 +1,21 @@
+{
+  "Features.CameraMovement.Dialogue.Title": "Camera Movement",
+
+  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier": "Global Warp Strength:",
+  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText": "How much the world warps during a temporal storm.",
+
+  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier": "Perception Warp Strength:",
+  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText": "How much the world warps while you're drunk'.",
+
+  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier": "Glitch Strength:",
+  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText": "How much the world warps during a temporal storm.",
+
+  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier": "Camera Shake Strength:",
+  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText": "Shivering, recoil when hit, and other haptic feedback effects.",
+
+  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement": "Involuntary Mouse Movement:",
+  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText": "Allow/Disallow the game from moving your mouse without your permission.",
+
+  "Features.CameraMovement.Dialogue.lblHeldItemBobbing": "Held Item Bobbing:",
+  "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText": "Enables/Disables the 'wobble' effect of held items."
+}

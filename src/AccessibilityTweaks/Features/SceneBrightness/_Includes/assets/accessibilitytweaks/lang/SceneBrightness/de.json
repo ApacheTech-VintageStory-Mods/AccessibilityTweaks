@@ -1,0 +1,10 @@
+{
+  "Features.SceneBrightness.Dialogue.Enabled": "Szenenhelligkeit aktiviert: {0}",
+  "Features.SceneBrightness.Dialogue.BrightnessLevel": "Szenen Helligkeitsstufe: {0}",
+  "Features.SceneBrightness.Dialogue.Title": "Szenen Helligkeitseinstellungen",
+  "Features.SceneBrightness.Description": "Hilft Menschen mit Lichtempfindlichkeit und kompensiert die Komprimierungsraten auf YouTube/Twitch für Content-Ersteller.",
+  "Features.SceneBrightness.Dialogue.lblEnabled": "Aktiviert:",
+  "Features.SceneBrightness.Dialogue.lblEnabled.HoverText": "Superhellen Modus umschalten.",
+  "Features.SceneBrightness.Dialogue.lblBrightness": "Helligkeit:",
+  "Features.SceneBrightness.Dialogue.lblBrightness.HoverText": "Ändert die Helligkeitsstufe der Szene."
+}

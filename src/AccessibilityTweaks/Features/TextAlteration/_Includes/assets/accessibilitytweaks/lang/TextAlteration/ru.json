@@ -1,0 +1,12 @@
+{
+  "Features.TextAlteration.Dialogue.Title": "Изменение текста",
+
+  "Features.TextAlteration.Dialogue.lblDuringTemporalStorm": "Во время временных штормов:",
+  "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText": "Включить/выключить автоматическое изменение текста чата во время временного шторма.",
+
+  "Features.TextAlteration.Dialogue.lblWhileDrunk": "В состоянии алкогольного опьянения:",
+  "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText": "Включить/выключить автоматическое изменение текста чата в состоянии алкогольного опьянения.",
+
+  "Features.TextAlteration.Dialogue.lblWhileStarving": "Во время голодания:",
+  "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText": "Включить/выключить автоматическое изменение текста чата во время голодания."
+}

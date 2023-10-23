@@ -1,0 +1,13 @@
+{
+  "Features.SceneBrightness.Dialogue.Enabled": "Scene Brightness Enabled: {0}",
+  "Features.SceneBrightness.Dialogue.BrightnessLevel": "Scene Brightness Level: {0}",
+
+  "Features.SceneBrightness.Dialogue.Title": "Scene Brightness Settings",
+  "Features.SceneBrightness.Description": "Helps people with light sensitivity, and for content creators, compensating for compression rates on YouTube / Twitch.",
+
+  "Features.SceneBrightness.Dialogue.lblEnabled": "Enabled:",
+  "Features.SceneBrightness.Dialogue.lblEnabled.HoverText": "Toggle Super Bright Mode.",
+
+  "Features.SceneBrightness.Dialogue.lblBrightness": "Brightness:",
+  "Features.SceneBrightness.Dialogue.lblBrightness.HoverText": "Changes the brightness level of the scene."
+}

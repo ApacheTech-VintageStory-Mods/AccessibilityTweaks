@@ -1,0 +1,15 @@
+{
+  "Features.SoundEffects.Dialogue.Title": "Звуковые эффекты",
+  "Features.SoundEffects.Dialogue.RightButtonText": "Исправление сломанных звуков",
+
+  "Features.SoundEffects.Dialogue.lblVolume": "Громкость:",
+  "Features.SoundEffects.Dialogue.lblVolume.HoverText": "Изменение относительной громкости звукового эффекта.",
+
+  "Features.SoundEffects.Dialogue.lblMute": "Заглушить:",
+  "Features.SoundEffects.Dialogue.lblMute.HoverText": "Приглушенные звуковые эффекты не слышны.",
+
+  "Features.SoundEffects.Dialogue.lblPitch": "Высота:",
+  "Features.SoundEffects.Dialogue.lblPitch.HoverText": "Изменение относительной высоты тона звукового эффекта. Это может помочь людям с тиннитусом или другими проблемами со слухом.",
+ 
+  "Features.SoundEffects.Dialogue.PlaySound": "Воспроизвести звук"
+}

@@ -1,0 +1,13 @@
+{
+  "Features.SceneBrightness.Dialogue.Enabled": "Яркость сцены включена: {0}",
+  "Features.SceneBrightness.Dialogue.BrightnessLevel": "Уровень яркости сцены: {0}",
+
+  "Features.SceneBrightness.Dialogue.Title": "Настройки яркости сцены",
+  "Features.SceneBrightness.Description": "Помогает людям со светочувствительностью, а создателям контента - компенсировать степень сжатия на YouTube / Twitch.",
+
+  "Features.SceneBrightness.Dialogue.lblEnabled": "Включено:",
+  "Features.SceneBrightness.Dialogue.lblEnabled.HoverText": "Переключение режима повышенной яркости.",
+
+  "Features.SceneBrightness.Dialogue.lblBrightness": "Яркость:",
+  "Features.SceneBrightness.Dialogue.lblBrightness.HoverText": "Изменение уровня яркости сцены."
+}

@@ -1,0 +1,27 @@
+{
+  "Features.WeatherEffects.Dialogue.Title": "Weather Effects",
+
+  "Features.WeatherEffects.Dialogue.lblCloudsEnabled": "Clouds:",
+  "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText": "Toggles the rendering of clouds.",
+
+  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled": "Dust:",
+  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText": "Toggles the rendering of dust particle effects.",
+
+  "Features.WeatherEffects.Dialogue.lblFogEnabled": "Fog Effects:",
+  "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText": "Toggles the rendering of fog effects.",
+
+  "Features.WeatherEffects.Dialogue.lblMistEnabled": "Mist Effects:",
+  "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText": "Toggles the rendering of mist effects.",
+
+  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled": "Hailstones:",
+  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText": "Toggles the rendering of hailstone particle effects.",
+
+  "Features.WeatherEffects.Dialogue.lblLightningEnabled": "Lightning Flashes:",
+  "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText": "Toggles the rendering of lightning flashing light effects.",
+
+  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled": "Raindrops:",
+  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText": "Toggles the rendering of raindrop particle effects.",
+
+  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled": "Snowflakes:",
+  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText": "Toggles the rendering of snowflake particle effects."
+}

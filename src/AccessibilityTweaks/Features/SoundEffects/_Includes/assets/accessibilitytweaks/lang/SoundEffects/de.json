@@ -1,0 +1,11 @@
+{
+  "Features.SoundEffects.Dialogue.Title": "Soundeffekte",
+  "Features.SoundEffects.Dialogue.RightButtonText": "Defekte Töne beheben",
+  "Features.SoundEffects.Dialogue.lblVolume": "Lautstärke:",
+  "Features.SoundEffects.Dialogue.lblVolume.HoverText": "Ändert die relative Lautstärke von Soundeffekten.",
+  "Features.SoundEffects.Dialogue.lblMute": "Stumm schalten:",
+  "Features.SoundEffects.Dialogue.lblMute.HoverText": "Stummgeschaltete Soundeffekte sind nicht hörbar.",
+  "Features.SoundEffects.Dialogue.lblPitch": "Tonhöhe:",
+  "Features.SoundEffects.Dialogue.lblPitch.HoverText": "Ändert die relative Tonhöhe des Soundeffekts. Dies kann Menschen mit Tinnitus oder anderen Problemen mit Hörverlust helfen.",
+  "Features.SoundEffects.Dialogue.PlaySound": "Ton abspielen"
+}

@@ -1,0 +1,17 @@
+{
+  "Features.SoundEffects.Dialogue.Title": "Sound Effects",
+  "Features.SoundEffects.Dialogue.RightButtonText": "Fix Broken Sounds",
+
+  "Features.SoundEffects.Dialogue.lblSearch": "Search:",
+  "Features.SoundEffects.Dialogue.lblSearch.HoverText": "Filter sound effects, by name.",
+
+  "Features.SoundEffects.Dialogue.lblCurrentlyPlaying": "Only Show Currently Playing Sounds:",
+
+  "Features.SoundEffects.Dialogue.lblVolume": "Volume:",
+  "Features.SoundEffects.Dialogue.lblVolume.HoverText": "Change the relative volume of the sound effect.",
+  "Features.SoundEffects.Dialogue.lblMute": "Mute:",
+  "Features.SoundEffects.Dialogue.lblMute.HoverText": "Muted sound effects are not audiable.",
+  "Features.SoundEffects.Dialogue.lblPitch": "Pitch:",
+  "Features.SoundEffects.Dialogue.lblPitch.HoverText": "Change the relative pitch of the sound effect. This can help people with tinnitus, or other hearing loss issues.",
+  "Features.SoundEffects.Dialogue.PlaySound": "Play Sound"
+}

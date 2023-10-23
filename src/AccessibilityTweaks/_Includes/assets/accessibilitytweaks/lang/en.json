@@ -1,0 +1,14 @@
+{
+  "ModTitle": "Accessibility Tweaks",
+  "ModDescription": "Quality of Life changes to aid content creators, and those with motion/light/noise affected epilepsy, or light sensitivity.",
+
+  "Features.AccessibilityHub.Dialogue.Support": "Support The Mod Author",
+  "Features.Support.Dialogue.Patreon": "Join my Patreon",
+  "Features.Support.Dialogue.Donate": "Donate via PayPal",
+  "Features.Support.Dialogue.Coffee": "Buy me a Coffee",
+  "Features.Support.Dialogue.Twitch": "Subscribe on Twitch.tv",
+  "Features.Support.Dialogue.YouTube": "Subscribe on YouTube",
+  "Features.Support.Dialogue.WishList": "Amazon WishList",
+  "Features.Support.Dialogue.Website": "Visit my Website",
+  "Features.Support.Dialogue.Back": "Back"
+}
