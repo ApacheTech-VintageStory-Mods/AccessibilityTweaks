@@ -16,7 +16,7 @@ public sealed partial class CameraMovementPatches
     public static bool Patch_FreezingPerceptionEffect_OnBeforeGameRender_Prefix(FreezingPerceptionEffect __instance)
     {
         if (Settings.InvoluntaryMouseMovement) return true;
-        ApiEx.Client.Render.ShaderUniforms.PerceptionEffectIntensity = 0;
+        ApiEx.Client!.Render.ShaderUniforms.PerceptionEffectIntensity = 0;
         __instance.Intensity = 0;
         __instance.NowDisabled();
         return false;

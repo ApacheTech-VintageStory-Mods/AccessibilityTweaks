@@ -1,4 +1,6 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue;
 using ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders;
 using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 

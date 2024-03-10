@@ -1,4 +1,6 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Dialogue;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Dialogue;
 using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration;

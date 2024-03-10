@@ -94,28 +94,20 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
             .AddStaticText(LangEntry("lblInvoluntaryMouseMovement"), labelFont, EnumTextOrientation.Right, left)
             .AddHoverText(LangEntry("lblInvoluntaryMouseMovement.HoverText"), labelFont, (int)textWidth, left)
             .AddSwitch(OnInvoluntaryMouseMovementToggle, right, "btnInvoluntaryMouseMovement");
-
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows + 5);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
-
-        composer
-            .AddStaticText(LangEntry("lblHeldItemBobbing"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblHeldItemBobbing.HoverText"), labelFont, (int)textWidth, left)
-            .AddSwitch(OnHeldItemBobbingToggle, right, "btnHeldItemBobbing");
         return composer;
     }
 
     private bool OnGlobalWarpMultiplierChanged(int value)
     {
         _settings.GlobalWarpMultiplier = value / 100f;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
         return true;
     }
 
     private bool OnPerceptionWarpMultiplierChanged(int value)
     {
         _settings.PerceptionWarpMultiplier = value / 100f;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
         return true;
     }
 
@@ -128,20 +120,14 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     private bool OnCameraShakeMultiplierChanged(int value)
     {
         _settings.CameraShakeMultiplier = value / 100f;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
         return true;
     }
 
     private void OnInvoluntaryMouseMovementToggle(bool state)
     {
         _settings.InvoluntaryMouseMovement = state;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
-    }
-
-    private void OnHeldItemBobbingToggle(bool state)
-    {
-        _settings.HeldItemBobbing = state;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
     }
 
     private static void SetSliderProperties(GuiElementSlider slider, float value)
@@ -161,7 +147,6 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         SetSliderProperties(composer.GetSlider("sldGlitchStrengthMultiplier"),_settings.GlitchStrengthMultiplier);
         SetSliderProperties(composer.GetSlider("sldCameraShakeMultiplier"), _settings.CameraShakeMultiplier);
         composer.GetSwitch("btnInvoluntaryMouseMovement").SetValue(_settings.InvoluntaryMouseMovement);
-        composer.GetSwitch("btnHeldItemBobbing").SetValue(_settings.HeldItemBobbing);
     }
 
     /// <summary>

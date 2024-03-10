@@ -27,7 +27,7 @@ public sealed class ColourCorrectionShaderProgram : ShaderProgram, IGenericShade
     /// </summary>
     public void UpdateUniforms()
     {
-        BindTexture2D("iChannel0", ApiEx.Client.Render.FrameBuffers[0].ColorTextureIds[0], 0);
+        BindTexture2D("iChannel0", ApiEx.Client!.Render.FrameBuffers[0].ColorTextureIds[0], 0);
         Uniform("iColourVisionType", (int)_settings.Preset);
 
         Uniform("iRedBalance", _settings.Red);

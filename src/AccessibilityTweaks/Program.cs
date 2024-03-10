@@ -1,5 +1,5 @@
-﻿using Gantry.Services.HarmonyPatches.DependencyInjection;
-using Gantry.Services.Network.DependencyInjection;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using Gantry.Services.HarmonyPatches.Hosting;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks;
 
@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks;
 /// <remarks>
 ///     Only one derived instance of this class should be added to any single mod within
 ///     the VintageMods domain. This class will enable Dependency Injection, and add all
-///     of the domain services. Derived instances should only have minimal functionality, 
+///     the domain services. Derived instances should only have minimal functionality, 
 ///     instantiating, and adding Application specific services to the IOC Container.
 /// </remarks>
 /// <seealso cref="ModHost" />
@@ -22,11 +22,10 @@ public sealed class Program : ModHost
     ///     Configures any services that need to be added to the IO Container, on the client side.
     /// </summary>
     /// <param name="services">The as-of-yet un-built services container.</param>
-    /// <param name="api">The game's side-agnostic API.</param>
-    protected override void ConfigureUniversalModServices(IServiceCollection services, ICoreAPI api)
+    /// <param name="capi">The game's client-side API.</param>
+    protected override void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
     {
-        services.AddFileSystemService(o => o.RegisterSettingsFiles = true);
-        services.AddHarmonyPatchingService(o => o.AutoPatchModAssembly = true);
-        services.AddNetworkService();
+        services.AddFileSystemService(capi, o => o.RegisterSettingsFiles = true);
+        services.AddHarmonyPatchingService(capi, o => o.AutoPatchModAssembly = true);
     }
 }

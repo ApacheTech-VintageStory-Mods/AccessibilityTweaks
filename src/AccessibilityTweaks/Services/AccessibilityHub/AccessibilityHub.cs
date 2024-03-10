@@ -1,4 +1,7 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
+using Gantry.Core.Extensions.GameContent.Gui;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub;
 
@@ -7,7 +10,7 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub;
 /// </summary>
 /// <seealso cref="ClientModSystem" />
 [UsedImplicitly]
-public sealed class AccessibilityHub :  ClientModSystem, IClientServiceRegistrar
+public sealed class AccessibilityHub : ClientModSystem, IClientServiceRegistrar
 {
     /// <summary>
     ///     Allows a mod to include Singleton, or Transient services to the IOC Container.

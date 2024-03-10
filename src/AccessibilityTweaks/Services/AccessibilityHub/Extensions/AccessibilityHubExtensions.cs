@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 

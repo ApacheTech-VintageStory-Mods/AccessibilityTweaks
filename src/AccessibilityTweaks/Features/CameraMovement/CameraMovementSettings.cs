@@ -29,9 +29,4 @@ public sealed class CameraMovementSettings : FeatureSettings
     ///     Enables/Disables the ability for the game to move the mouse without the player's input.
     /// </summary>
     public bool InvoluntaryMouseMovement { get; set; } = true;
-
-    /// <summary>
-    ///     Enables/Disables the "wobble" effect of held items.
-    /// </summary>
-    public bool HeldItemBobbing { get; set; } = true;
 }

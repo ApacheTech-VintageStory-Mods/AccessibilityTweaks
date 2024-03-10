@@ -1,5 +1,7 @@
 ﻿
 
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
 
 /// <summary>

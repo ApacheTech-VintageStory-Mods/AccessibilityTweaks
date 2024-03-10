@@ -9,6 +9,4 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Pa
 [SettingsConsumer(EnumAppSide.Client)]
 [HarmonySidedPatch(EnumAppSide.Client)]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed partial class SceneBrightnessPatches : WorldSettingsConsumer<SceneBrightnessSettings>
-{
-}
+public sealed partial class SceneBrightnessPatches : WorldSettingsConsumer<SceneBrightnessSettings>;

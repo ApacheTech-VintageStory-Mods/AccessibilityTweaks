@@ -21,7 +21,7 @@ public sealed class EditVolumeDialogue : GenericDialogue
         _cell = cell;
         ModalTransparency = 0.4f;
         Alignment = EnumDialogArea.CenterMiddle;
-        Title = ApiEx.Client.Assets.Get(cell.Path).Name;
+        Title = ApiEx.Client!.Assets.Get(cell.Path).Name;
     }
 
     /// <summary>
@@ -108,13 +108,13 @@ public sealed class EditVolumeDialogue : GenericDialogue
 
         if (asset.Category == AssetCategory.sounds)
         {
-            ApiEx.Client.World.PlaySoundFor(asset, ApiEx.Client.World.Player, true, 0f, _cell.Muted ? 0f : _cell.VolumeMultiplier);
+            ApiEx.Client!.World.PlaySoundFor(asset, ApiEx.Client.World.Player, true, 0f, _cell.Muted ? 0f : _cell.VolumeMultiplier);
         }
 
         if (asset.Category != AssetCategory.music) return true;
 
-        ApiEx.Client.CurrentMusicTrack?.FadeOut(0);
-        ApiEx.Client.GetInternalClientSystem<SystemMusicEngine>().StartTrack(asset, 1000, EnumSoundType.Sound);
+        ApiEx.Client!.CurrentMusicTrack?.FadeOut(0);
+        ApiEx.Client!.GetInternalClientSystem<SystemMusicEngine>().StartTrack(asset, 1000, EnumSoundType.Sound);
         return true;
     }
 

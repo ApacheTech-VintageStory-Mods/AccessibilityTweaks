@@ -9,7 +9,4 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Pat
 [SettingsConsumer(EnumAppSide.Client)]
 [HarmonySidedPatch(EnumAppSide.Client)]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed partial class TextAlterationPatches : WorldSettingsConsumer<TextAlterationSettings>
-{
-
-}
+public sealed partial class TextAlterationPatches : WorldSettingsConsumer<TextAlterationSettings>;

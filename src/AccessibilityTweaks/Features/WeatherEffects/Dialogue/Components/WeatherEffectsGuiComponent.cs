@@ -51,7 +51,7 @@ public sealed class WeatherEffectsGuiComponent : IGuiComposablePart
                 .SetValue(propertyInfo.GetValue(_settings)?.To<bool>() ?? default);
         }
         ClientSettings.RenderClouds = _settings.CloudsEnabled;
-        ApiEx.Client.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
     }
 
     /// <summary>

@@ -9,4 +9,4 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Patch
 [SettingsConsumer(EnumAppSide.Client)]
 [HarmonySidedPatch(EnumAppSide.Client)]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed partial class SoundEffectsPatches : WorldSettingsConsumer<SoundEffectsSettings> { }
+public sealed partial class SoundEffectsPatches : WorldSettingsConsumer<SoundEffectsSettings>;

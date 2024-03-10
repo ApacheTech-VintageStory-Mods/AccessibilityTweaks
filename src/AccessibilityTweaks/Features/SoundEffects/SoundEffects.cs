@@ -1,4 +1,6 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
 using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 using Gantry.Services.FileSystem.Configuration;
 
@@ -43,7 +45,7 @@ public sealed class SoundEffects : ClientModSystem, IClientServiceRegistrar
     private static void UpdateVolumeOverrideSettings()
     {
         var settings = IOC.Services.Resolve<SoundEffectsSettings>();
-        var defaults = ApiEx.Client.Assets.AllAssets
+        var defaults = ApiEx.Client!.Assets.AllAssets
             .Where(p => p.Key.Category == AssetCategory.sounds || p.Key.Category == AssetCategory.music)
             .Where(p => p.Key.Path.EndsWith(".ogg"));
         foreach (var entry in defaults)

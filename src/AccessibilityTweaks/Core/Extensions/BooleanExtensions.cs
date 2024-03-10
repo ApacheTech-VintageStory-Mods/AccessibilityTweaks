@@ -7,7 +7,7 @@
 public static class BooleanExtensions
 {
     /// <summary>
-    ///     Performs an <see cref="Action"/> if the input boolean value is true.
+    ///     Performs a <see cref="Action"/> if the input boolean value is true.
     /// </summary>
     /// <param name="state">The boolean value that this extension method was called on.</param>
     /// <param name="trueAction">The action to perform, if <paramref name="state"/> equates to <c>true</c>.</param>
@@ -19,7 +19,7 @@ public static class BooleanExtensions
     }
 
     /// <summary>
-    ///     Performs an <see cref="Action{T}"/> if the input boolean value is true.
+    ///     Performs a <see cref="Action{T}"/> if the input boolean value is true.
     /// </summary>
     /// <typeparam name="T">The type to pass into the action.</typeparam>
     /// <param name="state">The boolean value that this extension method was called on.</param>
@@ -33,7 +33,7 @@ public static class BooleanExtensions
     }
 
     /// <summary>
-    ///     Performs an <see cref="Action"/> if the input boolean value is false.
+    ///     Performs a <see cref="Action"/> if the input boolean value is false.
     /// </summary>
     /// <param name="state">The boolean value that this extension method was called on.</param>
     /// <param name="falseAction">The action to perform, if <paramref name="state"/> equates to <c>false</c>.</param>
@@ -45,7 +45,7 @@ public static class BooleanExtensions
     }
 
     /// <summary>
-    ///     Performs an <see cref="Action{T}"/> if the input boolean value is false.
+    ///     Performs a <see cref="Action{T}"/> if the input boolean value is false.
     /// </summary>
     /// <typeparam name="T">The type to pass into the action.</typeparam>
     /// <param name="state">The boolean value that this extension method was called on.</param>
@@ -59,7 +59,7 @@ public static class BooleanExtensions
     }
 
     /// <summary>
-    ///     Performs an <see cref="Action"/> if the input boolean value is true or false.
+    ///     Performs a <see cref="Action"/> if the input boolean value is true or false.
     /// </summary>
     /// <param name="state">The boolean value that this extension method was called on.</param>
     /// <param name="trueAction">The action to perform, if <paramref name="state"/> equates to <c>true</c>.</param>
@@ -73,7 +73,7 @@ public static class BooleanExtensions
     }
 
     /// <summary>
-    ///     Performs an <see cref="Action{T}"/> if the input boolean value is true.
+    ///     Performs a <see cref="Action{T}"/> if the input boolean value is true.
     /// </summary>
     /// <typeparam name="T">The type to pass into the action.</typeparam>
     /// <param name="state">The boolean value that this extension method was called on.</param>

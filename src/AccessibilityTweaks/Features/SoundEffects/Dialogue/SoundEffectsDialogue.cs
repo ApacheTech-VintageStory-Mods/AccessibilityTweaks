@@ -1,4 +1,5 @@
-﻿using ApacheTech.Common.Extensions.Harmony;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.Common.Extensions.Harmony;
 using Gantry.Core.Extensions.Api;
 using Gantry.Services.FileSystem.Dialogue;
 using Vintagestory.Client;
@@ -30,7 +31,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     public SoundEffectsDialogue(ICoreClientAPI capi, SoundEffectsSettings settings) : base(capi, settings)
     {
         Alignment = EnumDialogArea.CenterMiddle;
-        _activeSounds = ApiEx.ClientMain.GetField<Queue<ILoadedSound>>("ActiveSounds");
+        _activeSounds = ApiEx.ClientMain.Value.GetField<Queue<ILoadedSound>>("ActiveSounds");
             
         ClientSettings.Inst.AddWatcher<float>("guiScale", _ =>
         {
@@ -98,9 +99,9 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
             }
             catch (Exception exception)
             {
-                ApiEx.Client.Logger.Error("[VintageMods] Error caught while loading sound effects from settings file.");
-                ApiEx.Client.Logger.Error(exception.Message);
-                ApiEx.Client.Logger.Error(exception.StackTrace);
+                ApiEx.Client!.Logger.Error("[AccessibilityTweaks] Error caught while loading sound effects from settings file.");
+                ApiEx.Client!.Logger.Error(exception.Message);
+                ApiEx.Client!.Logger.Error(exception.StackTrace);
                 return new List<VolumeOverrideCellEntry>();
             }
         }
@@ -258,7 +259,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
         
     private static bool OnRightButtonPressed()
     {
-        ApiEx.ClientMain.StopAllSounds();
+        ApiEx.ClientMain.Value.StopAllSounds();
         return true;
     }
 

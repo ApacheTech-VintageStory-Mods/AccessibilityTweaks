@@ -1,4 +1,6 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue;
 using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 using Vintagestory.API.MathTools;
 

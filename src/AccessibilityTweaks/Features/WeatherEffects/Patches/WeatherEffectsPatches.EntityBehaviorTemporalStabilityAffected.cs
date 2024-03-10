@@ -33,16 +33,4 @@ public sealed partial class WeatherEffectsPatches
         }
         ___rustParticles = _rustParticles ?? ___rustParticles;
     }
-
-    /// <summary>
-    ///     Applies a <see cref="HarmonyTranspiler"/> patch to the "OnGameTick" method of the <see cref="EntityBehaviorTemporalStabilityAffected"/> class.
-    /// </summary>
-    /// <param name="instructions">The list of instructions, written in MSIL, that make up the original method.</param>
-    [HarmonyTranspiler]
-    [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), "OnGameTick")]
-    public static IEnumerable<CodeInstruction> Patch_EntityBehaviorTemporalStabilityAffected_OnGameTick_Transpiler(IEnumerable<CodeInstruction> instructions)
-    {
-        // Removes involuntary mouse movement.
-        return instructions.ToList().With(p => p[425].operand = -1.0);
-    }
 }

@@ -5,7 +5,4 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Pat
 [SettingsConsumer(EnumAppSide.Client)]
 [HarmonySidedPatch(EnumAppSide.Client)]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed partial class WeatherEffectsPatches : WorldSettingsConsumer<WeatherEffectsSettings>
-{
-
-}
+public sealed partial class WeatherEffectsPatches : WorldSettingsConsumer<WeatherEffectsSettings>;

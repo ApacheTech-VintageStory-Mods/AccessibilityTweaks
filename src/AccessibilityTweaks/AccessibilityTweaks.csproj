@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup Label="Assembly Versioning">
-		<Version>3.4.0.0</Version>
+		<Version>3.6.0.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -16,7 +16,6 @@
 
 	<ItemGroup>
 		<None Remove=".gitkeep" />
-		<None Remove="C:\Users\Apache\.nuget\packages\vintagestory.gantry.services.filesystem\0.5.0\contentFiles\any\netstandard2.0\DependencyInjection\README.md" />
 		<None Remove="_Includes\.gitkeep" />
 		<None Remove="_Includes\assets\.gitkeep" />
 		<None Remove="_Includes\assets\accessibilitytweaks\.gitkeep" />
@@ -35,10 +34,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Update="PolySharp" Version="1.13.2">
-	    <PrivateAssets>all</PrivateAssets>
-	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>
+	  <ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 	</ItemGroup>
 
 </Project>

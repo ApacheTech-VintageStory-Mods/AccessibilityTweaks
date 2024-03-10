@@ -1,7 +1,7 @@
 <Project>
 	<PropertyGroup Label="Framework Versioning">
 		<TargetFramework>net7.0</TargetFramework>
-		<LangVersion>11</LangVersion>
+		<LangVersion>12</LangVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Project Configuration">
@@ -25,7 +25,7 @@
 	</ItemGroup>
 
 	<ItemGroup Label="None VS Global Imports">
-		<PackageReference Include="PolySharp" Version="1.13.1">
+		<PackageReference Include="PolySharp" Version="1.14.1">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
@@ -91,10 +91,6 @@
 			<HintPath>$(EnvironmentVariable)\Lib\Newtonsoft.Json.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-		<Reference Include="OpenTK">
-			<HintPath>$(EnvironmentVariable)\Lib\OpenTK.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
 		<Reference Include="protobuf-net">
 			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
 			<Private>false</Private>
@@ -107,10 +103,6 @@
 			<HintPath>$(EnvironmentVariable)\Lib\Tavis.JsonPatch.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-	</ItemGroup>
-
-	<ItemGroup Label="Gantry MDK">
-		<PackageReference Include="VintageStory.Gantry" Version="0.6.1" />
 	</ItemGroup>
 
 	<ItemGroup>
