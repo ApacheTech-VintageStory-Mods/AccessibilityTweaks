@@ -6,17 +6,6 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Pat
 
 public sealed partial class TextAlterationPatches
 {
-
-    /// <summary>
-    ///     Applies a <see cref="HarmonyPrefix"/> patch to the "onChatKeyDown" method of the <see cref="EntityBehaviorHunger"/> class.
-    /// </summary>
-    [HarmonyPrefix]
-    [HarmonyPatch(typeof(EntityBehaviorHunger), "onChatKeyDown")]
-    public static bool Patch_EntityBehaviorHunger_onChatKeyDown_Prefix()
-    {
-        return Settings.WhileStarving;
-    }
-
     // MAY BE NEEDED IN FUTURE
 
     ///// <summary>

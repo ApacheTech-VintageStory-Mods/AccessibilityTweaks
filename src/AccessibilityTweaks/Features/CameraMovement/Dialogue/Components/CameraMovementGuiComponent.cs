@@ -1,4 +1,5 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
+﻿using ApacheTech.Common.Extensions.Harmony;
+using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
 using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions;
 using Gantry.Services.FileSystem.Configuration;
 

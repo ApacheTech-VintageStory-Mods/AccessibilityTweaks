@@ -1,36 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup Label="Assembly Versioning">
-		<Version>3.6.0.0</Version>
+		<Version>3.7.1.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup>
-	  <RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Remove="Services\**" />
-		<EmbeddedResource Remove="Services\**" />
-		<None Remove="Services\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Remove=".gitkeep" />
-		<None Remove="_Includes\.gitkeep" />
-		<None Remove="_Includes\assets\.gitkeep" />
-		<None Remove="_Includes\assets\accessibilitytweaks\.gitkeep" />
-		<None Remove="_Includes\assets\accessibilitytweaks\lang\.gitkeep" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Include="Services\AccessibilityHub\AccessibilityHub.cs" />
-		<Compile Include="Services\AccessibilityHub\Dialogue\SupportDialogue.cs" />
-		<Compile Include="Services\AccessibilityHub\Extensions\AccessibilityHubExtensions.cs" />
-		<Compile Include="Services\AccessibilityHub\Dialogue\AccessibilityHubDialogue.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Core\GameContent\" />
+		<None Remove="\**\.gitkeep" />
 	</ItemGroup>
 
 	<ItemGroup>

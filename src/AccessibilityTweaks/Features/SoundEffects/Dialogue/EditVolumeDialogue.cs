@@ -1,4 +1,5 @@
 ﻿using Gantry.Core.Extensions.Api;
+using Gantry.Core.GameContent.GUI.Abstractions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
 

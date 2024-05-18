@@ -1,4 +1,5 @@
 ﻿using Gantry.Core.Extensions.Helpers;
+using Gantry.Core.GameContent.GUI.Abstractions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
 
@@ -68,43 +69,43 @@ public sealed class SupportDialogue : GenericDialogue
 
     private static bool OnDonateButtonPressed()
     {
-        BrowserEx.OpenUrl("https://bit.ly/APGDonate");
+        BrowserEx.TryOpenUrl("https://bit.ly/APGDonate");
         return true;
     }
 
     private static bool OnPatreonButtonPressed()
     {
-        BrowserEx.OpenUrl("https://www.patreon.com/ApacheTechSolutions?fan_landing=true");
+        BrowserEx.TryOpenUrl("https://www.patreon.com/ApacheTechSolutions?fan_landing=true");
         return true;
     }
 
     private static bool OnWebsiteButtonPressed()
     {
-        BrowserEx.OpenUrl("https://apachegaming.net");
+        BrowserEx.TryOpenUrl("https://apachegaming.net");
         return true;
     }
 
     private static bool OnCoffeeButtonPressed()
     {
-        BrowserEx.OpenUrl("https://www.buymeacoffee.com/Apache");
+        BrowserEx.TryOpenUrl("https://www.buymeacoffee.com/Apache");
         return true;
     }
 
     private static bool OnTwitchButtonPressed()
     {
-        BrowserEx.OpenUrl("https://twitch.tv/ApacheGamingUK");
+        BrowserEx.TryOpenUrl("https://twitch.tv/ApacheGamingUK");
         return true;
     }
 
     private static bool OnYouTubeButtonPressed()
     {
-        BrowserEx.OpenUrl("https://youtube.com/ApacheGamingUK");
+        BrowserEx.TryOpenUrl("https://youtube.com/ApacheGamingUK");
         return true;
     }
 
     private static bool OnWishListButtonPressed()
     {
-        BrowserEx.OpenUrl("http://amzn.eu/7qvKTFu");
+        BrowserEx.TryOpenUrl("http://amzn.eu/7qvKTFu");
         return true;
     }
 }

@@ -10,22 +10,13 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration.Pat
 public sealed partial class TextAlterationPatches
 {
     /// <summary>
-    ///     Applies a <see cref="HarmonyPrefix"/> patch to the "onChatKeyDownPre" method of the <see cref="EntityBehaviorDrunkTyping"/> class.
+    ///     Applies a <see cref="HarmonyPrefix"/> patch to the "slurText" method of the <see cref="EntityBehaviorDrunkTyping"/> class.
     /// </summary>
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(EntityBehaviorDrunkTyping), "onChatKeyDownPre")]
-    public static bool Patch_EntityBehaviorDrunkTyping_onChatKeyDownPre_Prefix()
+    [HarmonyPatch(typeof(EntityBehaviorDrunkTyping), "slurText")]
+    public static bool Patch_EntityBehaviorDrunkTyping_slurText_Prefix(string text, ref string __result)
     {
-        return Settings.WhileDrunk;
-    }
-
-    /// <summary>
-    ///     Applies a <see cref="HarmonyPrefix"/> patch to the "onChatKeyDownPost" method of the <see cref="EntityBehaviorDrunkTyping"/> class.
-    /// </summary>
-    [HarmonyPrefix]
-    [HarmonyPatch(typeof(EntityBehaviorDrunkTyping), "onChatKeyDownPost")]
-    public static bool Patch_EntityBehaviorDrunkTyping_onChatKeyDownPost_Prefix()
-    {
+        __result = text;
         return Settings.WhileDrunk;
     }
 }

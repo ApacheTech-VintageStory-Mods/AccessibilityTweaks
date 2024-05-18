@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using Gantry.Core.GameContent.GUI.Abstractions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
 

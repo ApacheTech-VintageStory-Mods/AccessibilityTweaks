@@ -1,4 +1,5 @@
 ﻿using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions;
+using Gantry.Core.GameContent.GUI.Abstractions;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
 

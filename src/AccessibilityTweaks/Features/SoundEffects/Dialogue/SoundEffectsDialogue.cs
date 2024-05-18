@@ -1,6 +1,7 @@
 ﻿using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 using ApacheTech.Common.Extensions.Harmony;
 using Gantry.Core.Extensions.Api;
+using Gantry.Core.GameContent.GUI.Abstractions;
 using Gantry.Services.FileSystem.Dialogue;
 using Vintagestory.Client;
 
@@ -17,7 +18,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     private ElementBounds _cellListBounds;
     private readonly Queue<ILoadedSound> _activeSounds;
 
-    private List<VolumeOverrideCellEntry> _cells = new();
+    private List<VolumeOverrideCellEntry> _cells = [];
 
     private GuiElementCellList<VolumeOverrideCellEntry> _cellList;
     private bool _activeSoundsOnly;
@@ -31,7 +32,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     public SoundEffectsDialogue(ICoreClientAPI capi, SoundEffectsSettings settings) : base(capi, settings)
     {
         Alignment = EnumDialogArea.CenterMiddle;
-        _activeSounds = ApiEx.ClientMain.Value.GetField<Queue<ILoadedSound>>("ActiveSounds");
+        _activeSounds = ApiEx.ClientMain.GetField<Queue<ILoadedSound>>("ActiveSounds");
             
         ClientSettings.Inst.AddWatcher<float>("guiScale", _ =>
         {
@@ -259,7 +260,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
         
     private static bool OnRightButtonPressed()
     {
-        ApiEx.ClientMain.Value.StopAllSounds();
+        ApiEx.ClientMain.StopAllSounds();
         return true;
     }
 
