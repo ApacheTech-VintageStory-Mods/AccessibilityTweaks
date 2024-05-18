@@ -13,12 +13,6 @@ public sealed partial class CameraMovementPatches
     /// </summary>
     [HarmonyPrefix]
     [HarmonyPatch(typeof(DrunkPerceptionEffect), "OnBeforeGameRender")]
-    public static bool Patch_DrunkPerceptionEffect_OnBeforeGameRender_Prefix(DrunkPerceptionEffect __instance)
-    {
-        if (Settings.InvoluntaryMouseMovement) return true;
-        ApiEx.Client!.Render.ShaderUniforms.PerceptionEffectIntensity = 0;
-        __instance.Intensity = 0;
-        __instance.NowDisabled();
-        return false;
-    }
+    public static bool Patch_DrunkPerceptionEffect_OnBeforeGameRender_Prefix()
+        => Settings.InvoluntaryMouseMovement;
 }

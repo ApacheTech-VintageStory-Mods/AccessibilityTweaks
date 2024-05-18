@@ -13,12 +13,6 @@ public sealed partial class CameraMovementPatches
     /// </summary>
     [HarmonyPrefix]
     [HarmonyPatch(typeof(FreezingPerceptionEffect), "ApplyMotionEffects")]
-    public static bool Patch_FreezingPerceptionEffect_OnBeforeGameRender_Prefix(FreezingPerceptionEffect __instance)
-    {
-        if (Settings.InvoluntaryMouseMovement) return true;
-        ApiEx.Client!.Render.ShaderUniforms.PerceptionEffectIntensity = 0;
-        __instance.Intensity = 0;
-        __instance.NowDisabled();
-        return false;
-    }
+    public static bool Patch_FreezingPerceptionEffect_ApplyMotionEffects_Prefix()
+        => Settings.InvoluntaryMouseMovement;
 }

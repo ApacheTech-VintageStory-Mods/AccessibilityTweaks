@@ -59,35 +59,11 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         var right = ElementBounds.Fixed(textWidth + 10, 10, 270, switchSize).FixedUnder(Bounds);
 
         composer
-            .AddStaticText(LangEntry("lblGlobalWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblGlobalWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
-            .AddSlider(OnGlobalWarpMultiplierChanged, right, "sldGlobalWarpMultiplier");
-
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
-
-        composer
             .AddStaticText(LangEntry("lblPerceptionWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
             .AddHoverText(LangEntry("lblPerceptionWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
             .AddSlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
 
         left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
-
-        composer
-            .AddStaticText(LangEntry("lblGlitchStrengthMultiplier"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblGlitchStrengthMultiplier.HoverText"), labelFont, (int)textWidth, left)
-            .AddSlider(OnGlitchStrengthMultiplierChanged, right, "sldGlitchStrengthMultiplier");
-
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
-
-        composer
-            .AddStaticText(LangEntry("lblCameraShakeMultiplier"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblCameraShakeMultiplier.HoverText"), labelFont, (int)textWidth, left)
-            .AddSlider(OnCameraShakeMultiplierChanged, right, "sldCameraShakeMultiplier");
-
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows + 5);
         right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
 
         composer
@@ -97,29 +73,9 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         return composer;
     }
 
-    private bool OnGlobalWarpMultiplierChanged(int value)
-    {
-        _settings.GlobalWarpMultiplier = value / 100f;
-        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
-        return true;
-    }
-
     private bool OnPerceptionWarpMultiplierChanged(int value)
     {
         _settings.PerceptionWarpMultiplier = value / 100f;
-        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
-        return true;
-    }
-
-    private bool OnGlitchStrengthMultiplierChanged(int value)
-    {
-        _settings.GlitchStrengthMultiplier = value / 100f;
-        return true;
-    }
-
-    private bool OnCameraShakeMultiplierChanged(int value)
-    {
-        _settings.CameraShakeMultiplier = value / 100f;
         ApiEx.Client!.Shader.ReloadShadersThreadSafe();
         return true;
     }
@@ -142,10 +98,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// <param name="composer"></param>
     public void RefreshValues(GuiComposer composer)
     {
-        SetSliderProperties(composer.GetSlider("sldGlobalWarpMultiplier"), _settings.GlobalWarpMultiplier);
         SetSliderProperties(composer.GetSlider("sldPerceptionWarpMultiplier"), _settings.PerceptionWarpMultiplier);
-        SetSliderProperties(composer.GetSlider("sldGlitchStrengthMultiplier"),_settings.GlitchStrengthMultiplier);
-        SetSliderProperties(composer.GetSlider("sldCameraShakeMultiplier"), _settings.CameraShakeMultiplier);
         composer.GetSwitch("btnInvoluntaryMouseMovement").SetValue(_settings.InvoluntaryMouseMovement);
     }
 

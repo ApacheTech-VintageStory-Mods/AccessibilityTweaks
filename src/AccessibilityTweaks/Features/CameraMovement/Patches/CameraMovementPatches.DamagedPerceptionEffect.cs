@@ -13,12 +13,6 @@ public sealed partial class CameraMovementPatches
     /// </summary>
     [HarmonyPrefix]
     [HarmonyPatch(typeof(DamagedPerceptionEffect), "ApplyMotionEffects")]
-    public static bool Patch_DamagedPerceptionEffect_OnBeforeGameRender_Prefix(DamagedPerceptionEffect __instance)
-    {
-        if (Settings.InvoluntaryMouseMovement) return true;
-        ApiEx.Client!.Render.ShaderUniforms.PerceptionEffectIntensity = 0;
-        __instance.Intensity = 0;
-        __instance.NowDisabled();
-        return false;
-    }
+    public static bool Patch_DamagedPerceptionEffect_ApplyMotionEffects_Prefix()
+        => Settings.InvoluntaryMouseMovement;
 }
