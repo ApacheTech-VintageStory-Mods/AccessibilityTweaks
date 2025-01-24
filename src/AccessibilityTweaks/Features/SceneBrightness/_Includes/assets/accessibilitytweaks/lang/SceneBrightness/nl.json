@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Ingeschakeld:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Helderheidsniveau scène: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Helderheid:",
+    "Features.SceneBrightness.Description":  "Helpt mensen met lichtgevoeligheid en voor makers van inhoud, compenseert de compressiepercentages op YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Scènehelderheid ingeschakeld: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Wijzigt het helderheidsniveau van de scène.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Schakel de superheldere modus in.",
+    "Features.SceneBrightness.Dialogue.Title":  "Instellingen voor de helderheid van de scène"
+}

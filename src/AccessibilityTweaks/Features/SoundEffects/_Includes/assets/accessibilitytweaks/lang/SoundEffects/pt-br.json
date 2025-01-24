@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volume:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Campo:",
+    "Features.SoundEffects.Dialogue.Title":  "Efeitos sonoros",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Procurar:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Os efeitos sonoros silenciados não são audíveis.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Reproduzir som",
+    "Features.SoundEffects.Dialogue.lblMute":  "Mudo:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtre os efeitos sonoros, por nome.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Mostrar apenas os sons que estão sendo reproduzidos no momento:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Altere o volume relativo do efeito sonoro.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Altere o tom relativo do efeito sonoro. Isso pode ajudar pessoas com zumbido ou outros problemas de perda auditiva.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Corrigir sons quebrados"
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Movimento della telecamera",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Consenti/Impedisci al gioco di muovere il mouse senza il tuo permesso.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Oggetto tenuto Bobbing:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Abilita/Disabilita l\u0027effetto di \"oscillazione\" degli oggetti trattenuti.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Forza di vibrazione della fotocamera:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Quanto il mondo si deforma durante una tempesta temporale.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Forza del glitch:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento involontario del mouse:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Forza di curvatura della percezione:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Quanto il mondo si deforma durante una tempesta temporale.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Brividi, rinculo quando si viene colpiti e altri effetti di feedback aptico.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Forza di curvatura globale:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Quanto il mondo si deforma mentre sei ubriaco\u0027."
+}

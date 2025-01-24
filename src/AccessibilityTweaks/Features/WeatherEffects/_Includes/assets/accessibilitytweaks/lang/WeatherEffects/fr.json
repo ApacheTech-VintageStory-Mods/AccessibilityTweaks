@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Bascule le rendu des effets de brouillard.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Bascule le rendu des effets de particules de goutte de pluie.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Bascule le rendu des effets de lumière clignotante de la foudre.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Effets de brouillard :",
+    "Features.WeatherEffects.Dialogue.Title":  "Effets météorologiques",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Nuage:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Poussière:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Effets de la brume :",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Bascule le rendu des nuages.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Active/désactive le rendu des effets de particules de flocon de neige.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Éclairs :",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Bascule le rendu des effets de brume.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Flocons:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Gouttes:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Bascule le rendu des effets de particules de poussière.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Grêle:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Bascule le rendu des effets de particules de grêle."
+}

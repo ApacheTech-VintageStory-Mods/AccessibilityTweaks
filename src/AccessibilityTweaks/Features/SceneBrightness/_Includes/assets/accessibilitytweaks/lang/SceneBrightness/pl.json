@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Włączone:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Poziom jasności sceny: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Jasność:",
+    "Features.SceneBrightness.Description":  "Pomaga osobom z wrażliwością na światło, a twórcom treści, kompensując współczynniki kompresji na YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Włączona jasność sceny: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Zmienia poziom jasności sceny.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Przełącz tryb Super Bright.",
+    "Features.SceneBrightness.Dialogue.Title":  "Ustawienia jasności sceny"
+}

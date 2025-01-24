@@ -1,27 +1,19 @@
-{
-  "Features.WeatherEffects.Dialogue.Title": "Wettereffekte",
-
-  "Features.WeatherEffects.Dialogue.lblCloudsEnabled": "Wolken:",
-  "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText": "Schaltet das Rendern von Wolken um.",
-
-  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled": "Staub:",
-  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText": "Schaltet das Rendern von Staubpartikel Effekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblFogEnabled": "Nebeleffekte:",
-  "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText": "Schaltet das Rendern von Nebeleffekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblMistEnabled": "Bodennebeleffekte:",
-  "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText": "Schaltet das Rendern von Bodennebeleffekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled": "Hagelkörner:",
-  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText": "Schaltet das Rendern von Hagelkörner Effekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblLightningEnabled": "Blitz:",
-  "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText": "Schaltet das Rendern von blinkenden Lichteffekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled": "Regentropfen:",
-  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText": "Schaltet das Rendern von Regenkörner Effekten um.",
-
-  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled": "Schneeflocken:",
-  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText": "Schaltet das Rendern von Schneeflocken Effekten um."
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Schaltet das Rendern von Nebeleffekten um.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Schaltet das Rendern von Regentropfen-Partikeleffekten um.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Schaltet das Rendern von Blitzeffekten um.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Nebel-Effekte:",
+    "Features.WeatherEffects.Dialogue.Title":  "Auswirkungen auf das Wetter",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Wolken:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Staub:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Nebel-Effekte:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Schaltet das Rendern von Wolken um.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Schaltet das Rendern von Schneeflockenpartikeleffekten um.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Blitze blinken:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Schaltet das Rendern von Nebeleffekten um.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Schneeflocken:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Regentropfen:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Schaltet das Rendern von Staubpartikeleffekten um.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Hagelkörner:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Schaltet das Rendern von Hagelkornpartikeleffekten um."
 }

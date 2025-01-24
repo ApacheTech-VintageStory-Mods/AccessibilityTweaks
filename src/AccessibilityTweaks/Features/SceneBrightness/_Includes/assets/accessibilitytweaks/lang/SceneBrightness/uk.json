@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Включений:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Рівень яскравості сцени: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Яскравість:",
+    "Features.SceneBrightness.Description":  "Допомагає людям зі світлочутливістю, і творцям контенту, компенсуючи показники стиснення на YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Яскравість сцени ввімкнена: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Змінює рівень яскравості сцени.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Увімкніть режим супер яскравості.",
+    "Features.SceneBrightness.Dialogue.Title":  "Налаштування яскравості сцени"
+}

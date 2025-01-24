@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "사용:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "장면 밝기 수준: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "밝기:",
+    "Features.SceneBrightness.Description":  "빛에 민감한 사람들과 콘텐츠 제작자를 위해 YouTube/Twitch의 압축률을 보상하는 데 도움이 됩니다.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "장면 밝기 사용: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "장면의 밝기 수준을 변경합니다.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "슈퍼 브라이트 모드를 전환합니다.",
+    "Features.SceneBrightness.Dialogue.Title":  "장면 밝기 설정"
+}

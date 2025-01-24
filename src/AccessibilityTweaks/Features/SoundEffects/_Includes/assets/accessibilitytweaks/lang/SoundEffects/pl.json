@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Głośność:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Rzucać:",
+    "Features.SoundEffects.Dialogue.Title":  "Efekty dźwiękowe",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Szukać:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Wyciszone efekty dźwiękowe nie są słyszalne.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Odtwórz dźwięk",
+    "Features.SoundEffects.Dialogue.lblMute":  "Niemy:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtruj efekty dźwiękowe według nazwy.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Pokaż tylko aktualnie odtwarzane dźwięki:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Zmień względną głośność efektu dźwiękowego.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Zmienia względną wysokość dźwięku efektu dźwiękowego. Może to pomóc osobom z szumami usznymi lub innymi problemami z ubytkiem słuchu.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Napraw zepsute dźwięki"
+}

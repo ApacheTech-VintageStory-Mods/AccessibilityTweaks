@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Schakelt de weergave van misteffecten in.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Schakelt de weergave van effecten van regendruppeldeeltjes in.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Schakelt de weergave van bliksemflitsende lichteffecten in.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Mist effecten:",
+    "Features.WeatherEffects.Dialogue.Title":  "Weerseffecten",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Wolken:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Stof:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Mist effecten:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Schakelt de weergave van wolken in.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Schakelt de weergave van sneeuwvlokdeeltjeseffecten in.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Bliksemflitsen:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Schakelt de weergave van misteffecten in.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Sneeuwvlokken:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Regendruppels:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Schakelt de weergave van stofdeeltjeseffecten in.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Hagelstenen:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Schakelt de weergave van hagelsteendeeltjeseffecten in."
+}

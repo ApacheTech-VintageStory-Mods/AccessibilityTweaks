@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Objem:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Rozstup:",
+    "Features.SoundEffects.Dialogue.Title":  "Zvukové efekty",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Hľadať:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Stlmené zvukové efekty nie sú počuteľné.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Prehrať zvuk",
+    "Features.SoundEffects.Dialogue.lblMute":  "Stlmiť:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrovanie zvukových efektov podľa názvu.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Zobraziť iba aktuálne prehrávané zvuky:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Zmeňte relatívnu hlasitosť zvukového efektu.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Zmeňte relatívnu výšku zvukového efektu. To môže pomôcť ľuďom s tinnitom alebo inými problémami so stratou sluchu.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Oprava nefunkčných zvukov"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "تعديل النص",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "أثناء التضوعية جوعا:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "تمكين/تعطيل التغيير التلقائي لنص الدردشة وأنت في حالة سكر.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "تمكين / تعطيل التغيير التلقائي لنص الدردشة أثناء الجوع.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "أثناء السكر:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "تمكين/تعطيل التغيير التلقائي لنص الدردشة أثناء عاصفة زمنية.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "أثناء العواصف الزمنية:"
+}

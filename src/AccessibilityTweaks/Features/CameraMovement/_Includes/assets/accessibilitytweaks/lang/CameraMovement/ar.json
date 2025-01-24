@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "حركة الكاميرا",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "اسمح / عدم السماح للعبة بتحريك الماوس دون إذنك.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "عقد البند التمايل :",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "يمكن/يعطل تأثير \"التذبذب\" للعناصر المحجوزة.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "قوة اهتزاز الكاميرا:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "كم يتشوه العالم خلال عاصفة مؤقتة.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "قوة الخلل:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "حركة الفأر اللاإرادية:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "قوة الاعوجاج الإدراك:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "كم يتشوه العالم خلال عاصفة مؤقتة.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "الارتعاش والارتداد عند الضرب وتأثيرات ردود الفعل اللمسية الأخرى.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "قوة الاعوجاج العالمية:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "كم يتشوه العالم وأنت في حالة سكر\"."
+}

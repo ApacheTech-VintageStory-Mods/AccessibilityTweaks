@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Pohyb kamery",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povoliť/zakázať hre pohybovať myšou bez vášho povolenia.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Pohupovanie držaných predmetov:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Povolí/zakáže efekt kolísania zadržaných položiek.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Sila chvenia fotoaparátu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Ako veľmi sa svet deformuje počas časovej búrky.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Sila závady:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nedobrovoľný pohyb myši:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Sila deformácie vnímania:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Ako veľmi sa svet deformuje počas časovej búrky.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Chvenie, spätný ráz pri zásahu a ďalšie efekty haptickej spätnej väzby.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globálna sila warpu:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Ako veľmi sa svet deformuje, keď ste opití\u0027."
+}

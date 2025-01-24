@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "卷：",
+    "Features.SoundEffects.Dialogue.lblPitch":  "投：",
+    "Features.SoundEffects.Dialogue.Title":  "音效",
+    "Features.SoundEffects.Dialogue.lblSearch":  "搜索：",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "静音的声音效果听不见。",
+    "Features.SoundEffects.Dialogue.PlaySound":  "播放声音",
+    "Features.SoundEffects.Dialogue.lblMute":  "静音：",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "按名称筛选声音效果。",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "仅显示当前播放的声音：",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "更改声音效果的相对音量。",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "更改声音效果的相对音高。这可以帮助患有耳鸣或其他听力损失问题的人。",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "修复破碎的声音"
+}

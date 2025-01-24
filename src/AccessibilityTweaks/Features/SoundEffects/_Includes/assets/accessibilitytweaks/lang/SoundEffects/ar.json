@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "حجم:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "زفت:",
+    "Features.SoundEffects.Dialogue.Title":  "مؤثرات صوتية",
+    "Features.SoundEffects.Dialogue.lblSearch":  "بحث:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "المؤثرات الصوتية الصامتة غير مسموعة.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "تشغيل الصوت",
+    "Features.SoundEffects.Dialogue.lblMute":  "أخرس:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "تصفية المؤثرات الصوتية بالاسم.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "عرض الأصوات التي يتم تشغيلها حاليا فقط:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "قم بتغيير الحجم النسبي للتأثير الصوتي.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "قم بتغيير درجة الصوت النسبية للتأثير الصوتي. يمكن أن يساعد ذلك الأشخاص الذين يعانون من طنين الأذن أو مشاكل فقدان السمع الأخرى.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "إصلاح الأصوات المكسورة"
+}

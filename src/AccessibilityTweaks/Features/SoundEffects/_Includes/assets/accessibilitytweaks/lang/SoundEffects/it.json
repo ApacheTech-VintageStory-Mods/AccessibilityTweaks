@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volume:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Pece:",
+    "Features.SoundEffects.Dialogue.Title":  "Effetti sonori",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Ricerca:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Gli effetti sonori disattivati non sono udibili.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Riproduci suono",
+    "Features.SoundEffects.Dialogue.lblMute":  "Muto:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtra gli effetti sonori, per nome.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Mostra solo i suoni attualmente in riproduzione:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Modificare il volume relativo dell\u0027effetto sonoro.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Modificare l\u0027intonazione relativa dell\u0027effetto sonoro. Questo può aiutare le persone con acufene o altri problemi di perdita dell\u0027udito.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Correggi i suoni interrotti"
+}

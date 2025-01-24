@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Alterna a renderização de efeitos de névoa.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Alterna a renderização de efeitos de partículas de gota de chuva.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Alterna a renderização de efeitos de luz relâmpago piscando.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Efeitos de nevoeiro:",
+    "Features.WeatherEffects.Dialogue.Title":  "Efeitos climáticos",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Nuvens:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Poeira:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Efeitos de névoa:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Alterna a renderização de nuvens.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Alterna a renderização de efeitos de partículas de flocos de neve.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Relâmpagos:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Alterna a renderização de efeitos de névoa.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Flocos de neve:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Gotas de chuva:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Alterna a renderização de efeitos de partículas de poeira.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Pedras de granizo:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Alterna a renderização de efeitos de partículas de granizo."
+}

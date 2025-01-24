@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Beweging van de camera",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Sta toe/verbied het spel om uw muis te bewegen zonder uw toestemming.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Vastgehouden item dobberen:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Activeert/schakelt het \u0027wiebelen\u0027-effect van vastgehouden items uit.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Sterkte cameratrilling:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hoeveel vervormt de wereld tijdens een tijdelijke storm.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-sterkte:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Onvrijwillige muisbeweging:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perceptie Warp Sterkte:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hoeveel vervormt de wereld tijdens een tijdelijke storm.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rillingen, terugslag bij klappen en andere haptische feedbackeffecten.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Wereldwijde warpsterkte:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hoeveel de wereld vervormt terwijl je dronken bent\u0027."
+}

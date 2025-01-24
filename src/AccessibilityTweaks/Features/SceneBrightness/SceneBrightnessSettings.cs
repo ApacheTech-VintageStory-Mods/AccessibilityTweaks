@@ -4,7 +4,7 @@
 ///     Contains all the settings that can be set by the `.superBright` chat command. This class cannot be inherited.
 /// </summary>
 [JsonObject]
-public sealed class SceneBrightnessSettings : FeatureSettings
+public sealed class SceneBrightnessSettings : FeatureSettings<SceneBrightnessSettings>
 {
     /// <summary>
     ///     Gets or sets a value indicating whether SuperBright mode is enabled.

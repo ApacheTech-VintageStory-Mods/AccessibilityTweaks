@@ -3,7 +3,7 @@
 /// <summary>
 ///     Settings for text alteration effects.
 /// </summary>
-public sealed class TextAlterationSettings : FeatureSettings
+public sealed class TextAlterationSettings : FeatureSettings<TextAlterationSettings>
 {
     /// <summary>
     ///     Enables/Disables the alteration of chat messages during a temporal storm.

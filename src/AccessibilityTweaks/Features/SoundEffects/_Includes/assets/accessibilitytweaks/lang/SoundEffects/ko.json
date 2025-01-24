@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "음량:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "음조:",
+    "Features.SoundEffects.Dialogue.Title":  "음향 효과",
+    "Features.SoundEffects.Dialogue.lblSearch":  "검색:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "음소거된 음향 효과는 들을 수 없습니다.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "사운드 재생",
+    "Features.SoundEffects.Dialogue.lblMute":  "음소거:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "사운드 효과를 이름별로 필터링합니다.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "현재 재생 중인 소리만 표시:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "사운드 효과의 상대적 볼륨을 변경합니다.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "사운드 효과의 상대 피치를 변경합니다. 이것은 이명 또는 기타 청력 손실 문제가 있는 사람들에게 도움이 될 수 있습니다.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "깨진 소리 수정"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "تمكين:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "مستوى سطوع المشهد: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "وضح:",
+    "Features.SceneBrightness.Description":  "يساعد الأشخاص الذين يعانون من حساسية للضوء ، وبالنسبة لمنشئي المحتوى ، وتعويض معدلات الضغط على YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "تمكين سطوع المشهد: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "يغير مستوى سطوع المشهد.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "قم بتبديل وضع السطوع الفائق.",
+    "Features.SceneBrightness.Dialogue.Title":  "إعدادات سطوع المشهد"
+}

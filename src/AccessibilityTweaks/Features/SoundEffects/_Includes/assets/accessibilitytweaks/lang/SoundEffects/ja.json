@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "容積：",
+    "Features.SoundEffects.Dialogue.lblPitch":  "ピッチ：",
+    "Features.SoundEffects.Dialogue.Title":  "サウンドエフェクト",
+    "Features.SoundEffects.Dialogue.lblSearch":  "捜索：",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "ミュートされた効果音は聞こえません。",
+    "Features.SoundEffects.Dialogue.PlaySound":  "サウンドを再生する",
+    "Features.SoundEffects.Dialogue.lblMute":  "唖：",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "効果音を名前でフィルタリングします。",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "現在再生中のサウンドのみを表示:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "効果音の相対的な音量を変更します。",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "サウンドエフェクトの相対ピッチを変更します。これは、耳鳴りやその他の難聴の問題を抱えている人々を助けることができます。",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "壊れた音を修正"
+}

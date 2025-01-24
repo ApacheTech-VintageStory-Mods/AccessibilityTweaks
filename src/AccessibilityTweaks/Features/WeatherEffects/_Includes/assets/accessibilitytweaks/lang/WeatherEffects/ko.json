@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "안개 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "빗방울 입자 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "번쩍이는 번개 조명 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "안개 효과:",
+    "Features.WeatherEffects.Dialogue.Title":  "날씨 영향",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "구름:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "먼지:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "안개 효과:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "구름 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "눈송이 입자 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "번개 섬광:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "안개 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "눈송이:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "빗방울:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "먼지 입자 효과의 렌더링을 토글합니다.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "우박:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "우박 입자 효과의 렌더링을 토글합니다."
+}

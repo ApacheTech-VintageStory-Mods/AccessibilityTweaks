@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Habilitado:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Nivel de brillo de la escena: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Brillo:",
+    "Features.SceneBrightness.Description":  "Ayuda a las personas con sensibilidad a la luz, y para los creadores de contenido, compensando las tasas de compresión en YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Brillo de escena habilitado: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Cambia el nivel de brillo de la escena.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Alterna el modo súper brillante.",
+    "Features.SceneBrightness.Dialogue.Title":  "Ajustes de brillo de la escena"
+}

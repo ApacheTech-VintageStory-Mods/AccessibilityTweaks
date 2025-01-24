@@ -1322,7 +1322,7 @@
             </Assembly>
             <Assembly AssemblyName="Polly, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -1334,7 +1334,7 @@
             </Assembly>
             <Assembly AssemblyName="Polly.Core, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -1617,6 +1617,30 @@
             <Assembly AssemblyName="ApacheTech.Common.BrighterSlim, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
                     <Pruning Prune="0">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="ApacheTech.Common.FunctionalCSharp, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Humanizer, Culture=neutral, PublicKeyToken=979442b78dfc278e">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />

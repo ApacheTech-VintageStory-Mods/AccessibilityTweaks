@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Prepína vykresľovanie efektov hmly.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Prepína vykresľovanie efektov častíc dažďových kvapiek.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Prepína vykresľovanie bleskových svetelných efektov.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Efekty hmly:",
+    "Features.WeatherEffects.Dialogue.Title":  "Vplyvy počasia",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Oblaky:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Prach:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Účinky hmly:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Prepína vykresľovanie oblakov.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Prepína vykresľovanie časticových efektov snehových vločiek.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Blesky blikajú:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Prepína vykresľovanie efektov hmly.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Snehové vločky:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Kvapky:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Prepína vykresľovanie efektov prachových častíc.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Krupobitie:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Prepína vykresľovanie efektov častíc krupobitia."
+}

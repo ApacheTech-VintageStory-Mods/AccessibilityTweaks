@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Przełącza renderowanie efektów mgły.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Przełącza renderowanie efektów cząsteczkowych kropli deszczu.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Przełącza renderowanie efektów błyskawic.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Efekty mgły:",
+    "Features.WeatherEffects.Dialogue.Title":  "Efekty pogodowe",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Chmury:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Kurz:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Efekty mgły:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Przełącza renderowanie chmur.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Przełącza renderowanie efektów cząsteczkowych płatków śniegu.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Błyskawice błyskawicy:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Przełącza renderowanie efektów mgły.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Płatki śniegu:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Krople deszczu:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Przełącza renderowanie efektów cząsteczek kurzu.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Grad:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Przełącza renderowanie efektów cząsteczkowych gradu."
+}

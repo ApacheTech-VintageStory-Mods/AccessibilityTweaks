@@ -4,7 +4,7 @@
 ///     Represents the settings for the Sound Effects feature.
 /// </summary>
 [JsonObject]
-public sealed class SoundEffectsSettings : FeatureSettings
+public sealed class SoundEffectsSettings : FeatureSettings<SoundEffectsSettings>
 {
     /// <summary>
     ///     Gets or sets a value indicating whether to temporarily mute all game sounds.
@@ -16,5 +16,5 @@ public sealed class SoundEffectsSettings : FeatureSettings
     ///     Represents a list of all the sound files used by the game, including those added by mods.
     /// </summary>
     /// <value>A dictionary of sound files, with the asset path as the key.</value>
-    public Dictionary<string, VolumeOverrideModel> SoundAssets { get; set; } = new();
+    public Dictionary<string, VolumeOverrideModel> SoundAssets { get; set; } = [];
 }

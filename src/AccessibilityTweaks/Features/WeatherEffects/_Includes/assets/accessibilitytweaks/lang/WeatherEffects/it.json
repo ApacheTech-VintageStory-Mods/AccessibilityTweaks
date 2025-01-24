@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti nebbia.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti particellari delle gocce di pioggia.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti di luce lampeggiante dei fulmini.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Effetti della nebbia:",
+    "Features.WeatherEffects.Dialogue.Title":  "Effetti meteorologici",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Nuvole:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Polvere:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Effetti della nebbia:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Attiva/disattiva il rendering delle nuvole.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti particellari del fiocco di neve.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Lampi di fulmini:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti di nebbia.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Fiocchi:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Gocce:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti delle particelle di polvere.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Grandine:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Attiva/disattiva il rendering degli effetti particellari di chicco di grandine."
+}

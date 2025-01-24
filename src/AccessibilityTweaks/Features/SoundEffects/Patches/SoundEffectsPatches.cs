@@ -6,7 +6,6 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Patch
 ///     Harmony Patches for the <see cref="ILoadedSound"/> concrete implementation. This class cannot be inherited.
 /// </summary>
 /// <seealso cref="SoundEffectsSettings" />
-[SettingsConsumer(EnumAppSide.Client)]
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed partial class SoundEffectsPatches : WorldSettingsConsumer<SoundEffectsSettings>;

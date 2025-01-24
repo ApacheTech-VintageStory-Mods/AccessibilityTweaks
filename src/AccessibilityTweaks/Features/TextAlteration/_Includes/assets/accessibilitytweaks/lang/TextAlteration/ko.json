@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "텍스트 변경",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "굶주리고 있을 때:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "술에 취한 상태에서 채팅 텍스트의 자동 변경을 활성화/비활성화합니다.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "굶주린 동안 채팅 텍스트의 자동 변경을 활성화/비활성화합니다.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "술에 취한 상태:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Enable/Disable the automatic alteration of chat text during a temporal storm(일시적인 폭풍 동안 채팅 텍스트의 자동 변경을 활성화/비활성화합니다).",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "일시적인 폭풍 동안:"
+}

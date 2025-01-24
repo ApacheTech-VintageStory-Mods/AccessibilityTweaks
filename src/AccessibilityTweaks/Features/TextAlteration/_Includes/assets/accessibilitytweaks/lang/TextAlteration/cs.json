@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Změna textu",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Při hladovění:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Povolit/zakázat automatickou změnu textu chatu pod vlivem alkoholu.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Povolit/zakázat automatickou změnu textu chatu při hladovění.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "V opilosti:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Povolí/zakáže automatickou změnu textu chatu během časového zahlcení.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Během časových bouří:"
+}

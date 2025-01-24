@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Povolené:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Úroveň jasu scény: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Jas:",
+    "Features.SceneBrightness.Description":  "Pomáha ľuďom s citlivosťou na svetlo a tvorcom obsahu kompenzuje mieru kompresie na YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Povolený jas scény: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Zmení úroveň jasu scény.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Prepnite režim super svetla.",
+    "Features.SceneBrightness.Dialogue.Title":  "Nastavenia jasu scény"
+}

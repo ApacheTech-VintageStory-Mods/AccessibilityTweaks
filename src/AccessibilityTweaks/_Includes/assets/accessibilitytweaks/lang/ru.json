@@ -1,18 +1,13 @@
-{
-  "ModTitle": "Центр Доступности",
-  "ModDescription": "Изменения \"качества жизни\" в помощь создателям контента, а также лицам с эпилепсией, связанной с движением/светом/шумом, или чувствительностью к свету.",
-
-  "Features.AccessibilityHub.Dialogue.VisualEffects": "Настройки визуальных эффектов",
-  "Features.AccessibilityHub.Dialogue.SoundEffects": "Настройки звуковых эффектов",
-  "Features.AccessibilityHub.Dialogue.ColourCorrection": "Цветокоррекция",
-  "Features.AccessibilityHub.Dialogue.SceneBrightness": "Яркость сцены",
-
-  "Features.AccessibilityHub.Dialogue.Support": "Поддержите автора мода",
-  "Features.Support.Dialogue.Donate": "Пожертвовать через PayPal",
-  "Features.Support.Dialogue.Coffee": "Купить мне кофе",
-  "Features.Support.Dialogue.Twitch": "Подписаться на Twitch.tv",
-  "Features.Support.Dialogue.YouTube": "Подписаться на YouTube",
-  "Features.Support.Dialogue.WishList": "Список желаний Amazon",
-  "Features.Support.Dialogue.Website": "Посетите мой сайт",
-  "Features.Support.Dialogue.Back": "Назад"
+﻿{
+    "ModTitle":  "Настройки специальных возможностей",
+    "Features.Support.Dialogue.Twitch":  "Подпишитесь на Twitch.tv",
+    "Features.Support.Dialogue.Patreon":  "Присоединиться к моему Patreon",
+    "ModDescription":  "Изменение качества жизни в помощь создателям контента, а также людям с эпилепсией или светочувствительностью, затронутыми движением/светом/шумом.",
+    "Features.Support.Dialogue.YouTube":  "Подписаться на YouTube",
+    "Features.Support.Dialogue.WishList":  "Список желаний Amazon",
+    "Features.AccessibilityHub.Dialogue.Support":  "Поддержите автора мода",
+    "Features.Support.Dialogue.Coffee":  "Купи мне кофе",
+    "Features.Support.Dialogue.Back":  "Назад",
+    "Features.Support.Dialogue.Website":  "Посетите мой сайт",
+    "Features.Support.Dialogue.Donate":  "Пожертвовать через PayPal"
 }

@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Ändring av text",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Medan du svälter:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktivera/inaktivera automatisk ändring av chatttext när du är berusad.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktivera/inaktivera den automatiska ändringen av chatttext medan du svälter.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "När du är berusad:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktivera/inaktivera automatisk ändring av chatttext under en temporal storm.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Under temporala stormar:"
+}

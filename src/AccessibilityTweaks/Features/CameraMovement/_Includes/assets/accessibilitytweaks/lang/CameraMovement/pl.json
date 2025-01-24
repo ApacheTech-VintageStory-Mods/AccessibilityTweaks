@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Ruch kamery",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Zezwalaj/Nie zezwalaj grze na poruszanie myszą bez Twojej zgody.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Podskakiwanie trzymanego przedmiotu:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Włącza/wyłącza efekt \"chybotania\" trzymanych przedmiotów.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Siła drgań aparatu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak bardzo świat zakrzywia się podczas burzy czasowej.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Siła usterki:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mimowolne ruchy myszy:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Siła wypaczenia percepcji:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak bardzo świat zakrzywia się podczas burzy czasowej.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Dreszcze, odrzut po trafieniu i inne efekty dotykowego sprzężenia zwrotnego.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globalna siła wypaczenia:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak bardzo świat się zakrzywia, kiedy jesteś pijany\"."
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Alteração de texto",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Enquanto morre de fome:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Ativar/desativar a alteração automática do texto do chat enquanto estiver embriagado.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Ativar/desativar a alteração automática do texto do bate-papo enquanto estiver morrendo de fome.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Enquanto embriagado:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Ativar/desativar a alteração automática do texto do chat durante uma tempestade temporal.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Durante tempestades temporais:"
+}

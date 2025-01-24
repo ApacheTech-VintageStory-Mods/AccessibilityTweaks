@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "카메라 움직임",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "게임이 허락 없이 마우스를 움직이는 것을 허용/허용하지 않습니다.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "보류 항목 보빙:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "들고 있는 항목의 \u0027흔들림\u0027 효과를 활성화/비활성화합니다.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "카메라 흔들림 강도:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "일시적인 폭풍이 몰아치는 동안 세상이 얼마나 뒤틀리는지.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "글리치 강도:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "비자발적 마우스 움직임:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "지각 워프 강도:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "일시적인 폭풍이 몰아치는 동안 세상이 얼마나 뒤틀리는지.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "떨림, 피격 시 반동, 기타 햅틱 피드백 효과.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "글로벌 워프 강도:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "당신이 술에 취해 있는 동안 세상이 얼마나 뒤틀리는지\u0027."
+}

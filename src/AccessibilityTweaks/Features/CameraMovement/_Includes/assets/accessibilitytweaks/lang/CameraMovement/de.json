@@ -1,21 +1,15 @@
-{
-  "Features.CameraMovement.Dialogue.Title": "Kamerabewegung",
-
-  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier": "Globale Warp-Stärke:",
-  "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText": "Wie stark sich die Welt während eines zeitlichen Sturms verformt.",
-
-  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier": "Stärke der Wahrnehmungsverwerfung:",
-  "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText": "Wie stark sich die Welt verzieht, während Sie betrunken sind",
-
-  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier": "Glitch-Stärke:",
-  "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText": "Wie stark sich die Welt während eines temporalen Sturms verzieht.",
-
-  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier": "Kameraverwacklungsstärke:",
-  "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText": "Zittern, Rückstoß bei Treffern und andere haptische Rückkopplungseffekte.",
-
-  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement": "Unwillkürliche Mausbewegung:",
-  "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText": "Erlauben/verhindern, dass das Spiel Ihre Maus ohne Ihre Erlaubnis bewegt.",
-
-  "Features.CameraMovement.Dialogue.lblHeldItemBobbing": "Gehaltener Gegenstand wippt:",
-  "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText": "Aktiviert/Deaktiviert den 'Wackel'-Effekt von gehaltenen Gegenständen."
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamerabewegung",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Erlauben/verbieten Sie dem Spiel, Ihre Maus ohne Ihre Erlaubnis zu bewegen.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Wippen von gehaltenen Gegenständen:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Aktiviert/deaktiviert den \"Wobble\"-Effekt von gehaltenen Elementen.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Stärke der Kameraverwacklungen:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Wie sehr sich die Welt während eines zeitlichen Sturms verzerrt.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-Stärke:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Unwillkürliche Mausbewegungen:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Stärke der Wahrnehmungsverzerrung:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Wie sehr sich die Welt während eines zeitlichen Sturms verzerrt.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Zittern, Rückstoß bei Treffer und andere haptische Feedback-Effekte.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globale Warp-Stärke:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Wie sehr sich die Welt verzieht, wenn du betrunken bist\u0027."
 }

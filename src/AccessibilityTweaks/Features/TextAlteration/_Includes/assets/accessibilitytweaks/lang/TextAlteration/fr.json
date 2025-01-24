@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Modification de texte",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "En mourant de faim :",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Activer/désactiver la modification automatique du texte du chat en état d’ébriété.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Activez/désactivez la modification automatique du texte du chat pendant la famine.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "En état d’ébriété :",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Activer/désactiver la modification automatique du texte du chat pendant une tempête temporelle.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Pendant les tempêtes temporelles :"
+}

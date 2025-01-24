@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Рух камери",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Дозволити/заборонити грі рухати мишею без вашого дозволу.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Утримуваний предмет гойдання:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Вмикає/вимикає ефект «хитання» утримуваних предметів.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сила тремтіння камери:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Як сильно викривляється світ під час тимчасової бурі.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сила збою:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Мимовільний рух миші:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сила деформації сприйняття:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Як сильно викривляється світ під час тимчасової бурі.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Тремтіння, віддача при ударі та інші ефекти тактильного зворотного зв\u0027язку.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Глобальна сила деформації:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Як сильно спотворюється світ, поки ти п\u0027яний»."
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Aktiverat:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Nivå för scenens ljusstyrka: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Intelligens:",
+    "Features.SceneBrightness.Description":  "Hjälper människor med ljuskänslighet, och för innehållsskapare, kompenserar för komprimeringshastigheter på YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Scenens ljusstyrka aktiverad: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Ändrar scenens ljusstyrka.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Växla Super Bright-läge.",
+    "Features.SceneBrightness.Dialogue.Title":  "Inställningar för scenens ljusstyrka"
+}

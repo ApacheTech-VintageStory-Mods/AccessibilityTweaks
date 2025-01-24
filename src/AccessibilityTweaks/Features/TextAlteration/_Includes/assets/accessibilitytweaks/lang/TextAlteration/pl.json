@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Zmiana tekstu",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Podczas głodu:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Włącz/wyłącz automatyczną zmianę tekstu czatu, gdy jesteś nietrzeźwy.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Włącz/wyłącz automatyczną zmianę tekstu czatu podczas głodu.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "W stanie nietrzeźwości:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Włącz/wyłącz automatyczną zmianę tekstu czatu podczas burzy czasowej.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Podczas burz czasowych:"
+}

@@ -32,7 +32,7 @@ public sealed partial class SoundEffectsPatches
     /// <param name="__instance">The instance of <see cref="ILoadedSound"/> this patch has been applied to.</param>
     /// <param name="val">The <see cref="float"/> value passed into the original method.</param>
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(LoadedSoundNative), "SetPitchOffset")]
+    [HarmonyPatch(typeof(LoadedSoundNative), nameof(LoadedSoundNative.SetPitchOffset))]
     public static void Patch_LoadedSoundNative_SetPitchOffset_Prefix(ILoadedSound __instance, ref float val)
     {
         var path = __instance.Params.Location?.ToString();

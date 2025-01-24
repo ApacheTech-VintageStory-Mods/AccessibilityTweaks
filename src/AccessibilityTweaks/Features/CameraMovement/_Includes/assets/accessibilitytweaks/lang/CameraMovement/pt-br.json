@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Movimento da câmera",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permitir/Proibir que o jogo mova o mouse sem sua permissão.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Item Segurado Balançando:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Ativa/desativa o efeito de \"oscilação\" dos itens retidos.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Força da trepidação da câmera:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Quanto o mundo se deforma durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Força da falha:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento involuntário do mouse:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Força de distorção de percepção:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Quanto o mundo se deforma durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Tremores, recuo ao ser atingido e outros efeitos de feedback tátil.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Força de dobra global:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "O quanto o mundo se deforma enquanto você está bêbado\u0027."
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamerans rörelser",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillåt/Neka spelet från att flytta musen utan din tillåtelse.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Hållna föremål guppar:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Aktiverar/inaktiverar \"vingling\"-effekten för kvarhållna objekt.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamerans skakstyrka:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hur mycket världen vrider sig under en temporär storm.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch styrka:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ofrivilliga musrörelser:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perception Warp Styrka:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hur mycket världen vrider sig under en temporär storm.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skakningar, rekyl när de träffas och andra haptiska återkopplingseffekter.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp Styrka:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hur mycket världen förvrider sig när du är full\"."
+}

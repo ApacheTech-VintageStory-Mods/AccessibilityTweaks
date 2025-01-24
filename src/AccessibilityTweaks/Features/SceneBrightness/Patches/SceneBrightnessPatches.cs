@@ -6,7 +6,6 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Pa
 ///     Harmony Patches for the <see cref="ClientGameCalendar"/> class. This class cannot be inherited.
 /// </summary>
 /// <seealso cref="SceneBrightnessSettings" />
-[SettingsConsumer(EnumAppSide.Client)]
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed partial class SceneBrightnessPatches : WorldSettingsConsumer<SceneBrightnessSettings>;

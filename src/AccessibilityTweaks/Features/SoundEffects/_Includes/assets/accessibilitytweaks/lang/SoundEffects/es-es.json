@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volumen:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Alquitrán:",
+    "Features.SoundEffects.Dialogue.Title":  "Efectos de sonido",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Buscar:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Los efectos de sonido silenciados no se pueden escuchar.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Reproducir sonido",
+    "Features.SoundEffects.Dialogue.lblMute":  "Mudo:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtra los efectos de sonido, por nombre.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Mostrar solo los sonidos que se están reproduciendo actualmente:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Cambia el volumen relativo del efecto de sonido.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Cambia el tono relativo del efecto de sonido. Esto puede ayudar a las personas con tinnitus u otros problemas de pérdida auditiva.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Arreglar sonidos rotos"
+}

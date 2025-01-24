@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Обсяг:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Крок:",
+    "Features.SoundEffects.Dialogue.Title":  "Звукові ефекти",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Шукати:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Приглушені звукові ефекти не чутно.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Відтворити звук",
+    "Features.SoundEffects.Dialogue.lblMute":  "Відключення:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Фільтруйте звукові ефекти за назвою.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Показувати лише звуки, що відтворюються в даний момент:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Змініть відносну гучність звукового ефекту.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Змініть відносну висоту звукового ефекту. Це може допомогти людям із шумом у вухах або іншими проблемами втрати слуху.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Виправте зламані звуки"
+}

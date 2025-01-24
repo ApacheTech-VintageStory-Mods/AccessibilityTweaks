@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volumen:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Bacanje:",
+    "Features.SoundEffects.Dialogue.Title":  "Zvučni efekti",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Pretrage:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Prigušeni zvučni efekti se ne mogu čuti.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Igraj zvuk",
+    "Features.SoundEffects.Dialogue.lblMute":  "Nem:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrirajte zvučne efekte, po imenu.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Prikazuju se samo trenutno svirani zvukovi:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Promenite relativnu jačinu zvuka efekta.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Promenite relativnu visinu zvučnog efekta. Ovo može da pomogne ljudima sa tinitusom, ili drugim problemima sa gubitkom sluha.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Popravite slomljene zvukove"
+}

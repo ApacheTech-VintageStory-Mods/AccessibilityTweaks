@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Prebacuje prikazivanje efekata magle.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Prebacuje prikazivanje efekata čestica kišnih kapi.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Prebacuje prikazivanje munje treperi svetlosnih efekata.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Efekti magle:",
+    "Features.WeatherEffects.Dialogue.Title":  "Vremenski efekti",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Oblaci:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Praљina:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Magla Efekti:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Prebacuje prikazivanje oblaka.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Prebacuje rendering efekata čestica pahuljice.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Munja bljeska:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Prebacuje prikazivanje efekata magle.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Pahuljice:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Kapi kiše:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Prebacuje rendering efekata čestica prašine.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Hailstones:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Prebacuje prikazivanje efekata čestica grada."
+}

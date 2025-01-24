@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Omogućen:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Nivo osvetljenosti scene: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Svetline:",
+    "Features.SceneBrightness.Description":  "Pomaže ljudima sa osetljivošću na svetlost, a kreatorima sadržaja, kompenzujući stope kompresije na IouTube-u / Tvitch-u.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Osvetljenost scene omogućena: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Menja nivo osvetljenosti scene.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Toggle Super Bright Mode.",
+    "Features.SceneBrightness.Dialogue.Title":  "Podešavanja osvetljenosti scene"
+}

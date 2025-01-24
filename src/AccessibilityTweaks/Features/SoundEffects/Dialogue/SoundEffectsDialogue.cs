@@ -100,10 +100,8 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
             }
             catch (Exception exception)
             {
-                ApiEx.Client!.Logger.Error("[AccessibilityTweaks] Error caught while loading sound effects from settings file.");
-                ApiEx.Client!.Logger.Error(exception.Message);
-                ApiEx.Client!.Logger.Error(exception.StackTrace);
-                return new List<VolumeOverrideCellEntry>();
+                ApiEx.Logger.Error(exception);
+                return [];
             }
         }
         return list;
@@ -148,7 +146,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
             .AddInteractiveElement(_cellList)
             .EndClip()
                 
-            .AddSmallButton(LangEntry("RightButtonText"), OnRightButtonPressed,
+            .AddSmallButton(T("RightButtonText"), OnRightButtonPressed,
                 controlRowBoundsCentreFixed.FixedUnder(insetBounds, 10.0));
     }
         
@@ -157,8 +155,8 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
         const int switchSize = 30;
         const int gapBetweenRows = 20;
         var font = CairoFont.WhiteSmallText();
-        var lblSearchText = LangEntry("lblSearch");
-        var lblCurrentlyPlayingText = LangEntry("lblCurrentlyPlaying");
+        var lblSearchText = T("lblSearch");
+        var lblCurrentlyPlayingText = T("lblCurrentlyPlaying");
 
         var lblSearchTextLength = font.GetTextExtents(lblSearchText).Width + 10;
         var lblCurrentlyPlayingTextLength = font.GetTextExtents(lblCurrentlyPlayingText).Width + 10;
@@ -167,7 +165,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
         var right = ElementBounds.Fixed(lblSearchTextLength + 10, 0, 200, switchSize).FixedUnder(bounds, 3);
 
         composer.AddStaticText(lblSearchText, font, EnumTextOrientation.Left, left);
-        composer.AddAutoSizeHoverText(LangEntry("lblSearch.HoverText"), font, 160, left);
+        composer.AddAutoSizeHoverText(T("lblSearch.HoverText"), font, 160, left);
         composer.AddTextInput(right, OnFilterTextChanged);
 
         right = ElementBounds.FixedSize(EnumDialogArea.RightFixed, switchSize, switchSize).FixedUnder(bounds, 3);

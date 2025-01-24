@@ -6,7 +6,7 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects;
 /// <summary>
 ///     Settings for weather effects.
 /// </summary>
-public sealed class WeatherEffectsSettings : FeatureSettings
+public sealed class WeatherEffectsSettings : FeatureSettings<WeatherEffectsSettings>
 {
     /// <summary>
     ///     Gets or sets a value indicating whether rain particle effects should be rendered, or not.

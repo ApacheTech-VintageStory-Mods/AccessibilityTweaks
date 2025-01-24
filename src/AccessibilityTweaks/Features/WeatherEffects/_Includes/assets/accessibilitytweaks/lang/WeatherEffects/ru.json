@@ -1,27 +1,19 @@
-{
-  "Features.WeatherEffects.Dialogue.Title": "Погодные эффекты",
-
-  "Features.WeatherEffects.Dialogue.lblCloudsEnabled": "Облака:",
-  "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText": "Переключает отрисовку облаков.",
-
-  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled": "Пыль:",
-  "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText": "Переключает отрисовку эффектов частиц пыли.",
-
-  "Features.WeatherEffects.Dialogue.lblFogEnabled": "Эффекты тумана:",
-  "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText": "Переключает отрисовку эффектов тумана.",
-
-  "Features.WeatherEffects.Dialogue.lblMistEnabled": "Эффекты наземного тумана:",
-  "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText": "Переключает рендеринг эффектов наземного тумана.",
-
-  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled": "Град:",
-  "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText": "Переключает отрисовку эффектов частиц града.",
-
-  "Features.WeatherEffects.Dialogue.lblLightningEnabled": "Вспышки молний:",
-  "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText": "Переключает отрисовку световых эффектов молнии.",
-
-  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled": "Дождевые капли:",
-  "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText": "Переключает отрисовку эффектов частиц дождя.",
-
-  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled": "Снежинки:",
-  "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText": "Переключает отрисовку эффектов частиц снежинок."
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Переключение рендеринга эффектов тумана.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Переключает рендеринг эффектов частиц дождя.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Переключает рендеринг эффектов мигающего света молнии.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Эффекты тумана:",
+    "Features.WeatherEffects.Dialogue.Title":  "Погодные условия",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Облака:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Пыль:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Эффекты тумана:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Переключение рендеринга облаков.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Переключает рендеринг эффектов снежинок.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Вспышки молнии:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Переключение рендеринга эффектов тумана.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Снежинки:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Капли дождя:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Переключение рендеринга эффектов частиц пыли.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Град:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Переключение рендеринга эффектов частиц града."
 }

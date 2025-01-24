@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Tekstwijziging",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Terwijl je honger lijdt:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Schakel de automatische wijziging van chattekst in of uit terwijl u dronken bent.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Schakel de automatische wijziging van chattekst in / uit terwijl u honger lijdt.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Terwijl u dronken bent:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Schakel de automatische wijziging van chattekst in of uit tijdens een tijdelijke storm.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Tijdens tijdelijke stormen:"
+}

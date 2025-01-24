@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Pohyb kamery",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povolí/zakáže hře pohybovat myší bez vašeho svolení.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Držená položka Bobbing:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Povolí/zakáže efekt \"kolísání\" držených položek.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Síla chvění fotoaparátu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak moc se svět zdeformuje během časové bouře.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Síla závad:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nedobrovolný pohyb myši:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Síla pokřivení vnímání:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak moc se svět zdeformuje během časové bouře.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Chvění, zpětný ráz při zásahu a další efekty haptické zpětné vazby.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globální warpová síla:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak moc se svět deformuje, když jsi opilý.\""
+}

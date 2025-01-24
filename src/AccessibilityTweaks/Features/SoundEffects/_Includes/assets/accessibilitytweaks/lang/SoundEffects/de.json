@@ -1,11 +1,14 @@
-{
-  "Features.SoundEffects.Dialogue.Title": "Soundeffekte",
-  "Features.SoundEffects.Dialogue.RightButtonText": "Defekte Töne beheben",
-  "Features.SoundEffects.Dialogue.lblVolume": "Lautstärke:",
-  "Features.SoundEffects.Dialogue.lblVolume.HoverText": "Ändert die relative Lautstärke von Soundeffekten.",
-  "Features.SoundEffects.Dialogue.lblMute": "Stumm schalten:",
-  "Features.SoundEffects.Dialogue.lblMute.HoverText": "Stummgeschaltete Soundeffekte sind nicht hörbar.",
-  "Features.SoundEffects.Dialogue.lblPitch": "Tonhöhe:",
-  "Features.SoundEffects.Dialogue.lblPitch.HoverText": "Ändert die relative Tonhöhe des Soundeffekts. Dies kann Menschen mit Tinnitus oder anderen Problemen mit Hörverlust helfen.",
-  "Features.SoundEffects.Dialogue.PlaySound": "Ton abspielen"
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volumen:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Pech:",
+    "Features.SoundEffects.Dialogue.Title":  "Geräuscheffekte",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Suchen:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Stummgeschaltete Soundeffekte sind nicht hörbar.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Ton abspielen",
+    "Features.SoundEffects.Dialogue.lblMute":  "Stumm:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtern Sie Soundeffekte nach Namen.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Nur aktuell abgespielte Sounds anzeigen:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ändern Sie die relative Lautstärke des Soundeffekts.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Ändern Sie die relative Tonhöhe des Soundeffekts. Dies kann Menschen mit Tinnitus oder anderen Problemen mit Hörverlust helfen.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Reparieren Sie defekte Sounds"
 }

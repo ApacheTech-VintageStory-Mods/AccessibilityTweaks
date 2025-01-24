@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Hlasitost:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Hřiště:",
+    "Features.SoundEffects.Dialogue.Title":  "Zvukové efekty",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Hledání:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Ztlumené zvukové efekty nejsou slyšet.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Přehrát zvuk",
+    "Features.SoundEffects.Dialogue.lblMute":  "Ztlumit:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrovat zvukové efekty podle názvu.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Zobrazit pouze aktuálně přehrávané zvuky:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Změňte relativní hlasitost zvukového efektu.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Změňte relativní výšku zvukového efektu. To může pomoci lidem s tinnitem nebo jinými problémy se ztrátou sluchu.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Opravte nefunkční zvuky"
+}

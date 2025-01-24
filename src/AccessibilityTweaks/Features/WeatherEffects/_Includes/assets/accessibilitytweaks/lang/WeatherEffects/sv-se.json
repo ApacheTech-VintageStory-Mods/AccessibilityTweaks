@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Växlar återgivningen av dimeffekter.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Växlar återgivningen av effekter på regndroppspartiklar.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Växlar återgivningen av blixtrande ljuseffekter.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Dimma effekter:",
+    "Features.WeatherEffects.Dialogue.Title":  "Vädereffekter",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Moln:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Damm:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Dimma Effekter:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Växlar återgivningen av moln.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Växlar återgivningen av snöflingepartikeleffekter.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Blixten blinkar:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Växlar återgivningen av dimeffekter.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Snöflingor:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Regndroppar:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Växlar återgivningen av dammpartikeleffekter.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Hagelkorn:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Växlar återgivningen av hagelstenspartikeleffekter."
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Mouvement de la caméra",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Autoriser/Interdire au jeu de déplacer votre souris sans votre permission.",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "Objet tenu :",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "Active/désactive l’effet d’oscillation des objets tenus.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Force de bougé de l’appareil photo :",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "À quel point le monde se déforme lors d’une tempête temporelle.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Force du glitch :",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mouvement involontaire de la souris :",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Force de distorsion de perception :",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "À quel point le monde se déforme lors d’une tempête temporelle.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Frissons, recul lorsqu’on est touché et autres effets de retour haptique.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Force de distorsion globale :",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Comme le monde se déforme pendant que vous êtes ivre\"."
+}

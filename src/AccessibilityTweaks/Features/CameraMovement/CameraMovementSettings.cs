@@ -3,7 +3,7 @@
 /// <summary>
 ///     Settings for involuntary camera and mouse movements.
 /// </summary>
-public sealed class CameraMovementSettings : FeatureSettings
+public sealed class CameraMovementSettings : FeatureSettings<CameraMovementSettings>
 {
     /// <summary>
     ///     Limits/Intensifies the strength of Perception Warp Effects within the game.

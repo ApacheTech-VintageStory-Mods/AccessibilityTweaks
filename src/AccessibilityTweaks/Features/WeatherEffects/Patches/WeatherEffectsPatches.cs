@@ -2,7 +2,6 @@
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.WeatherEffects.Patches;
 
-[SettingsConsumer(EnumAppSide.Client)]
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed partial class WeatherEffectsPatches : WorldSettingsConsumer<WeatherEffectsSettings>;

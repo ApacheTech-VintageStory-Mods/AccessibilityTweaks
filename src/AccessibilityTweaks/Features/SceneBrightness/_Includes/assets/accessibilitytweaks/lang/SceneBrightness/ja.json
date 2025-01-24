@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "有効：",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "シーンの明るさレベル:{0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "明るさ：",
+    "Features.SceneBrightness.Description":  "光過敏症の人々を支援し、コンテンツ作成者はYouTube / Twitchの圧縮率を補正します。",
+    "Features.SceneBrightness.Dialogue.Enabled":  "シーンの明るさが有効:{0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "シーンの明るさのレベルを変更します。",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "スーパーブライトモードを切り替えます。",
+    "Features.SceneBrightness.Dialogue.Title":  "シーンの明るさの設定"
+}

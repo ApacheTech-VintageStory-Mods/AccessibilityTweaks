@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "启用：",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "场景亮度级别：{0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "亮度：",
+    "Features.SceneBrightness.Description":  "帮助对光敏感的人，以及对于内容创作者来说，补偿 YouTube / Twitch 上的压缩率。",
+    "Features.SceneBrightness.Dialogue.Enabled":  "启用场景亮度：{0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "更改场景的亮度级别。",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "切换 Super Bright 模式。",
+    "Features.SceneBrightness.Dialogue.Title":  "场景亮度设置"
+}

@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "カメラの動き",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "ゲームがあなたの許可なしにマウスを動かすことを許可/禁止します。",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing":  "ホールドアイテムのボビング:",
+    "Features.CameraMovement.Dialogue.lblHeldItemBobbing.HoverText":  "保持しているアイテムの「ぐらつき」効果を有効/無効にします。",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "手ぶれ強度:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "一時的な嵐の間に世界がどれだけ歪むか。",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "グリッチ強度:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "不随意のマウスの動き:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "パーセプションワープ強度:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "一時的な嵐の間に世界がどれだけ歪むか。",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "震え、ヒット時の反動、その他の触覚フィードバック効果。",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "グローバルワープ強度:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "あなたが酔っている間、世界はどれほど歪んでいるか」。"
+}

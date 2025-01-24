@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volume:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Toonhoogte:",
+    "Features.SoundEffects.Dialogue.Title":  "Geluidseffecten",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Zoeken:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Gedempte geluidseffecten zijn niet hoorbaar.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Geluid afspelen",
+    "Features.SoundEffects.Dialogue.lblMute":  "Stom:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filter geluidseffecten, op naam.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Toon alleen momenteel afgespeelde geluiden:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Wijzig het relatieve volume van het geluidseffect.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Verander de relatieve toonhoogte van het geluidseffect. Dit kan mensen met tinnitus of andere gehoorverliesproblemen helpen.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Repareer gebroken geluiden"
+}

@@ -2,7 +2,6 @@
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches;
 
-[SettingsConsumer(EnumAppSide.Client)]
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.All)]
 public sealed partial class CameraMovementPatches : WorldSettingsConsumer<CameraMovementSettings>;

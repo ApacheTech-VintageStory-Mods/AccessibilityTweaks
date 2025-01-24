@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "تبديل عرض تأثيرات الضباب.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "تبديل عرض تأثيرات جسيمات قطرة المطر.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "تبديل عرض تأثيرات الضوء الوامض البرق.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "تأثيرات الضباب:",
+    "Features.WeatherEffects.Dialogue.Title":  "تأثيرات الطقس",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "سحاب:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "غبار:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "تأثيرات الضباب:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "تبديل عرض السحب.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "تبديل عرض تأثيرات جسيمات ندفة الثلج.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "ومضات البرق:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "تبديل عرض تأثيرات الضباب.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "الثلج:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "قطرات المطر:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "تبديل عرض تأثيرات جزيئات الغبار.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "البرد:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "تبديل عرض تأثيرات جسيمات حجر البرد."
+}

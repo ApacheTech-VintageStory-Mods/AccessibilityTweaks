@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Перемикає візуалізацію ефектів туману.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Перемикає візуалізацію ефектів частинок краплі дощу.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Вмикає або вимикає рендеринг ефектів блискавичного миготіння світла.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Ефекти туману:",
+    "Features.WeatherEffects.Dialogue.Title":  "Погодні ефекти",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Хмари:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Пил:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Ефекти туману:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Вмикає або вимикає візуалізацію хмар.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Вмикає або вимикає візуалізацію ефектів частинок сніжинки.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Спалахи блискавки:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Перемикає візуалізацію ефектів туману.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Сніжинки:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Краплі дощу:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Перемикає візуалізацію ефектів частинок пилу.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Градини:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Перемикає візуалізацію ефектів частинок граду."
+}

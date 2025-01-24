@@ -37,49 +37,49 @@ public sealed class ColourCorrectionDialogue : FeatureSettingsDialogue<ColourCor
         var right = ElementBounds.Fixed(160, GuiStyle.TitleBarHeight, switchSize, switchSize);
 
         var bounds = right.FlatCopy().WithFixedWidth(sliderWidth).WithFixedHeight(GuiStyle.TitleBarHeight + 2.0);
-        composer.AddStaticText(LangEntry("lblEnabled"), font, left);
-        composer.AddHoverText(LangEntry("lblEnabled.HoverText"), font, 260, left);
+        composer.AddStaticText(T("lblEnabled"), font, left);
+        composer.AddHoverText(T("lblEnabled.HoverText"), font, 260, left);
         composer.AddSwitch(OnEnabledToggle, bounds, "btnEnabled");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding + 5);
         right = right.BelowCopy(fixedDeltaY: switchPadding + 5);
 
         var names = Enum.GetNames(typeof(ColourVisionType)).ToArray();
-        var values = names.Select(p => LangEntry($"Presets.{p}")).ToArray();
-        composer.AddStaticText(LangEntry("lblPreset"), font, left);
-        composer.AddHoverText(LangEntry("lblPreset.HoverText"), font, 260, left);
+        var values = names.Select(p => T($"Presets.{p}")).ToArray();
+        composer.AddStaticText(T("lblPreset"), font, left);
+        composer.AddHoverText(T("lblPreset.HoverText"), font, 260, left);
         composer.AddDropDown(names, values, 0, OnSelectionChanged,  right.FlatCopy().WithFixedWidth(sliderWidth), "cbxPresets");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding + 5);
         right = right.BelowCopy(fixedDeltaY: switchPadding + 5);
 
-        composer.AddStaticText(LangEntry("lblRedBalance"), font, left);
-        composer.AddHoverText(LangEntry("lblRedBalance.HoverText"), font, 260, left);
+        composer.AddStaticText(T("lblRedBalance"), font, left);
+        composer.AddHoverText(T("lblRedBalance.HoverText"), font, 260, left);
         composer.AddSlider(OnRedBalanceChanged, right.FlatCopy().WithFixedWidth(sliderWidth), "sliderR");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding);
         right = right.BelowCopy(fixedDeltaY: switchPadding);
 
-        composer.AddStaticText(LangEntry("lblGreenBalance"), font, left);
-        composer.AddHoverText(LangEntry("lblGreenBalance.HoverText"), font, 260, left);
+        composer.AddStaticText(T("lblGreenBalance"), font, left);
+        composer.AddHoverText(T("lblGreenBalance.HoverText"), font, 260, left);
         composer.AddSlider(OnGreenBalanceChanged, right.FlatCopy().WithFixedWidth(sliderWidth), "sliderG");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding);
         right = right.BelowCopy(fixedDeltaY: switchPadding);
 
-        composer.AddStaticText(LangEntry("lblBlueBalance"), font, left);
-        composer.AddHoverText(LangEntry("lblBlueBalance.HoverText"), font, 260, left);
+        composer.AddStaticText(T("lblBlueBalance"), font, left);
+        composer.AddHoverText(T("lblBlueBalance.HoverText"), font, 260, left);
         composer.AddSlider(OnBlueBalanceChanged, right.FlatCopy().WithFixedWidth(sliderWidth), "sliderB");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding);
         right = right.BelowCopy(fixedDeltaY: switchPadding);
 
-        composer.AddStaticText(LangEntry("lblSaturation"), font, left);
-        composer.AddHoverText(LangEntry("lblSaturation.HoverText"), font, 260, left);
+        composer.AddStaticText(T("lblSaturation"), font, left);
+        composer.AddHoverText(T("lblSaturation.HoverText"), font, 260, left);
         composer.AddSlider(OnSaturationChanged, right.FlatCopy().WithFixedWidth(sliderWidth), "sliderS");
 
         left = left.BelowCopy(fixedDeltaY: switchPadding);
-        composer.AddSmallButton(LangEntry("btnReset"), OnResetValues,
+        composer.AddSmallButton(T("btnReset"), OnResetValues,
             left.FlatCopy().WithFixedWidth(360).WithFixedHeight(GuiStyle.TitleBarHeight + 1.0));
     }
 

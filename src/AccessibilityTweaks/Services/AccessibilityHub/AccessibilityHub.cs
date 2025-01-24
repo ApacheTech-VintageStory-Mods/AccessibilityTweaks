@@ -1,7 +1,7 @@
 ﻿using ApacheTech.Common.DependencyInjection.Abstractions;
 using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
-using Gantry.Core.Extensions.GameContent.Gui;
+using Gantry.Core.GameContent.Extensions.Gui;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub;
 
@@ -36,5 +36,5 @@ public sealed class AccessibilityHub : ClientModSystem, IClientServiceRegistrar
     /// <summary>
     ///     The dialogue windows, from features within this mod, that will be displayed within the menu.
     /// </summary>
-    public Dictionary<Type, string> FeatureDialogues { get; } = new();
+    public Dictionary<Type, string> FeatureDialogues { get; } = [];
 }

@@ -6,7 +6,7 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection;
 ///     User definable settings for the Colour Correction feature. Overrides the game's default colour and saturation balance.
 /// </summary>
 [JsonObject]
-public sealed class ColourCorrectionSettings : FeatureSettings
+public sealed class ColourCorrectionSettings : FeatureSettings<ColourCorrectionSettings>
 {
     /// <summary>
     ///     Represents a value indicating whether the colour correction shader is enabled, or not.

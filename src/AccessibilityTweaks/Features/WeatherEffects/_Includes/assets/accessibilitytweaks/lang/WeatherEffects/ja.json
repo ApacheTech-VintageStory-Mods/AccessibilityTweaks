@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "フォグ効果のレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "雨滴のパーティクルエフェクトのレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "稲妻の点滅するライト効果のレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "フォグエフェクト:",
+    "Features.WeatherEffects.Dialogue.Title":  "天候の影響",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "雲：",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "塵：",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "ミストエフェクト:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "雲のレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "雪の結晶のパーティクル エフェクトのレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "稲妻が点滅する:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "ミスト効果のレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "雪：",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "点滴：",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "ダスト パーティクル エフェクトのレンダリングを切り替えます。",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "雹：",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "雹石のパーティクル エフェクトのレンダリングを切り替えます。"
+}

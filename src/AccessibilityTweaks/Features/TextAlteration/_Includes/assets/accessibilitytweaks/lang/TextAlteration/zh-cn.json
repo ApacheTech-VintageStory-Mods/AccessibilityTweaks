@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "文本更改",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "饥饿时：",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "启用/禁用醉酒时自动更改聊天文本。",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "启用/禁用饥饿时自动更改聊天文本。",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "醉酒时：",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "启用/禁用在临时风暴期间自动更改聊天文本。",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "在时间风暴期间："
+}

@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volume:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Tanguer:",
+    "Features.SoundEffects.Dialogue.Title":  "Effets sonores",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Rechercher:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Les effets sonores en sourdine ne sont pas audibles.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Jouer le son",
+    "Features.SoundEffects.Dialogue.lblMute":  "Muet:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrez les effets sonores, par nom.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Seul spectacle actuellement en cours de lecture des sons :",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Modifiez le volume relatif de l’effet sonore.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Modifiez la hauteur relative de l’effet sonore. Cela peut aider les personnes souffrant d’acouphènes ou d’autres problèmes de perte auditive.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Réparer les sons cassés"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Izmena teksta",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Dok gladuje:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Omogućite / onemogućite automatsku promenu teksta ćaskanja u pijanom stanju.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Omogućite / onemogućite automatsku promenu teksta ćaskanja dok gladujete.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "U pijanom stanju:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Omogućite / onemogućite automatsku promenu teksta ćaskanja tokom vremenske oluje.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Tokom vremenskih oluja:"
+}

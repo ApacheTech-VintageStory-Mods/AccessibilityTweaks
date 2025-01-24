@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volym:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Tonhöjd:",
+    "Features.SoundEffects.Dialogue.Title":  "Ljudeffekter",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Söka:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Dämpade ljudeffekter hörs inte.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Spela upp ljud",
+    "Features.SoundEffects.Dialogue.lblMute":  "Stum:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrera ljudeffekter efter namn.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Visa endast ljud som spelas upp:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ändra den relativa volymen för ljudeffekten.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Ändra den relativa tonhöjden för ljudeffekten. Detta kan hjälpa personer med tinnitus eller andra problem med hörselnedsättning.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Fixa trasiga ljud"
+}
