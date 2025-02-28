@@ -20,7 +20,7 @@ public sealed class SystemTemporalStabilityPatches : WorldSettingsConsumer<Camer
     [HarmonyPatch(typeof(EntityBehaviorTemporalStabilityAffected), "OnGameTick")]
     public static IEnumerable<CodeInstruction> Patch_EntityBehaviorTemporalStabilityAffected_OnGameTick_Transpiler(IEnumerable<CodeInstruction> instructions)
         => instructions.Select(codeInstruction => codeInstruction.Is(OpCodes.Ldc_R8, 0.002d)
-            ? CodeInstruction.Call(typeof(CameraMovementPatches), nameof(InvoluntaryMouseMovement))
+            ? CodeInstruction.Call(typeof(SystemTemporalStabilityPatches), nameof(InvoluntaryMouseMovement))
             : codeInstruction);
 
     private static double InvoluntaryMouseMovement() => Settings.InvoluntaryMouseMovement ? 0.002d : 0d;

@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches;
+﻿using Gantry.Services.FileSystem.Configuration.Consumers;
+
+namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches;
 
 // ReSharper disable InconsistentNaming
 
@@ -6,7 +8,7 @@
 ///     Harmony Patches for the <see cref="DrunkPerceptionEffect"/> class. This class cannot be inherited.
 /// </summary>
 /// <seealso cref="CameraMovementSettings" />
-public sealed partial class CameraMovementPatches
+public sealed class FreezingPerceptionEffectPatches : WorldSettingsConsumer<CameraMovementSettings>
 {
     /// <summary>
     ///     Applies a <see cref="HarmonyPrefix"/> patch to the "ApplyMotionEffects" method in the <see cref="FreezingPerceptionEffect"/> class.
