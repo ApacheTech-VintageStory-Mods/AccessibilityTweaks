@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{124A422C
 	ProjectSection(SolutionItems) = preProject
 		src\Directory.Build.props = src\Directory.Build.props
 		src\Directory.Build.targets = src\Directory.Build.targets
+		gitupdate.bat = gitupdate.bat
+		reallyRefresh.bat = reallyRefresh.bat
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessibilityTweaks", "src\AccessibilityTweaks\AccessibilityTweaks.csproj", "{604CC1D4-43D0-4BE3-B3AD-856C5A51F037}"
