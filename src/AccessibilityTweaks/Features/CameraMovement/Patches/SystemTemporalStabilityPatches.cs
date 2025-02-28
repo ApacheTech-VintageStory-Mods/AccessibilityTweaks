@@ -1,14 +1,16 @@
 ﻿// ReSharper disable InconsistentNaming
 
 using System.Reflection.Emit;
+using Gantry.Services.FileSystem.Configuration.Consumers;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches;
 
 /// <summary>
 ///     Harmony Patches for the <see cref="SystemTemporalStability"/> class. This class cannot be inherited.
 /// </summary>
-/// <seealso cref="CameraMovementPatches" />
-public sealed partial class CameraMovementPatches
+[HarmonyClientSidePatch]
+[UsedImplicitly(ImplicitUseTargetFlags.All)]
+public sealed class SystemTemporalStabilityPatches : WorldSettingsConsumer<CameraMovementSettings>
 {
     /// <summary>
     ///     Applies a <see cref="HarmonyTranspiler"/> patch to the "OnGameTick" method of the <see cref="EntityBehaviorTemporalStabilityAffected"/> class.

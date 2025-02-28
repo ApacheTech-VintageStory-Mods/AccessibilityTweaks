@@ -15,21 +15,14 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement;
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class CameraMovement : ClientModSystem, IClientServiceRegistrar
 {
-    /// <summary>
-    ///     Allows a mod to include Singleton, or Transient services to the IOC Container.
-    /// </summary>
-    /// <param name="services">The service collection.</param>
-    /// <param name="capi">The game's client-side API.</param>
+    /// <inheritdoc />
     public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
     {
         services.AddFeatureWorldSettings<CameraMovementSettings>();
         services.AddTransient<CameraMovementDialogue>();
     }
 
-    /// <summary>
-    ///     Minor convenience method to save yourself the check for/cast to ICoreClientAPI in Start()
-    /// </summary>
-    /// <param name="api">The client-side API.</param>
+    /// <inheritdoc />
     public override void StartClientSide(ICoreClientAPI api)
     {
         api.AddAccessibilityHubDialogue<CameraMovementDialogue>("CameraMovement");

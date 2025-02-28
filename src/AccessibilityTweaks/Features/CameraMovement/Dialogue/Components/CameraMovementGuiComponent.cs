@@ -1,6 +1,6 @@
-﻿using ApacheTech.Common.Extensions.Harmony;
-using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
+﻿using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
 using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions;
+using Gantry.Core.GameContent.Extensions.Gui;
 using Gantry.Services.FileSystem.Configuration;
 
 namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components;
@@ -38,7 +38,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// </summary>
     /// <param name="code">The entry to return.</param>
     /// <returns>A localised <see cref="string"/>, for the specified language file code.</returns>
-    private static string LangEntry(string code)
+    private static string T(string code)
     {
         return LangEx.FeatureString("CameraMovement.Dialogue", code);
     }
@@ -60,16 +60,16 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         var right = ElementBounds.Fixed(textWidth + 10, 10, 270, switchSize).FixedUnder(Bounds);
 
         composer
-            .AddStaticText(LangEntry("lblPerceptionWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblPerceptionWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
-            .AddSlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
+            .AddStaticText(T("lblPerceptionWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
+            .AddHoverText(T("lblPerceptionWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
+            .AddLazySlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
 
         left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
         right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
 
         composer
-            .AddStaticText(LangEntry("lblInvoluntaryMouseMovement"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(LangEntry("lblInvoluntaryMouseMovement.HoverText"), labelFont, (int)textWidth, left)
+            .AddStaticText(T("lblInvoluntaryMouseMovement"), labelFont, EnumTextOrientation.Right, left)
+            .AddHoverText(T("lblInvoluntaryMouseMovement.HoverText"), labelFont, (int)textWidth, left)
             .AddSwitch(OnInvoluntaryMouseMovementToggle, right, "btnInvoluntaryMouseMovement");
         return composer;
     }
@@ -77,20 +77,20 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     private bool OnPerceptionWarpMultiplierChanged(int value)
     {
         _settings.PerceptionWarpMultiplier = value / 100f;
-        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client.ReloadShadersThreadSafe();
         return true;
     }
 
     private void OnInvoluntaryMouseMovementToggle(bool state)
     {
         _settings.InvoluntaryMouseMovement = state;
-        ApiEx.Client!.Shader.ReloadShadersThreadSafe();
+        ApiEx.Client.ReloadShadersThreadSafe();
     }
 
     private static void SetSliderProperties(GuiElementSlider slider, float value)
     {
         slider.TriggerOnlyOnMouseUp(true);
-        slider.SetValues((int)(value * 100), 0, 200, 1, "%");
+        slider.SetValues((int)(value * 100), 0, 1000, 1, "%");
     }
 
     /// <summary>
@@ -112,7 +112,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     {
         return typeof(CameraMovementSettings).GetProperties()
             .Select(x => x.Name)
-            .Select(propertyName => LangEntry($"lbl{propertyName}"))
+            .Select(propertyName => T($"lbl{propertyName}"))
             .Select(text => font.GetTextExtents(text).Width / ClientSettings.GUIScale + 30)
             .Prepend(0.0)
             .Max();
