@@ -63,7 +63,7 @@ public sealed class ColourCorrection : ClientModSystem, IClientServiceRegistrar
         if (_capi is null) return;
         _capi.Event.ReloadShader -= LoadShader;
         _capi.Event.UnregisterRenderer(_renderer, EnumRenderStage.AfterFinalComposition);
-        _capi.Shader.ReloadShadersThreadSafe();
+        _capi.ReloadShadersThreadSafe();
         _renderer?.Dispose();
         base.Dispose();
     }
