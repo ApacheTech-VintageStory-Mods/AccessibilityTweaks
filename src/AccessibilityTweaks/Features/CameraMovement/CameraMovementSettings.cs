@@ -14,4 +14,10 @@ public sealed class CameraMovementSettings : FeatureSettings<CameraMovementSetti
     ///     Enables/Disables the ability for the game to move the mouse without the player's input.
     /// </summary>
     public bool InvoluntaryMouseMovement { get; set; } = true;
+
+    /// <summary>
+    ///     On: Sneaking is toggled using the Sneak key - tap once to enable, and tap again to disable sneaking.
+    ///     Off: The Sneak key must be held down to sneak.
+    /// </ summary>
+    public bool ToggleSneak { get; set; }
 }

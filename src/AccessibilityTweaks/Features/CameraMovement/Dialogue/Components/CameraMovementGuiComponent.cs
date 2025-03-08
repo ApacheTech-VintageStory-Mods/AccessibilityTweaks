@@ -1,4 +1,5 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions;
+using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
 using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions;
 using Gantry.Core.GameContent.Extensions.Gui;
 using Gantry.Services.FileSystem.Configuration;
@@ -56,6 +57,10 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         var textWidth = CalculateWidth(labelFont);
         Bounds ??= ElementBounds.FixedSize(0, 20);
 
+        //
+        // Perception Warp Multiplier
+        //
+
         var left = ElementBounds.Fixed(0, 10, textWidth, switchSize).FixedUnder(Bounds);
         var right = ElementBounds.Fixed(textWidth + 10, 10, 270, switchSize).FixedUnder(Bounds);
 
@@ -64,6 +69,10 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
             .AddHoverText(T("lblPerceptionWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
             .AddLazySlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
 
+        //
+        // Involuntary Mouse Movement
+        //
+
         left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
         right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
 
@@ -71,6 +80,19 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
             .AddStaticText(T("lblInvoluntaryMouseMovement"), labelFont, EnumTextOrientation.Right, left)
             .AddHoverText(T("lblInvoluntaryMouseMovement.HoverText"), labelFont, (int)textWidth, left)
             .AddSwitch(OnInvoluntaryMouseMovementToggle, right, "btnInvoluntaryMouseMovement");
+
+        //
+        // Toggle Sneak
+        //
+
+        left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
+        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
+
+        composer
+            .AddStaticText(T("lblToggleSneak"), labelFont, EnumTextOrientation.Right, left)
+            .AddHoverText(T("lblToggleSneak.HoverText"), labelFont, (int)textWidth, left)
+            .AddSwitch(OnToggleSneakToggle, right, "btnToggleSneak");
+
         return composer;
     }
 
@@ -85,6 +107,11 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     {
         _settings.InvoluntaryMouseMovement = state;
         ApiEx.Client.ReloadShadersThreadSafe();
+    }
+
+    private void OnToggleSneakToggle(bool state)
+    {
+        _settings.ToggleSneak = state;
     }
 
     private static void SetSliderProperties(GuiElementSlider slider, float value)
