@@ -52,7 +52,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     public GuiComposer ComposePart(GuiComposer composer)
     {
         const int switchSize = 20;
-        const int gapBetweenRows = 30;
+        const int gapBetweenRows = 20;
         var labelFont = CairoFont.WhiteSmallText();
         var textWidth = CalculateWidth(labelFont);
         Bounds ??= ElementBounds.FixedSize(0, 20);
@@ -61,8 +61,8 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         // Perception Warp Multiplier
         //
 
-        var left = ElementBounds.Fixed(0, 10, textWidth, switchSize).FixedUnder(Bounds);
-        var right = ElementBounds.Fixed(textWidth + 10, 10, 270, switchSize).FixedUnder(Bounds);
+        var left = ElementBounds.Fixed(0, GuiStyle.TitleBarHeight + 6, textWidth, switchSize);
+        var right = ElementBounds.Fixed(textWidth + 10, GuiStyle.TitleBarHeight, 270, switchSize);
 
         composer
             .AddStaticText(T("lblPerceptionWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
@@ -85,13 +85,13 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         // Toggle Sneak
         //
 
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
+        //left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
+        //right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
 
-        composer
-            .AddStaticText(T("lblToggleSneak"), labelFont, EnumTextOrientation.Right, left)
-            .AddHoverText(T("lblToggleSneak.HoverText"), labelFont, (int)textWidth, left)
-            .AddSwitch(OnToggleSneakToggle, right, "btnToggleSneak");
+        //composer
+        //    .AddStaticText(T("lblToggleSneak"), labelFont, EnumTextOrientation.Right, left)
+        //    .AddHoverText(T("lblToggleSneak.HoverText"), labelFont, (int)textWidth, left)
+        //    .AddSwitch(OnToggleSneakToggle, right, "btnToggleSneak");
 
         return composer;
     }
@@ -109,10 +109,10 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         ApiEx.Client.ReloadShadersThreadSafe();
     }
 
-    private void OnToggleSneakToggle(bool state)
-    {
-        _settings.ToggleSneak = state;
-    }
+    //private void OnToggleSneakToggle(bool state)
+    //{
+    //    _settings.ToggleSneak = state;
+    //}
 
     private static void SetSliderProperties(GuiElementSlider slider, float value)
     {

@@ -19,5 +19,5 @@ public sealed class CameraMovementSettings : FeatureSettings<CameraMovementSetti
     ///     On: Sneaking is toggled using the Sneak key - tap once to enable, and tap again to disable sneaking.
     ///     Off: The Sneak key must be held down to sneak.
     /// </ summary>
-    public bool ToggleSneak { get; set; }
+    //public bool ToggleSneak { get; set; }
 }
