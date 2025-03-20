@@ -100,7 +100,7 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
             }
             catch (Exception exception)
             {
-                ApiEx.Logger.Error(exception);
+                G.Logger.Error(exception);
                 return [];
             }
         }

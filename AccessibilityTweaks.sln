@@ -37,6 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerLauncher", "..\..\..\
 		{604CC1D4-43D0-4BE3-B3AD-856C5A51F037} = {604CC1D4-43D0-4BE3-B3AD-856C5A51F037}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Gantry\src\Directory.Build.props = ..\..\..\Gantry\src\Directory.Build.props
+		..\..\..\Gantry\src\Directory.Build.targets = ..\..\..\Gantry\src\Directory.Build.targets
+		..\..\..\Gantry\src\Directory.Packages.props = ..\..\..\Gantry\src\Directory.Packages.props
+		..\..\..\Gantry\gitupdate.bat = ..\..\..\Gantry\gitupdate.bat
+		..\..\..\Gantry\reallyRefresh.bat = ..\..\..\Gantry\reallyRefresh.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +96,7 @@ Global
 		{0AF49EED-B18E-4575-BB9E-4FAE5A3490FA} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
 		{78EE6850-59AA-451F-B1E9-E4EB8E16F1AF} = {CAF6F5F7-C2B8-4C8D-BEFA-21C555A3DAA7}
 		{2E9E18A8-229F-41ED-8F5B-43B6ACB1415B} = {CAF6F5F7-C2B8-4C8D-BEFA-21C555A3DAA7}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17961E01-8E04-43D7-9947-7E0342352ADD}
