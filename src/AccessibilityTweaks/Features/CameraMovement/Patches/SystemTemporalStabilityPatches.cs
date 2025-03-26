@@ -9,7 +9,6 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Pat
 ///     Harmony Patches for the <see cref="SystemTemporalStability"/> class. This class cannot be inherited.
 /// </summary>
 [HarmonyClientSidePatch]
-[UsedImplicitly(ImplicitUseTargetFlags.All)]
 public sealed class SystemTemporalStabilityPatches : WorldSettingsConsumer<CameraMovementSettings>
 {
     /// <summary>

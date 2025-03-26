@@ -8,6 +8,7 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Pat
 ///     Harmony Patches for the <see cref="DrunkPerceptionEffect"/> class. This class cannot be inherited.
 /// </summary>
 /// <seealso cref="CameraMovementSettings" />
+[HarmonyClientSidePatch]
 public sealed class DamagedPerceptionEffectPatches : WorldSettingsConsumer<CameraMovementSettings>
 {
     /// <summary>
