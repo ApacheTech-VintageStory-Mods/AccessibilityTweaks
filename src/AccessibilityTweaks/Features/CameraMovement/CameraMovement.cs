@@ -1,9 +1,6 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue;
-using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
+﻿using AccessibilityTweaks.Features.CameraMovement.Dialogue;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement;
+namespace AccessibilityTweaks.Features.CameraMovement;
 
 /// <summary>
 ///     - Feature: Visual Tweaks<br/><br/>
@@ -11,12 +8,10 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement;
 ///     Various effects within the game can be harmful, and even potentially fatal to some players.<br/>
 ///     This mod helps to alleviate some of these issues by allowing the player to disable various rendered effects and sound effects.<br/><br/>
 /// </summary>
-/// <seealso cref="ClientModSystem" />
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class CameraMovement : ClientModSystem, IClientServiceRegistrar
+public sealed class CameraMovement : ClientModSystem<CameraMovement>, IClientServiceRegistrar
 {
     /// <inheritdoc />
-    public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
+    public void ConfigureClientModServices(IServiceCollection services, ICoreGantryAPI gapi)
     {
         services.AddFeatureWorldSettings<CameraMovementSettings>();
         services.AddTransient<CameraMovementDialogue>();

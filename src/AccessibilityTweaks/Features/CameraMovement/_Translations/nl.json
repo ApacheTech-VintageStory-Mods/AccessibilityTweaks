@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Camera en beweging",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Sta toe/verbied het spel om je muis te bewegen zonder je toestemming.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Als sluipen is ingeschakeld, wordt sluipen omgeschakeld met de sluiptoets - tik eenmaal om in te schakelen en tik nogmaals om sluipen uit te schakelen.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Sterkte cameratrilling:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hoeveel vervormt de wereld tijdens een tijdelijke storm.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-kracht:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Onwillekeurige muisbewegingen:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perceptie Warp Kracht:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hoeveel vervormt de wereld tijdens een tijdelijke storm.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Sluipen aan/uit:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rillingen, terugslag wanneer ze worden geraakt en andere haptische feedbackeffecten.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Wereldwijde warpkracht:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hoeveel vervormt de wereld terwijl je dronken bent\u0027."
+}

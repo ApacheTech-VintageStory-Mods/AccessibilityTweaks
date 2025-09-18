@@ -1,39 +1,30 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.Common.Extensions.Harmony;
-using Gantry.Core.Extensions.Api;
-using Gantry.Core.GameContent.GUI.Abstractions;
-using Gantry.Services.FileSystem.Dialogue;
+﻿using Gantry.Services.IO.Dialogue;
 using Vintagestory.Client;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
+namespace AccessibilityTweaks.Features.SoundEffects.Dialogue;
 
 /// <summary>
 ///     Dialogue Window: Allows the user to import waypoints from JSON files.
 /// </summary>
 /// <seealso cref="GenericDialogue" />
-[UsedImplicitly]
 public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsSettings>
 {
-    private ElementBounds _clippedBounds;
-    private ElementBounds _cellListBounds;
-    private readonly Queue<ILoadedSound> _activeSounds;
-
+    private ElementBounds? _clippedBounds;
+    private ElementBounds? _cellListBounds;
     private List<VolumeOverrideCellEntry> _cells = [];
 
-    private GuiElementCellList<VolumeOverrideCellEntry> _cellList;
+    private GuiElementCellList<VolumeOverrideCellEntry>? _cellList;
+    private string? _filterString;
     private bool _activeSoundsOnly;
-    private string _filterString;
 
     /// <summary>
     /// 	Initialises a new instance of the <see cref="SoundEffectsDialogue" /> class.
     /// </summary>
-    /// <param name="capi">Client API pass-through</param>
+    /// <param name="gapi">Client API pass-through</param>
     /// <param name="settings"></param>
-    public SoundEffectsDialogue(ICoreClientAPI capi, SoundEffectsSettings settings) : base(capi, settings)
+    public SoundEffectsDialogue(ICoreGantryAPI gapi, SoundEffectsSettings settings) : base(gapi, settings)
     {
-        Alignment = EnumDialogArea.CenterMiddle;
-        _activeSounds = ApiEx.ClientMain.GetField<Queue<ILoadedSound>>("ActiveSounds");
-            
+        Alignment = EnumDialogArea.CenterMiddle;            
         ClientSettings.Inst.AddWatcher<float>("guiScale", _ =>
         {
             Compose();
@@ -55,18 +46,9 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     private void RefreshCells()
     {
         _cells = GetCellEntries();
-        _cellList.ReloadCells(_cells);
-        UpdateActiveSounds();
+        _cellList?.ReloadCells(_cells);
         FilterCells();
         RefreshValues();
-    }
-
-    private void UpdateActiveSounds()
-    {
-        foreach (var sound in _activeSounds)
-        {
-            sound.SetVolume();
-        }
     }
 
     /// <summary>
@@ -75,8 +57,8 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     protected override void RefreshValues()
     {
         if (SingleComposer is null) return;
-        _cellListBounds.CalcWorldBounds();
-        _clippedBounds.CalcWorldBounds();
+        _cellListBounds!.CalcWorldBounds();
+        _clippedBounds!.CalcWorldBounds();
         SingleComposer.GetScrollbar("scrollbar").SetHeights((float)_clippedBounds.fixedHeight, (float)_cellListBounds.fixedHeight);
     }
 
@@ -199,19 +181,20 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     {
         bool Filter(IGuiElementCell cell)
         {
+            var activeSounds = Gantry.ApiEx.ClientMain.GetField<Queue<ILoadedSound>>("ActiveSounds")!;
             return (string.IsNullOrWhiteSpace(_filterString) || ((SoundEffectsGuiCell)cell).Cell.Title.Contains(_filterString)) &&
-                   (!_activeSoundsOnly || _activeSounds.Any(p => p.Params.Location.ToString() == ((SoundEffectsGuiCell)cell).Cell.Title));
+                   (!_activeSoundsOnly || activeSounds.Any(p => p.Params.Location.ToString() == ((SoundEffectsGuiCell)cell).Cell.Title));
         }
 
-        _cellList.CallMethod("FilterCells", (System.Func<IGuiElementCell, bool>)Filter);
+        _cellList?.CallMethod("FilterCells", (System.Func<IGuiElementCell, bool>)Filter);
     }
 
     /// <summary>
     ///     Called when the GUI needs to refresh or create a cell to display to the user. 
     /// </summary>
-    private IGuiElementCell OnRequireCell(VolumeOverrideCellEntry cell, ElementBounds bounds)
+    private SoundEffectsGuiCell OnRequireCell(VolumeOverrideCellEntry cell, ElementBounds bounds)
     {
-        return new SoundEffectsGuiCell(ApiEx.Client, cell, bounds)
+        return new(Gantry.ApiEx.Client, cell, bounds)
         {
             On = !cell.Model.Muted,
             OnMouseDownOnCellLeft = OnCellClickLeft,
@@ -221,8 +204,9 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
 
     private void OnCellClickLeft(int val)
     {
-        var cell = _cellList.elementCells.Cast<SoundEffectsGuiCell>().ToList()[val];
-        var dialogue = IOC.Services.CreateInstance<EditVolumeDialogue>(cell.Cell.Model).With(p =>
+        var cell = _cellList?.elementCells.Cast<SoundEffectsGuiCell>().ToList()[val];
+        if (cell is null) return;
+        var dialogue = G.Services.CreateInstance<EditVolumeDialogue>(cell.Cell.Model).With(p =>
         {
             p.OnOkAction = result =>
             {
@@ -239,26 +223,27 @@ public sealed class SoundEffectsDialogue : FeatureSettingsDialogue<SoundEffectsS
     /// </summary>
     private void OnCellClickRight(int val)
     {
-        var cell = _cellList.elementCells.Cast<SoundEffectsGuiCell>().ToList()[val];
+        var cell = _cellList?.elementCells.Cast<SoundEffectsGuiCell>().ToList()[val];
+        if (cell is null) return;
         cell.On = !cell.On;
         cell.Enabled = cell.On;
         cell.Cell.Model.Muted = !cell.On;
         Settings.SoundAssets[cell.Cell.Model.Path].Muted = !cell.On;
         SaveFeatureChanges();
         RefreshValues();
-        UpdateActiveSounds();
     }
 
     private void OnScroll(float dy)
     {
-        var bounds = _cellList.Bounds;
+        var bounds = _cellList?.Bounds;
+        if (bounds is null) return;
         bounds.fixedY = 0f - dy;
         bounds.CalcWorldBounds();
     }
         
-    private static bool OnRightButtonPressed()
+    private bool OnRightButtonPressed()
     {
-        ApiEx.ClientMain.StopAllSounds();
+        Gantry.ApiEx.ClientMain.StopAllSounds();
         return true;
     }
 

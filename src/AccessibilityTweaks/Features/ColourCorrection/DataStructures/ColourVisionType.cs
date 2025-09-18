@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.DataStructures;
+namespace AccessibilityTweaks.Features.ColourCorrection.DataStructures;
 
 /// <summary>
 ///     Represents a specific form of colour vision deficiency.
 /// </summary>
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public enum ColourVisionType
 {
     /// <summary>

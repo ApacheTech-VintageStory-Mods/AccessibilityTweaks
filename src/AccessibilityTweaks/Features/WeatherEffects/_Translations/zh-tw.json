@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "切換霧效果的彩現。",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "切換雨滴粒子效果的彩現。",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "切換閃電燈光效果的彩現。",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "霧效果：",
+    "Features.WeatherEffects.Dialogue.Title":  "天氣影響",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "雲：",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "灰：",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "霧效果：",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "切換雲的彩現。",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "切換雪花粒子效果的渲染。",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "閃電閃爍：",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "切換霧氣效果的彩現。",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "䨛：",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "雨滴：",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "切換灰塵粒子效果的彩現。",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "冰雹：",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "切換冰雹粒子效果的彩現。"
+}

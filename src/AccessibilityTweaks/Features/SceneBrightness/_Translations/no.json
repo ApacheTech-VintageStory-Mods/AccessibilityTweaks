@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Aktivert:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Scenelysstyrkenivå: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Lysstyrke:",
+    "Features.SceneBrightness.Description":  "Hjelper personer med lysfølsomhet, og for innholdsskapere, kompenserer for komprimeringshastigheter på YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Scenelysstyrke aktivert: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Endrer lysstyrkenivået til scenen.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Slå på superlysmodus.",
+    "Features.SceneBrightness.Dialogue.Title":  "Innstillinger for scenelysstyrke"
+}

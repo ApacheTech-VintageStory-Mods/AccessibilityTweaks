@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamera ja liike",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Salli/estä peliä liikuttamasta hiirtä ilman lupaasi.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Kun tämä on käytössä, hiipiminen vaihdetaan Sneak-näppäimellä - ota hiipiminen käyttöön napauttamalla kerran ja poista hiipiminen käytöstä napauttamalla uudelleen.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kameran tärinän voimakkuus:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Kuinka paljon maailma vääntyy ajallisen myrskyn aikana.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Häiriön vahvuus:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Hiiren tahaton liike:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Havaintoloimen vahvuus:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Kuinka paljon maailma vääntyy ajallisen myrskyn aikana.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Vaihda hiipiminen:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Väristykset, rekyyli osuessa ja muut haptiset palautetehosteet.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globaali loimivahvuus:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Kuinka paljon maailma vääntyy, kun olet humalassa\u0027."
+}

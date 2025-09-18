@@ -1,4 +1,4 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
+﻿namespace AccessibilityTweaks.Features.SoundEffects.Dialogue;
 
 /// <summary>
 ///     Defines the information stored within a single GUI Cell Element.
@@ -11,5 +11,5 @@ public sealed class VolumeOverrideCellEntry : SavegameCellEntry
     /// <summary>
     ///     Gets the DTO model that defines the structure of the JSON import file.
     /// </summary>
-    public VolumeOverrideModel Model { get; init; }
+    public VolumeOverrideModel Model { get; init; } = new();
 }

@@ -1,12 +1,11 @@
-﻿using Gantry.Core.GameContent.Shaders;
+﻿using Gantry.GameContent.Shaders;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders;
+namespace AccessibilityTweaks.Features.ColourCorrection.Shaders;
 
 /// <summary>
 ///     Changes the hue, and saturation of the scene colours, based on user-defined settings.
 /// </summary>
 /// <seealso cref="IGenericRenderer{TShaderProgram}" />
-[UsedImplicitly]
 public sealed class ColourCorrectionRenderer : IGenericRenderer<IGenericShaderProgram>
 {
     private readonly ICoreClientAPI _capi;
@@ -32,7 +31,7 @@ public sealed class ColourCorrectionRenderer : IGenericRenderer<IGenericShaderPr
     ///     Gets or sets the shader used for this renderer. This is a transient dependency that can be disposed from outside of the class, when shaders are reloaded.
     /// </summary>
     /// <value>The shader.</value>
-    public IGenericShaderProgram Shader { get; set; }
+    public IGenericShaderProgram? Shader { get; set; }
 
     /// <inheritdoc />
     public double RenderOrder => 2f;
@@ -52,7 +51,7 @@ public sealed class ColourCorrectionRenderer : IGenericRenderer<IGenericShaderPr
         var currentActiveShader = _capi.Render.CurrentActiveShader;
         currentActiveShader?.Stop();
             
-        if (!Shader.Disposed)
+        if (Shader is not null && !Shader.Disposed)
         {
             Shader.Use();
             _capi.Render.GlToggleBlend(true, EnumBlendMode.Overlay);

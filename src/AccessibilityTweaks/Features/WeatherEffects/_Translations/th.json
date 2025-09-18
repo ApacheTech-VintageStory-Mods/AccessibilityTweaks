@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "สลับการแสดงผลของเอฟเฟกต์หมอก",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "สลับการแสดงผลของเอฟเฟกต์อนุภาคหยดฝน",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "สลับการแสดงผลของเอฟเฟกต์แสงกะพริบ",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "เอฟเฟกต์หมอก:",
+    "Features.WeatherEffects.Dialogue.Title":  "ผลกระทบจากสภาพอากาศ",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "เมฆ:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "ฝุ่น:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "เอฟเฟกต์หมอก:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "สลับการแสดงผลของเมฆ",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "สลับการเรนเดอร์ของเอฟเฟ็กต์อนุภาคเกล็ดหิมะ",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "สายฟ้าแลบ:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "สลับการแสดงผลของเอฟเฟ็กต์หมอก",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "เกล็ด หิมะ:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "เม็ดฝน:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "สลับการเรนเดอร์ของเอฟเฟ็กต์อนุภาคฝุ่น",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "ลูกเห็บ:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "สลับการเรนเดอร์ของเอฟเฟกต์อนุภาคลูกเห็บ"
+}

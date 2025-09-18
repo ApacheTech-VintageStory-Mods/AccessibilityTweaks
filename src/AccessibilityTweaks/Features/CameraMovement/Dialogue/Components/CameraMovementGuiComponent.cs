@@ -1,16 +1,9 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Extensions;
-using Gantry.Core.GameContent.Extensions.Gui;
-using Gantry.Services.FileSystem.Configuration;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components;
+﻿namespace AccessibilityTweaks.Features.CameraMovement.Dialogue.Components;
 
 /// <summary>
 ///     Camera Movement GUI Composable Component
 /// </summary>
 /// <seealso cref="IGuiComposablePart" />
-[UsedImplicitly]
 public sealed class CameraMovementGuiComponent : IGuiComposablePart
 {
     private readonly CameraMovementSettings _settings;
@@ -20,7 +13,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// </summary>
     public CameraMovementGuiComponent()
     {
-        _settings = ModSettings.World.Feature<CameraMovementSettings>();
+        _settings = G.Settings.World.Feature<CameraMovementSettings>();
     }
 
     /// <summary>
@@ -31,7 +24,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     {
         Bounds = bounds;
         Bounds.IsDrawingSurface = true;
-        _settings = ModSettings.World.Feature<CameraMovementSettings>();
+        _settings = G.Settings.World.Feature<CameraMovementSettings>();
     }
 
     /// <summary>
@@ -41,7 +34,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// <returns>A localised <see cref="string"/>, for the specified language file code.</returns>
     private static string T(string code)
     {
-        return LangEx.FeatureString("CameraMovement.Dialogue", code);
+        return G.Lang.Translate("CameraMovement.Dialogue", code);
     }
 
     /// <summary>
@@ -49,7 +42,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// </summary>
     /// <param name="composer"></param>
     /// <returns></returns>
-    public GuiComposer ComposePart(GuiComposer composer)
+    public GuiComposer ComposePart(GenericDialogue parent, GuiComposer composer)
     {
         const int switchSize = 20;
         const int gapBetweenRows = 20;
@@ -67,7 +60,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
         composer
             .AddStaticText(T("lblPerceptionWarpMultiplier"), labelFont, EnumTextOrientation.Right, left)
             .AddHoverText(T("lblPerceptionWarpMultiplier.HoverText"), labelFont, (int)textWidth, left)
-            .AddLazySlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
+            .AddSlider(OnPerceptionWarpMultiplierChanged, right, "sldPerceptionWarpMultiplier");
 
         //
         // Involuntary Mouse Movement
@@ -99,14 +92,14 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     private bool OnPerceptionWarpMultiplierChanged(int value)
     {
         _settings.PerceptionWarpMultiplier = value / 100f;
-        ApiEx.Client.ReloadShadersThreadSafe();
+        G.Capi.ReloadShadersThreadSafe(G.Core);
         return true;
     }
 
     private void OnInvoluntaryMouseMovementToggle(bool state)
     {
         _settings.InvoluntaryMouseMovement = state;
-        ApiEx.Client.ReloadShadersThreadSafe();
+        G.Capi.ReloadShadersThreadSafe(G.Core);
     }
 
     //private void OnToggleSneakToggle(bool state)
@@ -116,7 +109,6 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
 
     private static void SetSliderProperties(GuiElementSlider slider, float value)
     {
-        slider.TriggerOnlyOnMouseUp(true);
         slider.SetValues((int)(value * 100), 0, 1000, 1, "%");
     }
 
@@ -133,7 +125,7 @@ public sealed class CameraMovementGuiComponent : IGuiComposablePart
     /// <summary>
     ///     The bounds of the element.
     /// </summary>
-    public ElementBounds Bounds { get; set; }
+    public ElementBounds Bounds { get; set; } = ElementBounds.Empty;
 
     private static double CalculateWidth(CairoFont font)
     {

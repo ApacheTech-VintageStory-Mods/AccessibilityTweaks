@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "กล้องและการเคลื่อนไหว",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "อนุญาต/ไม่อนุญาตให้เกมขยับเมาส์โดยไม่ได้รับอนุญาตจากคุณ",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "เมื่อเปิดใช้งาน การแอบดูจะถูกสลับโดยใช้ปุ่มแอบดู - แตะหนึ่งครั้งเพื่อเปิดใช้งาน และแตะอีกครั้งเพื่อปิดใช้งานการแอบดู",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "ความแรงสั่นของกล้อง:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในช่วงพายุชั่วคราว",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "ความแข็งแกร่งของความผิดพลาด:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "การเคลื่อนไหวของเมาส์โดยไม่สมัครใจ:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "ความแข็งแกร่งของการรับรู้วาร์ป:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในช่วงพายุชั่วคราว",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "สลับการแอบดู:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "ตัวสั่น หดตัวเมื่อถูกกระแทก และเอฟเฟกต์การตอบสนองแบบสัมผัสอื่นๆ",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "ความแข็งแกร่งของวาร์ปทั่วโลก:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในขณะที่คุณเมา\u0027"
+}

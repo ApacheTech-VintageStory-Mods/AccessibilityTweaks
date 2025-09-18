@@ -1,4 +1,4 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement;
+﻿namespace AccessibilityTweaks.Features.CameraMovement;
 
 /// <summary>
 ///     Settings for involuntary camera and mouse movements.

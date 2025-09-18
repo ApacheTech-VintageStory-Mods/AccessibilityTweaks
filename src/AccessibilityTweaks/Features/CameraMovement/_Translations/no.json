@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamera og bevegelse",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillat/ikke tillat spillet å bevege musen uten din tillatelse.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Når den er aktivert, veksles sniking ved hjelp av Sneak-tasten - trykk én gang for å aktivere, og trykk igjen for å deaktivere sniking.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Styrke på kameraristing:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hvor mye verden vrir seg under en tidsmessig storm.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Feil styrke:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ufrivillig musebevegelse:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Persepsjonsforvrengningsstyrke:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hvor mye verden vrir seg under en tidsmessig storm.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Veksle snik:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skjelving, rekyl når den treffes, og andre haptiske tilbakemeldingseffekter.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp styrke:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hvor mye verden vrir seg mens du er full\u0027."
+}

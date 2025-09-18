@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Âm lượng:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Sân:",
+    "Features.SoundEffects.Dialogue.Title":  "Hiệu ứng âm thanh",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Tìm kiếm:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Hiệu ứng âm thanh bị tắt tiếng không thể nghe được.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Phát âm thanh",
+    "Features.SoundEffects.Dialogue.lblMute":  "Câm:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Lọc hiệu ứng âm thanh, theo tên.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Chỉ hiển thị âm thanh hiện đang phát:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Thay đổi âm lượng tương đối của hiệu ứng âm thanh.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Thay đổi cao độ tương đối của hiệu ứng âm thanh. Điều này có thể giúp những người bị ù tai hoặc các vấn đề mất thính lực khác.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Sửa âm thanh bị hỏng"
+}

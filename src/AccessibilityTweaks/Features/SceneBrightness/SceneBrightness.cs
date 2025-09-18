@@ -1,12 +1,6 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue;
-using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
-using Vintagestory.API.MathTools;
+﻿using AccessibilityTweaks.Features.SceneBrightness.Dialogue;
 
-// ReSharper disable StringLiteralTypo
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness;
+namespace AccessibilityTweaks.Features.SceneBrightness;
 
 /// <summary>
 ///  - Feature: Scene Brightness
@@ -15,16 +9,14 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness;
 ///  
 ///    - Adjust the brightness level of the game scene.
 /// </summary>
-/// <seealso cref="ClientModSystem" />
-[UsedImplicitly]
-public sealed class SceneBrightness : ClientModSystem, IClientServiceRegistrar
+public sealed class SceneBrightness : ClientModSystem<SceneBrightness>, IClientServiceRegistrar
 {
     /// <summary>
     ///     Allows a mod to include Singleton, or Transient services to the IOC Container.
     /// </summary>
     /// <param name="services">The service collection.</param>
     /// <param name="capi">The game's client-side API.</param>
-    public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
+    public void ConfigureClientModServices(IServiceCollection services, ICoreGantryAPI capi)
     {
         services.AddFeatureWorldSettings<SceneBrightnessSettings>();
         services.AddSingleton<SceneBrightnessDialogue>();
@@ -40,23 +32,23 @@ public sealed class SceneBrightness : ClientModSystem, IClientServiceRegistrar
 
         api.ChatCommands.Create("nv")
             .WithArgs(api.ChatCommands.Parsers.OptionalFloat("brightness"))
-            .WithDescription(LangEx.FeatureString("SceneBrightness", "Description"))
+            .WithDescription(G.Lang.Translate("SceneBrightness", "Description"))
             .HandleWith(ToggleSuperBright);
     }
 
     private static TextCommandResult ToggleSuperBright(TextCommandCallingArgs args)
     {
-        var settings = IOC.Services.Resolve<SceneBrightnessSettings>();
+        var settings = G.Services.Resolve<SceneBrightnessSettings>();
         if (args.ArgCount == 0)
         {
             settings.Enabled = !settings.Enabled;
-            var enabledMessage = LangEx.FeatureString("SceneBrightness", "Dialogue.Enabled", LangEx.BooleanString(settings.Enabled));
+            var enabledMessage = G.Lang.Translate("SceneBrightness", "Dialogue.Enabled", G.Lang.Boolean(settings.Enabled));
             return TextCommandResult.Success(enabledMessage);
         }
 
         var brightness = args.Parsers[0].GetValue().To<float?>() ?? 0.1f;
         settings.Brightness = GameMath.Clamp(brightness, 0f, 1f);
-        var brightnessLevelMessage = LangEx.FeatureString("SceneBrightness", "Dialogue.BrightnessLevel", settings.Brightness);
+        var brightnessLevelMessage = G.Lang.Translate("SceneBrightness", "Dialogue.BrightnessLevel", settings.Brightness);
         return TextCommandResult.Success(brightnessLevelMessage);
     }
 }

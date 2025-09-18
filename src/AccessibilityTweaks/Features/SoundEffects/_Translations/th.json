@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "ปริมาตร:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "ขว้าง:",
+    "Features.SoundEffects.Dialogue.Title":  "เสียง",
+    "Features.SoundEffects.Dialogue.lblSearch":  "ค้น:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "ไม่ได้ยินเอฟเฟกต์เสียงที่ปิดเสียง",
+    "Features.SoundEffects.Dialogue.PlaySound":  "เล่นเสียง",
+    "Features.SoundEffects.Dialogue.lblMute":  "ใบ้:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "กรองเอฟเฟกต์เสียงตามชื่อ",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "แสดงเฉพาะเสียงที่กําลังเล่นอยู่:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "เปลี่ยนระดับเสียงสัมพัทธ์ของเอฟเฟกต์เสียง",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "เปลี่ยนระดับเสียงสัมพัทธ์ของเอฟเฟกต์เสียง สิ่งนี้สามารถช่วยผู้ที่มีอาการหูอื้อหรือปัญหาการสูญเสียการได้ยินอื่นๆ",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "แก้ไขเสียงเสีย"
+}

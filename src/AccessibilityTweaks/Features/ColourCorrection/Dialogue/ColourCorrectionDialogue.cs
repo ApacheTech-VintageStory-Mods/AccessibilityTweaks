@@ -1,13 +1,11 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.DataStructures;
-using Gantry.Services.FileSystem.Dialogue;
+﻿using AccessibilityTweaks.Features.ColourCorrection.DataStructures;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Dialogue;
+namespace AccessibilityTweaks.Features.ColourCorrection.Dialogue;
 
 /// <summary>
 ///     User interface for the colour correction settings. Gives presets for colour blindness simulation, and allows custom configuration of colour and saturation balance.
 /// </summary>
 /// <seealso cref="FeatureSettingsDialogue{TFeatureSettings}" />
-[UsedImplicitly]
 public sealed class ColourCorrectionDialogue : FeatureSettingsDialogue<ColourCorrectionSettings>
 {
     /// <summary>
@@ -15,7 +13,7 @@ public sealed class ColourCorrectionDialogue : FeatureSettingsDialogue<ColourCor
     /// </summary>
     /// <param name="capi">The capi.</param>
     /// <param name="settings">The settings.</param>
-    public ColourCorrectionDialogue(ICoreClientAPI capi, ColourCorrectionSettings settings) : base(capi, settings)
+    public ColourCorrectionDialogue(ICoreGantryAPI capi, ColourCorrectionSettings settings) : base(capi, settings)
     {
         ModalTransparency = 0f;
         Movable = true;

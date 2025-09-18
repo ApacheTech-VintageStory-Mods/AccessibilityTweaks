@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Tekstin muuttaminen",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Nälkiintyessä:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Ota käyttöön/poista käytöstä chat-tekstin automaattinen muuttaminen päihtyneenä.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Ota käyttöön/poista käytöstä chat-tekstin automaattinen muuttaminen nälkiintyessäsi.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Päihtyneenä:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Ota käyttöön/poista käytöstä chat-tekstin automaattinen muuttaminen ajallisen myrskyn aikana.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Ajallisten myrskyjen aikana:"
+}

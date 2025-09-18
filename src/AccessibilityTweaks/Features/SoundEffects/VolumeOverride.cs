@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects;
+﻿using System.ComponentModel;
+
+namespace AccessibilityTweaks.Features.SoundEffects;
 
 /// <summary>
 ///     Represents the overridden audio settings for an individual game sound file.
@@ -10,7 +12,7 @@ public sealed class VolumeOverrideModel
     ///     Gets or sets the asset path of the game sound file.
     /// </summary>
     /// <value>The path.</value>
-    public string Path { get; set; }
+    public string Path { get; set; } = string.Empty;
 
     /// <summary>
     ///     Gets or sets a value indicating whether this individual game sound is muted.
@@ -22,11 +24,13 @@ public sealed class VolumeOverrideModel
     ///     Gets or sets the volume multiplier to apply to an individual game sound.
     /// </summary>
     /// <value>A <see cref="float"/> value that represents the volume balance of an individual game sound.</value>
+    [DefaultValue(1f)]
     public float VolumeMultiplier { get; set; } = 1f;
 
     /// <summary>
     ///     Gets or sets the pitch multiplier to apply to an individual game sound.
     /// </summary>
     /// <value>A <see cref="float"/> value that represents the pitch balance of an individual game sound.</value>
+    [DefaultValue(1f)]
     public float PitchMultiplier { get; set; } = 1f;
 }

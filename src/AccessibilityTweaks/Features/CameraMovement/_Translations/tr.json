@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamera ve Hareket",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Oyunun izniniz olmadan farenizi hareket ettirmesine izin ver/verme.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Etkinleştirildiğinde, gizlice girme Gizlice tuşu kullanılarak değiştirilir - etkinleştirmek için bir kez dokunun ve gizlice izlemeyi devre dışı bırakmak için tekrar dokunun.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamera Sarsıntısı Gücü:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Geçici bir fırtına sırasında dünya ne kadar bükülür.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch Gücü:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "İstemsiz Fare Hareketi:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Algı Çözgü Gücü:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Geçici bir fırtına sırasında dünya ne kadar bükülür.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Gizlice Aç/Kapat:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Titreme, vurulduğunda geri tepme ve diğer dokunsal geri bildirim efektleri.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Küresel Çözgü Gücü:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Sen sarhoşken dünya ne kadar bükülüyor\u0027."
+}

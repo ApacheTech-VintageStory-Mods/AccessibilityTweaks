@@ -1,4 +1,4 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.TextAlteration;
+﻿namespace AccessibilityTweaks.Features.TextAlteration;
 
 /// <summary>
 ///     Settings for text alteration effects.

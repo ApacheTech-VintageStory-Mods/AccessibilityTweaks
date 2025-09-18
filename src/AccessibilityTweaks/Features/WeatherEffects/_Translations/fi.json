@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Vaihtaa sumutehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Vaihtaa sadepisarahiukkastehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Vaihtaa salaman vilkkuvien valotehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Sumuvaikutukset:",
+    "Features.WeatherEffects.Dialogue.Title":  "Sään vaikutukset",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Pilvet:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Pöly:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Sumun vaikutukset:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Vaihtaa pilvien renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Vaihtaa lumihiutalehiukkastehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Salama välähtää:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Vaihtaa sumutehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Lumihiutaleet:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Sadepisarat:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Vaihtaa pölyhiukkastehosteiden renderöintiä.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Rakeet:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Vaihtaa rakeiden hiukkastehosteiden renderöintiä."
+}

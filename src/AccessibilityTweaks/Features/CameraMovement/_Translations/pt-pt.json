@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Câmera e Movimento",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permitir/Não permitir que o jogo mova o rato sem a sua permissão.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Quando ativado, o sneaking é alternado usando a tecla Sneak - toque uma vez para ativar e toque novamente para desativar o sneaking.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Força de vibração da câmera:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Quanto o mundo deforma durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Força da Falha:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento Involuntário do Rato:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Força de Deformação da Perceção:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Quanto o mundo deforma durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar Sneak:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Tremores, recuo quando atingido e outros efeitos de feedback háptico.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Força Global Warp:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Quanto o mundo deforma enquanto você está bêbado\u0027."
+}

@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volum:",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Bek:",
+    "Features.SoundEffects.Dialogue.Title":  "Lydeffekter",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Søke:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Dempede lydeffekter kan ikke høres.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Spill av lyd",
+    "Features.SoundEffects.Dialogue.lblMute":  "Stum:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrer lydeffekter, etter navn.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Vis bare lyder som spilles av for øyeblikket:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Endre det relative volumet på lydeffekten.",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Endre den relative tonehøyden til lydeffekten. Dette kan hjelpe personer med tinnitus eller andre hørselstap.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Fiks ødelagte lyder"
+}

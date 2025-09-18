@@ -1,4 +1,4 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects;
+﻿namespace AccessibilityTweaks.Features.SoundEffects;
 
 /// <summary>
 ///     Represents the settings for the Sound Effects feature.

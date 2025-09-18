@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "카메라 및 움직임",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "게임이 사용자의 허락 없이 마우스를 움직이는 것을 허용/허용하지 않습니다.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "활성화되면 몰래 키를 사용하여 몰래 전환됩니다 - 한 번 탭하면 활성화되고 다시 탭하면 몰래 모드가 비활성화됩니다.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "카메라 흔들림 강도:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "세상이 시간적인 폭풍 동안 얼마나 뒤틀렸는지.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "글리치 강도:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "비자발적 마우스 움직임:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "지각 워프 강도:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "세상이 시간적인 폭풍 동안 얼마나 뒤틀렸는지.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "몰래 전환:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "떨림, 타격 시 반동 및 기타 촉각 피드백 효과.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "글로벌 워프 강도:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "술에 취한 동안 세상이 얼마나 뒤틀리는지\u0027."
+}

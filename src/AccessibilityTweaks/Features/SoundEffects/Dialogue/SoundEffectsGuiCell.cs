@@ -1,8 +1,6 @@
 ﻿using Cairo;
 
-// ReSharper disable StringLiteralTypo
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
+namespace AccessibilityTweaks.Features.SoundEffects.Dialogue;
 
 /// <summary>
 ///     A cell displayed within the cell list on the <see cref="SoundEffectsDialogue"/> screen.
@@ -216,12 +214,12 @@ public sealed class SoundEffectsGuiCell : GuiElementTextBase, IGuiElementCell
     /// <summary>
     ///     Called when the user clicks on the left side of the cell.
     /// </summary>
-    public Action<int> OnMouseDownOnCellLeft { private get; init; }
+    public Action<int>? OnMouseDownOnCellLeft { private get; init; }
 
     /// <summary>
     ///     Called when the user clicks on the right side of the cell.
     /// </summary>
-    public Action<int> OnMouseDownOnCellRight { private get; init; }
+    public Action<int>? OnMouseDownOnCellRight { private get; init; }
 
     /// <summary>
     ///     Disposes this instance.
@@ -233,7 +231,7 @@ public sealed class SoundEffectsGuiCell : GuiElementTextBase, IGuiElementCell
     /// </summary>
     public override void Dispose()
     {
-        ApiEx.ClientMain!.EnqueueMainThreadTask(() =>
+        api.AsClientMain().EnqueueMainThreadTask(() =>
         {
             _cellTexture?.Dispose();
             api.Render.GLDeleteTexture(_leftHighlightTextureId);

@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "เปิด:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "ระดับความสว่างของฉาก: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "ความสว่าง:",
+    "Features.SceneBrightness.Description":  "ช่วยผู้ที่มีความไวต่อแสง และสําหรับผู้สร้างเนื้อหา ชดเชยอัตราการบีบอัดบน YouTube / Twitch",
+    "Features.SceneBrightness.Dialogue.Enabled":  "เปิดใช้งานความสว่างของฉาก: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "เปลี่ยนระดับความสว่างของฉาก",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "สลับโหมด Super Bright",
+    "Features.SceneBrightness.Dialogue.Title":  "การตั้งค่าความสว่างของฉาก"
+}

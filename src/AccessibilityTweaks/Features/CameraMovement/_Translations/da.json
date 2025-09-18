@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamera og bevægelse",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillad/forbyd spillet at bevæge musen uden din tilladelse.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Når den er aktiveret, skiftes snigning ved hjælp af snigtasten - tryk én gang for at aktivere, og tryk igen for at deaktivere snig.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Styrke af kamerarystelser:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hvor meget verden vrider sig under en tidsmæssig storm.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Fejl styrke:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ufrivillig musebevægelse:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Opfattelsesforvrængningsstyrke:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hvor meget verden vrider sig under en tidsmæssig storm.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Toggle Sneak:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Kuldegysninger, rekyl, når de rammes, og andre haptiske feedback-effekter.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp styrke:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hvor meget verden vrider sig, mens du er fuld\u0027."
+}

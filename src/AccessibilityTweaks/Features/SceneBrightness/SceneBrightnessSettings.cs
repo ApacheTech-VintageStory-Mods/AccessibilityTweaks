@@ -1,4 +1,4 @@
-﻿namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness;
+﻿namespace AccessibilityTweaks.Features.SceneBrightness;
 
 /// <summary>
 ///     Contains all the settings that can be set by the `.superBright` chat command. This class cannot be inherited.

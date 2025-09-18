@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Sis efektlerinin oluşturulmasını değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Yağmur damlası parçacık efektlerinin işlenmesini değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Şimşek çakan ışık efektlerinin oluşturulmasını değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Sis Efektleri:",
+    "Features.WeatherEffects.Dialogue.Title":  "Hava Etkileri",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Bulut:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Toz:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Sis Efektleri:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Bulutların işlenmesini değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Kar tanesi parçacık efektlerinin oluşturulmasını değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Şimşek çakması:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Sis efektlerinin oluşturulmasını değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Kar tane -leri:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Yağmur damla -ları:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Toz parçacığı efektlerinin oluşturulmasını değiştirir.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Hazır:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Dolu taşı parçacık efektlerinin oluşturulmasını değiştirir."
+}

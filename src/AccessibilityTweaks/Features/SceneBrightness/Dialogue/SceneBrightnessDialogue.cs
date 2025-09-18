@@ -1,15 +1,9 @@
-﻿using System.Reflection;
-using ApacheTech.Common.Extensions.Harmony;
-using Gantry.Services.FileSystem.Dialogue;
-using Vintagestory.API.MathTools;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SceneBrightness.Dialogue;
+﻿namespace AccessibilityTweaks.Features.SceneBrightness.Dialogue;
 
 /// <summary>
 ///     User interface for changing the settings for the Scene Brightness feature.
 /// </summary>
 /// <seealso cref="FeatureSettingsDialogue{TFeatureSettings}" />
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class SceneBrightnessDialogue : FeatureSettingsDialogue<SceneBrightnessSettings>
 {
     /// <summary>
@@ -17,7 +11,7 @@ public sealed class SceneBrightnessDialogue : FeatureSettingsDialogue<SceneBrigh
     /// </summary>
     /// <param name="capi">The capi.</param>
     /// <param name="settings">The settings.</param>
-    public SceneBrightnessDialogue(ICoreClientAPI capi, SceneBrightnessSettings settings) : base(capi, settings)
+    public SceneBrightnessDialogue(ICoreGantryAPI capi, SceneBrightnessSettings settings) : base(capi, settings)
     {
         Alignment = EnumDialogArea.CenterMiddle;
         ModalTransparency = 0.0f;
@@ -78,8 +72,8 @@ public sealed class SceneBrightnessDialogue : FeatureSettingsDialogue<SceneBrigh
         const int gapBetweenRows = 30;
         var font = CairoFont.WhiteSmallText();
 
-        composer.AddStaticText(LangEx.FeatureString(FeatureName, $"Dialogue.lbl{propertyName}"), font, EnumTextOrientation.Left, textBounds.FlatCopy().WithFixedOffset(0, 5));
-        composer.AddAutoSizeHoverText(LangEx.FeatureString(FeatureName, $"Dialogue.lbl{propertyName}.HoverText"), font, 160, textBounds);
+        composer.AddStaticText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{propertyName}"), font, EnumTextOrientation.Left, textBounds.FlatCopy().WithFixedOffset(0, 5));
+        composer.AddAutoSizeHoverText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{propertyName}.HoverText"), font, 160, textBounds);
         composer.AddSwitch(state =>
             {
                 Settings.SetProperty(propertyName, state); 
@@ -96,8 +90,8 @@ public sealed class SceneBrightnessDialogue : FeatureSettingsDialogue<SceneBrigh
         const int gapBetweenRows = 20;
         var font = CairoFont.WhiteSmallText();
 
-        composer.AddStaticText(LangEx.FeatureString(FeatureName, $"Dialogue.lbl{propertyName}"), font, EnumTextOrientation.Left, textBounds);
-        composer.AddAutoSizeHoverText(LangEx.FeatureString(FeatureName, $"Dialogue.lbl{propertyName}.HoverText"), font, 160, textBounds);
+        composer.AddStaticText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{propertyName}"), font, EnumTextOrientation.Left, textBounds);
+        composer.AddAutoSizeHoverText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{propertyName}.HoverText"), font, 160, textBounds);
         composer.AddSlider(OnBrightnessChanged, sliderBounds.FlatCopy().WithFixedWidth(sliderSize), $"btn{propertyName}");
         textBounds = textBounds.BelowCopy(fixedDeltaY: gapBetweenRows);
         sliderBounds = sliderBounds.BelowCopy(fixedDeltaY: gapBetweenRows);

@@ -1,13 +1,11 @@
-﻿using Gantry.Core.Extensions.Api;
-using Gantry.Core.GameContent.GUI.Abstractions;
+﻿using System.Collections.Frozen;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
+namespace AccessibilityTweaks.Features.SoundEffects.Dialogue;
 
 /// <summary>
 ///     User interface for changing the volume and pitch settings for an individual sound effect within the game.
 /// </summary>
 /// <seealso cref="GenericDialogue" />
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EditVolumeDialogue : GenericDialogue
 {
     private readonly VolumeOverrideModel _cell;
@@ -15,14 +13,14 @@ public sealed class EditVolumeDialogue : GenericDialogue
     /// <summary>
     /// 	Initialises a new instance of the <see cref="EditVolumeDialogue"/> class.
     /// </summary>
-    /// <param name="capi">The core client API.</param>
+    /// <param name="gapi">The core client API.</param>
     /// <param name="cell">The cell from main sound effects dialogue.</param>
-    public EditVolumeDialogue(ICoreClientAPI capi, VolumeOverrideModel cell) : base(capi)
+    public EditVolumeDialogue(ICoreGantryAPI gapi, VolumeOverrideModel cell) : base(gapi)
     {
         _cell = cell;
         ModalTransparency = 0.4f;
         Alignment = EnumDialogArea.CenterMiddle;
-        Title = ApiEx.Client!.Assets.Get(cell.Path).Name;
+        Title = gapi.Capi.Assets.Get(cell.Path).Name;
     }
 
     /// <summary>
@@ -32,14 +30,14 @@ public sealed class EditVolumeDialogue : GenericDialogue
     /// <returns>A localised <see cref="string"/>, for the specified language file code.</returns>
     private static string LangEntry(string code)
     {
-        return LangEx.FeatureString("SoundEffects.Dialogue", code);
+        return G.Lang.Translate("SoundEffects.Dialogue", code);
     }
 
     /// <summary>
     ///     The action to perform when the OK button is pressed.
     /// </summary>
     /// <value>The <see cref="VolumeOverrideModel"/> instance, passed back from this window.</value>
-    public Action<VolumeOverrideModel> OnOkAction { get; set; }
+    public Action<VolumeOverrideModel>? OnOkAction { get; set; }
 
     /// <summary>
     ///     Refreshes the displayed values on the form.
@@ -62,6 +60,15 @@ public sealed class EditVolumeDialogue : GenericDialogue
     {
         base.Compose();
         SingleComposer.GetButton("btnPlaySound").PlaySound = false;
+
+        var a = new Dictionary<string, int>()
+        {
+            { "x", 1 },
+            { "y", 2 },
+            { "z", 3 }
+        };
+
+        var b = a.ToFrozenDictionary();
     }
 
     /// <summary>
@@ -100,7 +107,7 @@ public sealed class EditVolumeDialogue : GenericDialogue
             .AddSwitch(OnMuteToggle, right, "btnMute");
 
         composer.AddSmallButton(LangEntry("PlaySound"), OnPlayButtonPressed, controlRowBoundsLeftFixed.FixedUnder(right, 10), EnumButtonStyle.Normal, "btnPlaySound")
-            .AddSmallButton(LangEx.ConfirmationString("ok"), OnOkButtonPressed, controlRowBoundsRightFixed.FixedUnder(right, 10));
+            .AddSmallButton(G.Lang.Confirmation("ok"), OnOkButtonPressed, controlRowBoundsRightFixed.FixedUnder(right, 10));
     }
 
     private bool OnPlayButtonPressed()
@@ -109,13 +116,13 @@ public sealed class EditVolumeDialogue : GenericDialogue
 
         if (asset.Category == AssetCategory.sounds)
         {
-            ApiEx.Client!.World.PlaySoundFor(asset, ApiEx.Client.World.Player, true, 0f, _cell.Muted ? 0f : _cell.VolumeMultiplier);
+            G.Capi.World.PlaySoundFor(asset, G.Capi.World.Player, true, 0f, _cell.Muted ? 0f : _cell.VolumeMultiplier);
         }
 
         if (asset.Category != AssetCategory.music) return true;
 
-        ApiEx.Client!.CurrentMusicTrack?.FadeOut(0);
-        ApiEx.Client!.GetInternalClientSystem<SystemMusicEngine>().StartTrack(asset, 1000, EnumSoundType.Sound);
+        G.Capi.CurrentMusicTrack?.FadeOut(0);
+        G.Capi?.GetInternalClientSystem<SystemMusicEngine>()?.StartTrack(asset, 1000, EnumSoundType.Sound);
         return true;
     }
 

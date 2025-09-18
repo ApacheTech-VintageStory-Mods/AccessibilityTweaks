@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Virkjaðar:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Birtustig senu: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Birta:",
+    "Features.SceneBrightness.Description":  "Hjálpar fólki með ljósnæmi og fyrir efnishöfunda, bætir upp þjöppunarhraða á YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Birtustig vettvangs virkt: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Breytir birtustigi senunnar.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Skiptu um ofurbjarta stillingu.",
+    "Features.SceneBrightness.Dialogue.Title":  "Stillingar fyrir birtustig senunnar"
+}

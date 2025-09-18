@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Breyting á texta",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Á meðan hann sveltur:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta ölvaður.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta meðan þú sveltur.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Við ölvun:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta í tímastormi.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Í tímabundnum stormum:"
+}

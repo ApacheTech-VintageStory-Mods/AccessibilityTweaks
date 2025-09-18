@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "相机和运动",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "允许/禁止游戏在未经您许可的情况下移动您的鼠标。",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "启用后，使用潜行键切换潜行 - 点击一次可启用，再次点击可禁用潜行。",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "相机抖动强度：",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "世界在时间风暴中扭曲了多少。",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "毛刺强度：",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "不自主的鼠标运动：",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "感知扭曲强度：",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "世界在时间风暴中扭曲了多少。",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "切换潜行：",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "颤抖、击中时的后坐力和其他触觉反馈效果。",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "全局曲速强度：",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "当你喝醉时，世界会扭曲多少“。"
+}

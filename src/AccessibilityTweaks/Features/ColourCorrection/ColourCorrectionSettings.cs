@@ -1,6 +1,6 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.DataStructures;
+﻿using AccessibilityTweaks.Features.ColourCorrection.DataStructures;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection;
+namespace AccessibilityTweaks.Features.ColourCorrection;
 
 /// <summary>
 ///     User definable settings for the Colour Correction feature. Overrides the game's default colour and saturation balance.

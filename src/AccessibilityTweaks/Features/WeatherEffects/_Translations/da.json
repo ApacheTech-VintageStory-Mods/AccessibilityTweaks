@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Slår gengivelsen af tågeeffekter til/fra.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Slår gengivelsen af regndråbepartikeleffekter til/fra.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Slår gengivelsen af lynblinkende lyseffekter til/fra.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Tåge effekter:",
+    "Features.WeatherEffects.Dialogue.Title":  "Vejreffekter",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Skyer:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Støv:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Tåge effekter:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Slår gengivelsen af skyer til/fra.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Slår gengivelsen af snefnugpartikeleffekter til/fra.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Lyn:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Skifter gengivelsen af tågeeffekter.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Snefnug:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Regndråber:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Slår gengivelsen af støvpartikeleffekter til/fra.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Haglsten:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Slår gengivelsen af haglpartikeleffekter til/fra."
+}

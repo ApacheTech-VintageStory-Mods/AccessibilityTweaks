@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Etkin:",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Sahne Parlaklık Seviyesi: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Parlaklık:",
+    "Features.SceneBrightness.Description":  "Işık hassasiyeti olan kişilere ve içerik oluşturuculara YouTube / Twitch\u0027teki sıkıştırma oranlarını telafi etme konusunda yardımcı olur.",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Sahne Parlaklığı Etkin: {0}",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Sahnenin parlaklık düzeyini değiştirir.",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Süper Parlak Modu Aç/Kapat.",
+    "Features.SceneBrightness.Dialogue.Title":  "Sahne Parlaklığı Ayarları"
+}

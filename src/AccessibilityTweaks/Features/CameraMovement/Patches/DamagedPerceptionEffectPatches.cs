@@ -1,21 +1,16 @@
-﻿using Gantry.Services.FileSystem.Configuration.Consumers;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Patches;
-
-// ReSharper disable InconsistentNaming
+﻿namespace AccessibilityTweaks.Features.CameraMovement.Patches;
 
 /// <summary>
 ///     Harmony Patches for the <see cref="DrunkPerceptionEffect"/> class. This class cannot be inherited.
 /// </summary>
 /// <seealso cref="CameraMovementSettings" />
-[HarmonyClientSidePatch]
-public sealed class DamagedPerceptionEffectPatches : WorldSettingsConsumer<CameraMovementSettings>
+public sealed class DamagedPerceptionEffectPatches : GantrySettingsPatch<CameraMovementSettings>
 {
     /// <summary>
     ///     Applies a <see cref="HarmonyPrefix"/> patch to the "ApplyMotionEffects" method in the <see cref="DamagedPerceptionEffect"/> class.
     /// </summary>
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(DamagedPerceptionEffect), "ApplyMotionEffects")]
+    [HarmonyClientPatch(typeof(DamagedPerceptionEffect), "ApplyMotionEffects")]
     public static bool Patch_DamagedPerceptionEffect_ApplyMotionEffects_Prefix()
         => Settings.InvoluntaryMouseMovement;
 }

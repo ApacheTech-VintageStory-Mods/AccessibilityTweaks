@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Kamera i ruch",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Zezwalaj/Nie zezwalaj grze na poruszanie myszą bez Twojej zgody.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Gdy ta opcja jest włączona, skradanie się jest przełączane za pomocą Sneak - dotknij raz, aby włączyć, a następnie dotknij ponownie, aby wyłączyć skradanie się.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Siła drgań aparatu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak bardzo świat zakrzywia się podczas burzy czasowej.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Siła usterki:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mimowolne ruchy myszy:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Siła wypaczenia percepcji:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak bardzo świat zakrzywia się podczas burzy czasowej.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Przełącz skradanie się:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Dreszcze, odrzut po trafieniu i inne efekty dotykowego sprzężenia zwrotnego.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globalna siła wypaczenia:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak bardzo świat się zakrzywia, kiedy jesteś pijany\"."
+}

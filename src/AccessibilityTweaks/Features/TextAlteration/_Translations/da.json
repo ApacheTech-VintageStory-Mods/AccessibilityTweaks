@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Ændring af tekst",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Mens du sulter:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktiver/deaktiver automatisk ændring af chattekst, mens du er beruset.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktiver/deaktiver den automatiske ændring af chattekst, mens du sulter.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "I beruset tilstand:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktiver/deaktiver den automatiske ændring af chattekst under en tidsmæssig storm.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Under tidsmæssige storme:"
+}

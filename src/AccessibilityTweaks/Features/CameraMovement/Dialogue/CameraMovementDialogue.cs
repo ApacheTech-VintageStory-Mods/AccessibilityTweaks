@@ -1,22 +1,20 @@
-﻿using ApacheTech.VintageMods.AccessibilityTweaks.Core.GameContent.Gui.Abstractions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue.Components;
+﻿using AccessibilityTweaks.Features.CameraMovement.Dialogue.Components;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.CameraMovement.Dialogue;
+namespace AccessibilityTweaks.Features.CameraMovement.Dialogue;
 
 /// <summary>
 /// 
 /// </summary>
 /// <seealso cref="SingleComponentDialogue{CameraMovementGuiComponent}" />
-[UsedImplicitly]
 public class CameraMovementDialogue : SingleComponentDialogue<CameraMovementGuiComponent>
 {
     /// <summary>
     /// Initialises a new instance of the <see cref="CameraMovementDialogue"/> class.
     /// </summary>
-    /// <param name="capi">The capi.</param>
-    public CameraMovementDialogue(ICoreClientAPI capi) : base(capi)
+    /// <param name="gapi">The capi.</param>
+    public CameraMovementDialogue(ICoreGantryAPI gapi) : base(gapi)
     {
-        Title = LangEx.FeatureString("CameraMovement.Dialogue", "Title");
+        Title = G.Lang.Translate("CameraMovement.Dialogue", "Title");
         Alignment = EnumDialogArea.CenterMiddle;
         Modal = true;
         ModalTransparency = 0.3f;

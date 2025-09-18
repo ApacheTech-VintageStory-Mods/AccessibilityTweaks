@@ -1,10 +1,6 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects.Dialogue;
-using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
-using Gantry.Services.FileSystem.Configuration;
+﻿using AccessibilityTweaks.Features.SoundEffects.Dialogue;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects;
+namespace AccessibilityTweaks.Features.SoundEffects;
 
 /// <summary>
 ///     - Feature: Sound Effects<br/><br/>
@@ -17,16 +13,14 @@ namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.SoundEffects;
 ///         - Game sounds mute, when the game is paused.<br/>
 ///         - Game sounds mute, when the game window loses focus.
 /// </summary>
-/// <seealso cref="ClientModSystem" />
-[UsedImplicitly]
-public sealed class SoundEffects : ClientModSystem, IClientServiceRegistrar
+public sealed class SoundEffects : ClientModSystem<SoundEffects>, IClientServiceRegistrar
 {
     /// <summary>
     ///     Allows a mod to include Singleton, or Transient services to the IOC Container.
     /// </summary>
     /// <param name="services">The service collection.</param>
-    /// <param name="capi">The game's client-side API.</param>
-    public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
+    /// <param name="gapi">The game's client-side API.</param>
+    public void ConfigureClientModServices(IServiceCollection services, ICoreGantryAPI gapi)
     {
         services.AddFeatureWorldSettings<SoundEffectsSettings>();
         services.AddTransient<SoundEffectsDialogue>();
@@ -44,8 +38,8 @@ public sealed class SoundEffects : ClientModSystem, IClientServiceRegistrar
 
     private static void UpdateVolumeOverrideSettings()
     {
-        var settings = IOC.Services.Resolve<SoundEffectsSettings>();
-        var defaults = ApiEx.Client!.Assets.AllAssets
+        var settings = G.Services.Resolve<SoundEffectsSettings>();
+        var defaults = G.Capi.Assets.AllAssets
             .Where(p => p.Key.Category == AssetCategory.sounds || p.Key.Category == AssetCategory.music)
             .Where(p => p.Key.Path.EndsWith(".ogg"));
         foreach (var entry in defaults)
@@ -53,6 +47,6 @@ public sealed class SoundEffects : ClientModSystem, IClientServiceRegistrar
             var path = entry.Key.ToString();
             settings.SoundAssets.AddIfNotPresent(path, new VolumeOverrideModel { Path = path });
         }
-        ModSettings.World.Save(settings);
+        G.Settings.World.Save(settings);
     }
 }

@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "カメラと動き",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "ゲームが許可なくマウスを動かすことを許可/禁止します。",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "有効にすると、スニークキーを使用してスニークが切り替わります - 一度タップすると有効になり、もう一度タップするとスニークが無効になります。",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "手ぶれの強さ:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "時間的な嵐の間に世界がどれだけワープするか。",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "グリッチの強さ:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "マウスの不随意移動:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "知覚反りの強さ:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "時間的な嵐の間に世界がどれだけワープするか。",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "スニークの切り替え:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "震え、被撃時の反動、その他の触覚フィードバック効果。",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "グローバルワープ強度:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "酔っている間、世界がどれだけワープするか」。"
+}

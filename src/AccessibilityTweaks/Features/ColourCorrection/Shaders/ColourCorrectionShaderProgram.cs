@@ -1,13 +1,12 @@
-﻿using Gantry.Core.GameContent.Shaders;
+﻿using Gantry.GameContent.Shaders;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Features.ColourCorrection.Shaders;
+namespace AccessibilityTweaks.Features.ColourCorrection.Shaders;
 
 /// <summary>
 ///     Changes the hue, and saturation of the scene colours, based on user-defined settings.
 /// </summary>
 /// <seealso cref="ShaderProgram" />
 /// <seealso cref="IGenericShaderProgram" />
-[UsedImplicitly]
 public sealed class ColourCorrectionShaderProgram : ShaderProgram, IGenericShaderProgram
 {
     private readonly ColourCorrectionSettings _settings;
@@ -17,7 +16,7 @@ public sealed class ColourCorrectionShaderProgram : ShaderProgram, IGenericShade
     /// </summary>
     public ColourCorrectionShaderProgram(ColourCorrectionSettings settings)
     {
-        AssetDomain = ModEx.ModInfo.ModID;
+        AssetDomain = G.Mod.Info.ModID;
         PassName = "colour-correction";
         _settings = settings;
     }
@@ -27,7 +26,7 @@ public sealed class ColourCorrectionShaderProgram : ShaderProgram, IGenericShade
     /// </summary>
     public void UpdateUniforms()
     {
-        BindTexture2D("iChannel0", ApiEx.Client!.Render.FrameBuffers[0].ColorTextureIds[0], 0);
+        BindTexture2D("iChannel0", G.Capi.Render.FrameBuffers[0].ColorTextureIds[0], 0);
         Uniform("iColourVisionType", (int)_settings.Preset);
 
         Uniform("iRedBalance", _settings.Red);

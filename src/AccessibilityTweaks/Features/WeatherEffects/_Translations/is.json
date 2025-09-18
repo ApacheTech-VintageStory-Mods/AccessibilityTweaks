@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Skiptir á flutningi þokuáhrifa.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Skiptir um túlkun á áhrifum regndropaagna.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Skiptir á flutningi eldinga blikkandi ljósáhrifa.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Þoku áhrif:",
+    "Features.WeatherEffects.Dialogue.Title":  "Veðuráhrif",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Ský:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Ryk:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Mist áhrif:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Skiptir á myndgerð skýja.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Skiptir um túlkun á áhrifum snjókornaagna.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Eldingar blikka:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Skiptir um flutning á úðaáhrifum.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Snjókorn:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Regndropar:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Skiptir um þýðingu á rykagnaáhrifum.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Haglsteinar:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Skiptir um þýðingu á haglsteinsáhrifum."
+}
