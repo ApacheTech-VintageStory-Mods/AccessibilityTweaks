@@ -11,15 +11,5 @@
 	<ItemGroup>
 		<None Remove="$(ProjectDir)\**\.gitkeep" />
 	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="Features\CameraMovement\_Translations\en.json" />
-	  <Content Include="Features\ColourCorrection\_Translations\en.json" />
-	  <Content Include="Features\SceneBrightness\_Translations\en.json" />
-	  <Content Include="Features\SoundEffects\_Translations\en.json" />
-	  <Content Include="Features\StepAssist\_Translations\en.json" />
-	  <Content Include="Features\TextAlteration\_Translations\en.json" />
-	  <Content Include="Features\WeatherEffects\_Translations\en.json" />
-	</ItemGroup>
 	
 </Project>
