@@ -1,13 +1,9 @@
-﻿using Gantry.Core.Extensions.Helpers;
-using Gantry.Core.GameContent.GUI.Abstractions;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
+﻿namespace AccessibilityTweaks.Features.AccessibilityHub.Dialogue;
 
 /// <summary>
 ///     User interface that acts as a hub, to bring together all features within the mod.
 /// </summary>
 /// <seealso cref="GenericDialogue" />
-[UsedImplicitly]
 public sealed class SupportDialogue : GenericDialogue
 {
     private float _row;
@@ -17,11 +13,11 @@ public sealed class SupportDialogue : GenericDialogue
     /// <summary>
     /// 	Initialises a new instance of the <see cref="SupportDialogue"/> class.
     /// </summary>
-    /// <param name="capi">The client API.</param>
-    public SupportDialogue(ICoreClientAPI capi) : base(capi)
+    /// <param name="gapi">The client API.</param>
+    public SupportDialogue(ICoreGantryAPI gapi) : base(gapi)
     {
         Alignment = EnumDialogArea.CenterMiddle;
-        Title = LangEx.ModTitle();
+        Title = G.Lang.ModTitle();
         ModalTransparency = 0f;
         ShowTitleBar = true;
     }
@@ -32,7 +28,7 @@ public sealed class SupportDialogue : GenericDialogue
     /// <param name="code">The entry to return.</param>
     /// <returns>A localised <see cref="string"/>, for the specified language file code.</returns>
     private static string LangEntry(string code) =>
-        LangEx.FeatureString("Support.Dialogue", code);
+        G.Lang.Translate("Support.Dialogue", code);
 
     /// <summary>
     ///     Composes the header for the GUI.

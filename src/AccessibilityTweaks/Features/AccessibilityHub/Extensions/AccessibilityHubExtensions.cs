@@ -1,13 +1,8 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using Gantry.Core.GameContent.GUI.Abstractions;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Extensions;
+﻿namespace AccessibilityTweaks.Features.AccessibilityHub.Extensions;
 
 /// <summary>
 ///     Extension methods to aid registration of hub dialogues.
 /// </summary>
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class AccessibilityHubExtensions
 {
     /// <summary>
@@ -16,7 +11,7 @@ public static class AccessibilityHubExtensions
     [SuppressMessage("Style", "IDE0060:Remove unused parameter", Justification = "Extension Method")]
     public static void AddAccessibilityHubDialogue<T>(this ICoreClientAPI capi, string title) where T : GenericDialogue
     {
-        IOC.Services.Resolve<AccessibilityHub>().FeatureDialogues
-            .AddIfNotPresent(typeof(T), LangEx.FeatureString($"{title}.Dialogue", "Title"));
+        G.Services.Resolve<AccessibilityHub>().FeatureDialogues
+            .AddIfNotPresent(typeof(T), G.T($"{title}.Dialogue", "Title"));
     }
 }

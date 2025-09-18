@@ -1,23 +1,18 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions;
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
-using Gantry.Core.GameContent.Extensions.Gui;
+﻿using AccessibilityTweaks.Features.AccessibilityHub.Dialogue;
 
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub;
+namespace AccessibilityTweaks.Features.AccessibilityHub;
 
 /// <summary>
 ///     Provides a main GUI for the mod, as a central location to access each feature; rather than through commands.
 /// </summary>
-/// <seealso cref="ClientModSystem" />
-[UsedImplicitly]
-public sealed class AccessibilityHub : ClientModSystem, IClientServiceRegistrar
+public sealed class AccessibilityHub : ClientModSystem<AccessibilityHub>, IClientServiceRegistrar
 {
     /// <summary>
     ///     Allows a mod to include Singleton, or Transient services to the IOC Container.
     /// </summary>
     /// <param name="services">The service collection.</param>
-    /// <param name="capi">The game's client-side API.</param>
-    public void ConfigureClientModServices(IServiceCollection services, ICoreClientAPI capi)
+    /// <param name="gapi">The game's client-side API.</param>
+    public void ConfigureClientModServices(IServiceCollection services, ICoreGantryAPI gapi)
     {
         services.AddTransient<AccessibilityHubDialogue>();
         services.AddTransient<SupportDialogue>();
@@ -30,7 +25,7 @@ public sealed class AccessibilityHub : ClientModSystem, IClientServiceRegistrar
     public override void StartClientSide(ICoreClientAPI api)
     {
         api.Input.RegisterTransientGuiDialogueHotKey(
-            () => IOC.Services.Resolve<AccessibilityHubDialogue>(), LangEx.ModTitle(), GlKeys.F8);
+            G.Services.Resolve<AccessibilityHubDialogue>, G.Lang.ModTitle(), GlKeys.F8);
     }
 
     /// <summary>

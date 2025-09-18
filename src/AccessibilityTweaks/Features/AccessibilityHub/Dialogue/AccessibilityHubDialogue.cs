@@ -1,15 +1,9 @@
-﻿
-
-using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using Gantry.Core.GameContent.GUI.Abstractions;
-
-namespace ApacheTech.VintageMods.AccessibilityTweaks.Services.AccessibilityHub.Dialogue;
+﻿namespace AccessibilityTweaks.Features.AccessibilityHub.Dialogue;
 
 /// <summary>
 ///     User interface that acts as a hub, to bring together all features within the mod.
 /// </summary>
 /// <seealso cref="GenericDialogue" />
-[UsedImplicitly]
 public sealed class AccessibilityHubDialogue : GenericDialogue
 {
     private float _row;
@@ -20,12 +14,12 @@ public sealed class AccessibilityHubDialogue : GenericDialogue
     /// <summary>
     /// 	Initialises a new instance of the <see cref="AccessibilityHubDialogue"/> class.
     /// </summary>
-    /// <param name="capi">The client API.</param>
+    /// <param name="gapi">The client API.</param>
     /// <param name="system">The mod system that controls this dialogue window.</param>
-    public AccessibilityHubDialogue(ICoreClientAPI capi, AccessibilityHub system) : base(capi)
+    public AccessibilityHubDialogue(ICoreGantryAPI gapi, AccessibilityHub system) : base(gapi)
     {
         Alignment = EnumDialogArea.CenterMiddle;
-        Title = LangEx.ModTitle();
+        Title = G.Lang.ModTitle();
         ModalTransparency = 0f;
         ShowTitleBar = true;
         _dialogues = system.FeatureDialogues;
@@ -37,7 +31,7 @@ public sealed class AccessibilityHubDialogue : GenericDialogue
     /// <param name="code">The entry to return.</param>
     /// <returns>A localised <see cref="string"/>, for the specified language file code.</returns>
     private static string LangEntry(string code) => 
-        LangEx.FeatureString("AccessibilityHub.Dialogue", code);
+        G.Lang.Translate("AccessibilityHub.Dialogue", code);
 
     /// <summary>
     ///     Composes the header for the GUI.
@@ -77,13 +71,13 @@ public sealed class AccessibilityHubDialogue : GenericDialogue
 
     private static bool OpenDialogue(Type type)
     {
-        ((GuiDialog)IOC.Services.GetService(type)!).Toggle();
+        ((GuiDialog)G.Services.GetService(type)!).Toggle();
         return true;
     }
 
     private static bool OnDonateButtonPressed()
     {
-        var dialogue = IOC.Services.Resolve<SupportDialogue>();
+        var dialogue = G.Services.Resolve<SupportDialogue>();
         return dialogue.TryOpen();
     }
 }
