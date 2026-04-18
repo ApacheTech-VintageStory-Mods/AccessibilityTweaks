@@ -46,7 +46,8 @@ public sealed class WeatherEffectsGuiComponent : IGuiComposablePart
                 .GetSwitch($"btn{propertyInfo.Name}")?
                 .SetValue(propertyInfo.GetValue(_settings)?.To<bool>() ?? default);
         }
-        ClientSettings.CloudRenderMode = _settings.CloudsEnabled ? 1 : 0;
+
+
         G.Capi.ReloadShadersThreadSafe(_parent!.Gantry);
     }
 
@@ -97,13 +98,6 @@ public sealed class WeatherEffectsGuiComponent : IGuiComposablePart
         composer.AddStaticText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{nameof(_settings.LightningEnabled)}"), font.Clone().WithOrientation(EnumTextOrientation.Right), left);
         composer.AddHoverText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{nameof(_settings.LightningEnabled)}.HoverText"), font, 260, left);
         composer.AddSwitch(OnLightningEnabledChanged, right.FlatCopy().WithFixedWidth(switchSize), $"btn{nameof(_settings.LightningEnabled)}");
-
-        left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
-        right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
-
-        composer.AddStaticText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{nameof(_settings.CloudsEnabled)}"), font.Clone().WithOrientation(EnumTextOrientation.Right), left);
-        composer.AddHoverText(G.Lang.Translate(FeatureName, $"Dialogue.lbl{nameof(_settings.CloudsEnabled)}.HoverText"), font, 260, left);
-        composer.AddSwitch(OnCloudsEnabledChanged, right.FlatCopy().WithFixedWidth(switchSize), $"btn{nameof(_settings.CloudsEnabled)}");
 
         left = left.BelowCopy(fixedDeltaY: gapBetweenRows);
         right = right.BelowCopy(fixedDeltaY: gapBetweenRows);
@@ -160,12 +154,6 @@ public sealed class WeatherEffectsGuiComponent : IGuiComposablePart
     private void OnLightningEnabledChanged(bool state)
     {
         _settings.LightningEnabled = state;
-        RefreshValues(_composer!);
-    }
-
-    private void OnCloudsEnabledChanged(bool state)
-    {
-        _settings.CloudsEnabled = state;
         RefreshValues(_composer!);
     }
 

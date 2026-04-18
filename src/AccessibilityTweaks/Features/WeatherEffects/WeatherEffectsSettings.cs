@@ -36,12 +36,6 @@ public sealed class WeatherEffectsSettings : FeatureSettings<WeatherEffectsSetti
     public bool LightningEnabled { get; set; } = true;
 
     /// <summary>
-    ///     Indicates whether clouds should be rendered, or not.
-    /// </summary>
-    /// <value><c>true</c> if clouds should be rendered; otherwise, <c>false</c>.</value>
-    public bool CloudsEnabled { get; set; } = true;
-
-    /// <summary>
     ///     Indicates whether fog effects should be rendered, or not.
     /// </summary>
     /// <value><c>true</c> if fog effects are enabled; otherwise, <c>false</c>.</value>

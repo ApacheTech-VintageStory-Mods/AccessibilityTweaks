@@ -1,5 +1,4 @@
-﻿using AccessibilityTweaks.Features.AccessibilityHub.Extensions;
-using AccessibilityTweaks.Features.WeatherEffects.Dialogue;
+﻿using AccessibilityTweaks.Features.WeatherEffects.Dialogue;
 
 namespace AccessibilityTweaks.Features.WeatherEffects;
 
@@ -28,8 +27,6 @@ public sealed class WeatherEffects : ClientModSystem<WeatherEffects>, IClientSer
     /// <param name="api">The client-side API.</param>
     public override void StartClientSide(ICoreClientAPI api)
     {
-        var enabled = G.Services.Resolve<WeatherEffectsSettings>().CloudsEnabled ? 1 : 0;
-        ClientSettings.CloudRenderMode = enabled;
         api.AddAccessibilityHubDialogue<WeatherEffectsDialogue>("WeatherEffects");
     }
 }
