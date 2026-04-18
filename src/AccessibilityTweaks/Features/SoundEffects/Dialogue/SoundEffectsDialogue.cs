@@ -1,5 +1,4 @@
-﻿using Gantry.Services.IO.Dialogue;
-using Vintagestory.Client;
+﻿using Vintagestory.Client;
 
 namespace AccessibilityTweaks.Features.SoundEffects.Dialogue;
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.32804.182
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11626.88 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mod", "Mod", "{29C76EF2-BEAD-49A2-BDAA-72F1B3FD94FA}"
 EndProject
@@ -53,11 +53,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceGenerators", "SourceG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analysers", "Analysers", "{F0C3EC14-DE40-4B7C-B184-9851D0AA54A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gantry.HarmonyShadowGenerator", "..\..\..\Gantry\shared\Gantry.HarmonyShadowGenerator\Gantry.HarmonyShadowGenerator.csproj", "{AB5D92B2-58B5-A644-49DD-20097CEF125F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gantry.Analysers.CSharp", "..\..\..\Gantry\analysers\Gantry.Analysers.CSharp\Gantry.Analysers.CSharp.csproj", "{FD58A8BB-F14D-30FB-6991-2F5159ABD83F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gantry.Analysers.CSharp.CodeFixes", "..\..\..\Gantry\analysers\Gantry.Analysers.CSharp.CodeFixes\Gantry.Analysers.CSharp.CodeFixes.csproj", "{AAB75706-388F-6DAF-BB44-821BF628692F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{58298E82-F161-4C5C-B9EB-6834DC02D662}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Gantry\tools\Gantry.Tools.TranslationsPatcher\Gantry.Tools.TranslationsPatcher.csproj = ..\..\..\Gantry\tools\Gantry.Tools.TranslationsPatcher\Gantry.Tools.TranslationsPatcher.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{856F536E-8D60-4EBB-A5DA-993402256AC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,14 +104,6 @@ Global
 		{2E9E18A8-229F-41ED-8F5B-43B6ACB1415B}.Package|Any CPU.Build.0 = Package|Any CPU
 		{2E9E18A8-229F-41ED-8F5B-43B6ACB1415B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E9E18A8-229F-41ED-8F5B-43B6ACB1415B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Launch Server|Any CPU.ActiveCfg = Release|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Launch Server|Any CPU.Build.0 = Release|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Package|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Package|Any CPU.Build.0 = Debug|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD58A8BB-F14D-30FB-6991-2F5159ABD83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD58A8BB-F14D-30FB-6991-2F5159ABD83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD58A8BB-F14D-30FB-6991-2F5159ABD83F}.Launch Server|Any CPU.ActiveCfg = Release|Any CPU
@@ -138,9 +135,10 @@ Global
 		{0EA708E9-9E9D-4FE0-855C-DF89F48CBB2F} = {D0B68259-173C-4D80-97BC-AA7C34411ECC}
 		{A175862B-90FD-4BBC-81A8-0E62D1ADFD14} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
 		{F0C3EC14-DE40-4B7C-B184-9851D0AA54A6} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
-		{AB5D92B2-58B5-A644-49DD-20097CEF125F} = {A175862B-90FD-4BBC-81A8-0E62D1ADFD14}
 		{FD58A8BB-F14D-30FB-6991-2F5159ABD83F} = {F0C3EC14-DE40-4B7C-B184-9851D0AA54A6}
 		{AAB75706-388F-6DAF-BB44-821BF628692F} = {F0C3EC14-DE40-4B7C-B184-9851D0AA54A6}
+		{58298E82-F161-4C5C-B9EB-6834DC02D662} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
+		{856F536E-8D60-4EBB-A5DA-993402256AC1} = {D4B42876-0CFC-47A8-9198-66BE654545D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17961E01-8E04-43D7-9947-7E0342352ADD}

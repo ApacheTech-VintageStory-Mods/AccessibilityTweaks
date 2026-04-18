@@ -231,7 +231,7 @@ public sealed class SoundEffectsGuiCell : GuiElementTextBase, IGuiElementCell
     /// </summary>
     public override void Dispose()
     {
-        api.AsClientMain().EnqueueMainThreadTask(() =>
+        api.ClientMain.EnqueueMainThreadTask(() =>
         {
             _cellTexture?.Dispose();
             api.Render.GLDeleteTexture(_leftHighlightTextureId);

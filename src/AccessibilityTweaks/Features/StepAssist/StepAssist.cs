@@ -4,7 +4,7 @@ public class StepAssist : ClientModSystem<StepAssist>
 {
     private bool _enabled;
 
-    private string T(string key) => G.Lang.Translate("StepAssist", key);
+    private static string T(string key) => G.Lang.Translate("MovementAssist.StepAssist", key);
 
     public override void StartClientSide(ICoreClientAPI capi)
     {

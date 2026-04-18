@@ -2,7 +2,7 @@
 	<Import Project="..\..\..\..\..\Gantry\shared\Gantry.Shared\Gantry.Shared.projitems" Label="Shared" />
 
 	<PropertyGroup Label="Assembly Versioning">
-		<Version>4.0.0.0</Version>
+		<Version>5.0.0.0</Version>
 		<ModId>accessibilitytweaks</ModId>
 		<ModName>Accessibility Tweaks</ModName>
 		<PackageMod>true</PackageMod>
