@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Tasti automatici",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Camminata automatica",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Premi due volte il tasto per camminare per continuare a muoverti. Tocca di nuovo per fermarti.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Premi due volte il tasto sprint per continuare a correre. Tocca di nuovo per fermarti.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Premi due volte il tasto di furtività per continuare a muoverti. Tocca di nuovo per fermarti."
+}

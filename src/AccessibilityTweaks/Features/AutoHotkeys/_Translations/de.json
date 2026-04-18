@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatische Hotkeys",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto-Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Drücken Sie doppelt auf die Walk-Taste, um weiterzugehen. Klopfen Sie nochmal, um zu stoppen.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto-Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Doppelt drücken Sie die Sprint-Taste, um weiter zu sprinten. Klopfen Sie nochmal, um zu stoppen.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto-Schleichen",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Doppeltippe die Schleichtaste, um weiter zu schleichen. Klopfen Sie nochmal, um zu stoppen."
+}

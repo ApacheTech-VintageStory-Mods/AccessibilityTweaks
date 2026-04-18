@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automaattiset pikanäppäimet",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Kahdesti paina kävelynäppäintä jatkaaksesi liikkumista. Napauta uudelleen pysäyttääksesi.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Kahdesti paina sprinttinäppäintä jatkaaksesi juoksua. Napauta uudelleen pysäyttääksesi.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Kaksoisnapauta salailunäppäintä jatkaaksesi hiiviskelyä. Napauta uudelleen pysäyttääksesi."
+}

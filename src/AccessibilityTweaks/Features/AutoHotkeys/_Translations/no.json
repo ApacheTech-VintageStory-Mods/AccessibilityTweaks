@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatiske hurtigtaster",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dobbelttrykk på gå-tasten for å fortsette å bevege deg. Trykk igjen for å stoppe.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dobbelttrykk på sprint-tasten for å fortsette å sprinte. Trykk igjen for å stoppe.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dobbelttrykk på snikeknappen for å fortsette å snike. Trykk igjen for å stoppe."
+}

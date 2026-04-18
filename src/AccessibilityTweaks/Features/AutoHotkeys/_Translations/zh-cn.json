@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "自动快捷键",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "自动步行",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "双击步行键即可继续前进。再次点击以停止。",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "自动冲刺",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "双击冲刺键继续冲刺。再次点击以停止。",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "自动潜行",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "双击潜行键继续潜行。再次点击以停止。"
+}

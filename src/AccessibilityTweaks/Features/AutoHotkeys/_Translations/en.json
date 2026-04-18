@@ -1,0 +1,9 @@
+{
+  "Features.AutoHotkey.Dialogue.Title": "Automatic Hotkeys",
+  "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled": "Auto Walk",
+  "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText": "Double tap the walk key to continue moving. Tap again to stop.",
+  "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled": "Auto Sprint",
+  "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText": "Double tap the sprint key to continue sprinting. Tap again to stop.",
+  "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled": "Auto Sneak",
+  "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText": "Double tap the sneak key to continue sneaking. Tap again to stop."
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatische sneltoetsen",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Autowalk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dubbel tik op de looptoets om door te lopen. Tik nog eens om te stoppen.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dubbel tik op de sprinttoets om door te gaan met sprinten. Tik nog eens om te stoppen.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dubbel tikken op de sluiptoets om door te gaan met sluipen. Tik nog eens om te stoppen."
+}

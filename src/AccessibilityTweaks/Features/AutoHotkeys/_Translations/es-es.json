@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Atajos automáticos",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Paseo en coche",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Pulsa dos veces la tecla de caminar para seguir moviéndote. Toca otra vez para parar.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Pulsa dos veces la tecla de sprint para seguir corriendo. Toca otra vez para parar.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sigilo",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Pulsa dos veces la tecla de sigilo para seguir sigilando. Toca otra vez para parar."
+}

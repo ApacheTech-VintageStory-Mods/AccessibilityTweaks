@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Otomatik Kısayol Tuşları",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Otomatik Yürüyüş",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Yürümeye devam etmek için yürüme tuşuna iki kez dokunun. Tekrar dokunarak durdurun.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Otomatik Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Sprint tuşuna iki kez dokunarak koşmaya devam edin. Tekrar dokunarak durdurun.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Otomatik Gizlilik",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Gizlilik tuşuna iki kez dokunarak gizlenmeye devam edin. Tekrar dokunarak durdurun."
+}

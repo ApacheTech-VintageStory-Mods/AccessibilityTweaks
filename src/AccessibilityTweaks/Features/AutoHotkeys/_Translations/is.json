@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Sjálfvirkir flýtilyklar",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Tvíbankaðu á göngutakkann til að halda áfram að hreyfa þig. Bankaðu aftur til að stoppa.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Tvíýttu á spretttakka til að halda áfram að spretta. Bankaðu aftur til að stoppa.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Tvísmelltu á laumuspilslykilinn til að halda áfram að laumast. Bankaðu aftur til að stoppa."
+}

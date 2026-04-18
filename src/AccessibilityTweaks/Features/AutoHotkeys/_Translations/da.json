@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatiske genvejstaster",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Autowalk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dobbelttryk på gå-tasten for at fortsætte bevægelsen. Tryk igen for at stoppe.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dobbelttryk på sprint-tasten for at fortsætte sprinten. Tryk igen for at stoppe.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dobbelttryk på snignøglen for at fortsætte snigspillet. Tryk igen for at stoppe."
+}

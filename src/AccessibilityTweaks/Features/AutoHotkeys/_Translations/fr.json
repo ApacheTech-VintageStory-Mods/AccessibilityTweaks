@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Raccourcis automatiques",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Marche automatique",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Appuyez deux fois sur la touche de marche pour continuer à bouger. Appuyez encore pour arrêter.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Appuyez deux fois sur la touche sprint pour continuer à sprinter. Appuyez encore pour arrêter.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Appuyez deux fois sur la touche discrétion pour continuer à vous faufiler. Appuyez encore pour arrêter."
+}

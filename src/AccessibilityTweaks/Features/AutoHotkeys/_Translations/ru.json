@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Автоматические горячие клавиши",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Дважды нажимайте клавишу ходьбы, чтобы продолжить движение. Постучите ещё раз, чтобы остановиться.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Дважды нажимайте клавишу спринта, чтобы продолжить бег. Постучите ещё раз, чтобы остановиться.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Дважды нажимайте на ключ скрытности, чтобы продолжить скрытность. Постучите ещё раз, чтобы остановиться."
+}

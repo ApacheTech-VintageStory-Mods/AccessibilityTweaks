@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatické klávesové zkratky",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dvojitým stiskem klávesy pro chůzi pokračujte v pohybu. Klepněte znovu, abyste zastavili.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dvakrát stiskněte klávesu sprintu a pokračujte ve sprintu. Klepněte znovu, abyste zastavili.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dvakrát stiskněte klávesu plížení a pokračujte v plížení. Klepněte znovu, abyste zastavili."
+}

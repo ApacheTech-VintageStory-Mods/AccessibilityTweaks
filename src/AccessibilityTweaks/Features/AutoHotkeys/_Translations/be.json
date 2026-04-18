@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Аўтаматычныя гарачыя клавішы",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Аўтапрагулка",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Двойчы націсні клавішу хады, каб працягваць рух. Націсні яшчэ раз, каб спыніцца.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Двойчы націсніце клавішу спрынту, каб працягнуць спрынт. Націсні яшчэ раз, каб спыніцца.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Двойчы націсні на ключ скрытнасці, каб працягнуць пракрадацца. Націсні яшчэ раз, каб спыніцца."
+}

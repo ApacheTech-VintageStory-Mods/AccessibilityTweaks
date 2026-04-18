@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "自動ホットキー",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "オートウォーク",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "ウォークキーをダブルタップすると、そのまま進みます。もう一度タップして止める。",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "オートスプリント",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "スプリントキーをダブルタップすると、スプリントを続けられます。もう一度タップして止める。",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "オートスニーク",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "スニークキーをダブルタップしてスニークを続けます。もう一度タップして止める。"
+}

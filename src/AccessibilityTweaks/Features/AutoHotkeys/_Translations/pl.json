@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatyczne skróty klawiszowe",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Podwójnie naciśnij klawisz spaceru, aby kontynuować ruch. Stuknij ponownie, żeby przestać.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Podwójnie naciśnij klawisz sprintu, aby kontynuować sprint. Stuknij ponownie, żeby przestać.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Podwójnie naciśnij klawisz skradania, aby kontynuować skradanie. Stuknij ponownie, żeby przestać."
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "اختصارات أوتوماتيكية",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "مسير السيارات",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "اضغط مرتين على مفتاح المشي لتستمر في الحركة. اضغط مرة أخرى للتوقف.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "أوتو سبرينت",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "اضغط مرتين على زر الركض لمواصلة الركض. اضغط مرة أخرى للتوقف.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "التسلل التلقائي",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "اضغط مرتين على مفتاح التسلل لمواصلة التسلل. اضغط مرة أخرى للتوقف."
+}

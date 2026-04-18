@@ -1,6 +1,4 @@
-﻿using AccessibilityTweaks.Features.AccessibilityHub.Dialogue;
-
-namespace AccessibilityTweaks.Features.AccessibilityHub;
+﻿namespace AccessibilityTweaks.Features.AccessibilityHub;
 
 /// <summary>
 ///     Provides a main GUI for the mod, as a central location to access each feature; rather than through commands.

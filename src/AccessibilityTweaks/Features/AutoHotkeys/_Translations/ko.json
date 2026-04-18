@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "자동 단축키",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "오토 워크",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "이동을 계속하려면 걷기 키를 두 번 탭하세요. 멈추려면 다시 탭하세요.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "오토 스프린트",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "스프린트 키를 두 번 누르면 계속 스프린트를 이어가세요. 멈추려면 다시 탭하세요.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "오토 스니크",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "은신 키를 두 번 탭하면 계속 은신할 수 있습니다. 멈추려면 다시 탭하세요."
+}

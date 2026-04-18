@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatikus gyorsbillentyűk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Walk",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Kétszer koppints a sétábillentyűre, hogy tovább haladjon. Nyomd meg újra a megálláshoz.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Automatikus sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Kétszer kopogtasd meg a sprint gombot, hogy folytasd a sprintet. Nyomd meg újra a megálláshoz.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Automatikus lopakodás",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Kétszer kopogtasd meg a lopakodó gombot, hogy folytatd a lopakodni. Nyomd meg újra a megálláshoz."
+}

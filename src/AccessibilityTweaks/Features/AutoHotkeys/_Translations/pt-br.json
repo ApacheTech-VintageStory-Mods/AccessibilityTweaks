@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Atalhos automáticos",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Caminhada Automática",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Toque duas vezes na tecla de caminhada para continuar andando. Toque novamente para parar.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dê dois toques na tecla de sprint para continuar correndo. Toque novamente para parar.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Toque duas vezes na tecla de furtividade para continuar furtivamente. Toque novamente para parar."
+}

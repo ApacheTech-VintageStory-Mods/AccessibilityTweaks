@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "ปุ่มลัดอัตโนมัติ",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "เดินอัตโนมัติ",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "แตะสองครั้งที่ปุ่มเดินเพื่อเคลื่อนที่ต่อไป แตะอีกครั้งเพื่อหยุด",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "วิ่งอัตโนมัติ",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "แตะสองครั้งที่ปุ่มวิ่งเพื่อวิ่งต่อ แตะอีกครั้งเพื่อหยุด",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "แอบอัตโนมัติ",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "แตะสองครั้งที่ปุ่มแอบเพื่อแอบดูต่อไป แตะอีกครั้งเพื่อหยุด"
+}

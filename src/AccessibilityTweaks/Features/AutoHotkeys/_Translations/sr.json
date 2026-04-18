@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatski prečice",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Auto Šetnja",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dvaput dodirnite taster za šetnju da biste nastavili da se krećete. Dodirnite ponovo da biste zaustavili.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dvaput dodirnite taster sprinta da biste nastavili sprint. Dodirnite ponovo da biste zaustavili.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dvaput dodirnite taster za skrivanje da biste nastavili da se šunjate. Dodirnite ponovo da biste zaustavili."
+}

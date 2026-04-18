@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Автоматичні гарячі клавіші",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Автопрогулянка",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Двічі натискайте клавішу ходьби, щоб продовжити рух. Натискай ще раз, щоб зупинитися.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Auto Sprint",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Двічі натискайте клавішу спринту, щоб продовжити біг. Натискай ще раз, щоб зупинитися.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Auto Sneak",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Двічі натискайте кнопку прихованості, щоб продовжити підкрадатися. Натискай ще раз, щоб зупинитися."
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Phím nóng tự động",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Tự động đi bộ",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Nhấn đúp vào phím đi bộ để tiếp tục di chuyển. Nhấn lại để dừng.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Tự động chạy nước rút",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Nhấn đúp vào phím chạy nước rút để tiếp tục chạy nước rút. Nhấn lại để dừng.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Tự động lén lút",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Nhấn đúp vào phím lén lút để tiếp tục lén lút. Nhấn lại để dừng."
+}

@@ -1,0 +1,9 @@
+﻿{
+    "Features.AutoHotkey.Dialogue.Title":  "Automatiniai spartieji klavišai",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled":  "Automatinis ėjimas",
+    "Features.AutoHotkey.Dialogue.lblAutoWalkEnabled.HoverText":  "Dukart bakstelėkite ėjimo klavišą, kad tęstumėte judėjimą. Palieskite dar kartą, kad sustabdytumėte.",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled":  "Automatinis sprintas",
+    "Features.AutoHotkey.Dialogue.lblAutoSprintEnabled.HoverText":  "Dukart bakstelėkite sprinto klavišą, kad tęstumėte sprintą. Palieskite dar kartą, kad sustabdytumėte.",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled":  "Automatinis sėlinimas",
+    "Features.AutoHotkey.Dialogue.lblAutoSneakEnabled.HoverText":  "Dukart bakstelėkite sėlinimo klavišą, kad tęstumėte sėlinimą. Palieskite dar kartą, kad sustabdytumėte."
+}
