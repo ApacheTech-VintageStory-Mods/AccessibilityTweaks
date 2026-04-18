@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Szövegmódosítás",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Időviharok idején:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Engedélyezze/Tiltsd be a csevegő szöveg automatikus módosítását egy idővihar alatt.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Részeg állapotban:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Engedélyezd vagy tiltsd ki a csevegőszöveg automatikus módosítását ittas állapotban.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Éhezés közben:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Engedélyezd vagy kapcsold ki a csevegőszöveg automatikus módosítását éhezés közben."
+}

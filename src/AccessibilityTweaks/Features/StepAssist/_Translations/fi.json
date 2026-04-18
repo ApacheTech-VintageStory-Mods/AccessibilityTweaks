@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "Astu koko kortteli ylöspäin ilman, että sinun tarvitsee hypätä.",
+    "Features.StepAssist.CommandDescription":  "Astu kokonaisen korttelin verran eteenpäin ilman hyppyä.",
     "Features.StepAssist.Enabled":  "Step Assist käytössä.",
-    "Features.StepAssist.Disabled":  "Step Assist poistettu käytöstä."
+    "Features.StepAssist.Disabled":  "Step Assist pois päältä."
 }

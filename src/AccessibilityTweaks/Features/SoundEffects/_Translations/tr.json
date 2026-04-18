@@ -1,14 +1,14 @@
 ﻿{
-    "Features.SoundEffects.Dialogue.lblVolume":  "Hacim:",
-    "Features.SoundEffects.Dialogue.lblPitch":  "Perde:",
     "Features.SoundEffects.Dialogue.Title":  "Ses Efektleri",
-    "Features.SoundEffects.Dialogue.lblSearch":  "Aramak:",
-    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Sessiz ses efektleri duyulamaz.",
-    "Features.SoundEffects.Dialogue.PlaySound":  "Ses Çal",
-    "Features.SoundEffects.Dialogue.lblMute":  "Dilsiz:",
-    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Ses efektlerini ada göre filtreleyin.",
-    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Yalnızca şu anda çalan sesleri göster:",
-    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ses efektinin göreli ses yüksekliğini değiştirin.",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Bozuk Sesleri Düzeltin",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Arama:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtre ses efektleri, isimle.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Şu anda çalan tek şov sesleri:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Hacim:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ses efektinin göreli sesini değiştir.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Sessizleştir:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Kısılmış ses efektleri duyulmuyor.",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Atış:",
     "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Ses efektinin göreli perdesini değiştirin. Bu, kulak çınlaması veya diğer işitme kaybı sorunları olan kişilere yardımcı olabilir.",
-    "Features.SoundEffects.Dialogue.RightButtonText":  "Bozuk sesleri düzeltin"
+    "Features.SoundEffects.Dialogue.PlaySound":  "Çal Sesi"
 }

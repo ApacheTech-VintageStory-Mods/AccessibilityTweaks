@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.Enabled":  "Jelenet fényessége engedélyezve: {0}",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Jelenet fényességi szintje: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Jelenet fényerő beállításai",
+    "Features.SceneBrightness.Description":  "Segít az embereknek a fényérzékenységben, és a tartalomkészítőknek kompenzálja a YouTube / Twitch tömörítési arányát.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Engedélyezve:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Kapcsold be a Szuper Fényes Módot.",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Fényerő:",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Megváltoztatja a jelenet fényességét."
+}

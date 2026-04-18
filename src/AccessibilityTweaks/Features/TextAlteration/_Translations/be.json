@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Змена тэксту",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Падчас часавых бураў:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Уключыце/адключыце аўтаматычную змену тэксту чата падчас часавай буры.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "У стане ап\u0027янення:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Уключыце/адключыце аўтаматычнае змяненне тэксту ў чаце ў стане ап\u0027янення.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Калі галадаю:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Уключыце/адключыце аўтаматычную змену тэксту ў чаце падчас галоднасці."
+}

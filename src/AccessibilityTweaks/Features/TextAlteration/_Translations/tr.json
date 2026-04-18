@@ -1,9 +1,9 @@
 ﻿{
     "Features.TextAlteration.Dialogue.Title":  "Metin Değişikliği",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Açlıktan ölmek üzereyken:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Sarhoşken sohbet metninin otomatik olarak değiştirilmesini etkinleştirin/devre dışı bırakın.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Açlıktan ölürken sohbet metninin otomatik olarak değiştirilmesini etkinleştirin/devre dışı bırakın.",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Zaman Fırtınaları Sırasında:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Zamansal fırtına sırasında sohbet metninin otomatik değiştirilmesini etkinleştirin/devre dışı bırakın.",
     "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Sarhoşken:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Zamansal fırtına sırasında sohbet metninin otomatik olarak değiştirilmesini etkinleştirin/devre dışı bırakın.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Zamansal fırtınalar sırasında:"
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Sarhoş halde sohbet metninin otomatik değiştirilmesini etkinleştirin/devre dışı bırakın.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Açlıktayken:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Açken sohbet metninin otomatik değiştirilmesini etkinleştirin/devre dışı bırakın."
 }

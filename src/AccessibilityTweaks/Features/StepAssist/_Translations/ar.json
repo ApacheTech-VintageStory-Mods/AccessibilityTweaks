@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "تصعيد كتلة كاملة دون الحاجة إلى القفز.",
-    "Features.StepAssist.Enabled":  "تم تمكين خطوة Assist.",
-    "Features.StepAssist.Disabled":  "تم تعطيل خطوة Assist."
+    "Features.StepAssist.CommandDescription":  "تقدم مربعا كاملا دون الحاجة للقفز.",
+    "Features.StepAssist.Enabled":  "تم تمكين المساعدة في الخطوات.",
+    "Features.StepAssist.Disabled":  "تم تعطيل ميزة المساعدة في الخطوات."
 }

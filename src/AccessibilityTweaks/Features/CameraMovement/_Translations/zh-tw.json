@@ -1,15 +1,15 @@
 ﻿{
-    "Features.CameraMovement.Dialogue.Title":  "相機和運動",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "允許/禁止遊戲在未經您許可的情況下移動您的鼠標。",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "啟用後，將使用潛行鍵切換潛行 - 點擊一次即可啟用，再次點擊可停用潛行。",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "相機震動強度：",
+    "Features.CameraMovement.Dialogue.Title":  "鏡頭與動作",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "全球曲速強度：",
     "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "世界在時間風暴中扭曲了多少。",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "毛刺強度：",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "鼠標不自主運動：",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "感知扭曲強度：",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "你喝醉時世界會扭曲得多厲害。」",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "漏洞強度：",
     "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "世界在時間風暴中扭曲了多少。",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "相機震動強度：",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "發抖、被擊中時後座力，以及其他觸覺反饋效應。",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "不自主的老鼠移動：",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "允許或禁止遊戲在未經你同意的情況下移動你的滑鼠。",
     "Features.CameraMovement.Dialogue.lblToggleSneak":  "切換潛行：",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "顫抖、擊中時的後座力和其他觸覺反饋效果。",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "全域曲速強度：",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "當你喝醉時，世界會扭曲多少“。"
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "啟用時，潛行是用潛行鍵切換——輕觸一次開啟，再輕觸一次關閉潛行。"
 }

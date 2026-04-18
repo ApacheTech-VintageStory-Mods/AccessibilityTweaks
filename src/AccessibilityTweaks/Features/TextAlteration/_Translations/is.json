@@ -1,9 +1,9 @@
 ﻿{
-    "Features.TextAlteration.Dialogue.Title":  "Breyting á texta",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Á meðan hann sveltur:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta ölvaður.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta meðan þú sveltur.",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Við ölvun:",
+    "Features.TextAlteration.Dialogue.Title":  "Textabreyting",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Á tímum storma:",
     "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta í tímastormi.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Í tímabundnum stormum:"
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Á meðan þú ert ölvaður:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Virkja/slökkva á sjálfvirkri breytingu á spjalltexta þegar þú ert undir áhrifum.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Á meðan þú ert svangur:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Kveiktu/slökktu á sjálfvirkri breytingu á spjalltexta á meðan þú ert svangur."
 }

@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Камера и движение",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Разрешить/запретить игре перемещать мышь без вашего разрешения.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Когда эта функция включена, скрытность переключается с помощью клавиши «Скрытность» — нажмите один раз, чтобы включить, и нажмите еще раз, чтобы отключить скрытность.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сила сотрясения камеры:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Насколько искривляется мир во время временного шторма.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сила глитча:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Непроизвольное движение мыши:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сила искажения восприятия:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Насколько искривляется мир во время временного шторма.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Переключить скрытность:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Дрожь, отдача при попадании и другие тактильные эффекты обратной связи.",
     "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Глобальная сила варпа:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Насколько мир искажается, когда ты пьян»."
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Как сильно мир искажается во время временной бури.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сила искажения восприятия:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Как сильно мир искажается, пока ты пьян».",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сила глитча:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Как сильно мир искажается во время временной бури.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сила дрожи камеры:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Дрожь, отдача при попадании и другие тактильные эффекты.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Непроизвольное движение мышей:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Разрешать/запретить игре двигать мышь без вашего разрешения.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Переключение скрытности:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "При включении скрытность переключается с помощью клавиши «Скрытность» — нажмите один раз, чтобы включить, и ещё раз, чтобы отключить скрытность."
 }

@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.Title":  "Гукавыя эфекты",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Выправіць зламаныя гукі",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Пошук:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Фільтруючы гукавыя эфекты, па назве.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Адзіная праграма, якая зараз грае гукі:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Том:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Змяніце адносную гучнасць гукавога эфекту.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Заглушаць:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Прыглушаныя гукавыя эфекты не чутныя.",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Прэзентацыя:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Змяніце адносную вышыню гукавога эфекту. Гэта можа дапамагчы людзям з шумам у вушах або іншымі праблемамі страты слыху.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Прайграць гук"
+}

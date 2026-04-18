@@ -1,15 +1,15 @@
 ﻿{
-    "Features.CameraMovement.Dialogue.Title":  "Câmera e movimento",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permitir/Proibir que o jogo mova o mouse sem sua permissão.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Quando ativado, a esgueirar-se é alternada usando a tecla Sneak - toque uma vez para ativar e toque novamente para desativar a furtividade.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Força da trepidação da câmera:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Quanto o mundo se deforma durante uma tempestade temporal.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Força da falha:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento involuntário do mouse:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Força de distorção de percepção:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Quanto o mundo se deforma durante uma tempestade temporal.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar Sneak:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Tremores, recuo ao ser atingido e outros efeitos de feedback tátil.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Força de dobra global:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "O quanto o mundo se deforma enquanto você está bêbado\u0027."
+    "Features.CameraMovement.Dialogue.Title":  "Câmera e Movimento",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Força Global da Dobra:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "O quanto o mundo se distorce durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Força da Distorção da Percepção:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "O quanto o mundo se distorce enquanto você está bêbado\u0027.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Força do Glitch:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "O quanto o mundo se distorce durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Força de tremor da câmera:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Tremores, recuo ao ser atingido e outros efeitos de feedback háptico.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento Involuntário do Rato:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permita/proibia que o jogo mova seu mouse sem sua permissão.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar Furtividade:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Quando ativado, o furtivismo é ativado usando a tecla Furtividade – toque uma vez para ativar e toque novamente para desativar o furtivismo."
 }

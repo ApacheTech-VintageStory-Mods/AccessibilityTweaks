@@ -1,10 +1,10 @@
 ﻿{
-    "Features.SceneBrightness.Dialogue.lblEnabled":  "Käytössä:",
-    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Kohtauksen kirkkaustaso: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness":  "Kirkkaus:",
-    "Features.SceneBrightness.Description":  "Auttaa ihmisiä, joilla on valoherkkyys, ja sisällöntuottajia kompensoimalla pakkausasteita YouTubessa / Twitchissä.",
     "Features.SceneBrightness.Dialogue.Enabled":  "Kohtauksen kirkkaus käytössä: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Muuttaa näkymän kirkkaustasoa.",
-    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Vaihda Super Bright -tila.",
-    "Features.SceneBrightness.Dialogue.Title":  "Näkymän kirkkausasetukset"
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Kohtauksen kirkkaustaso: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Kohtauksen kirkkausasetukset",
+    "Features.SceneBrightness.Description":  "Auttaa ihmisiä valoherkkyydessä, ja sisällöntuottajille kompensoi YouTuben / Twitchin pakkausprosentteja.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Käytössä:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Kytke Super Bright -tila päälle.",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Kirkkaus:",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Muuttaa kohtauksen kirkkaustasoa."
 }

@@ -1,10 +1,10 @@
 ﻿{
-    "Features.SceneBrightness.Dialogue.lblEnabled":  "Abilitato:",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Luminosità della scena attivata: {0}",
     "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Livello di luminosità della scena: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Impostazioni di luminosità della scena",
+    "Features.SceneBrightness.Description":  "Aiuta le persone con sensibilità alla luce e i creatori di contenuti, compensando i tassi di compressione su YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Abilitato:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Attiva la modalità Super Luminosa.",
     "Features.SceneBrightness.Dialogue.lblBrightness":  "Luminosità:",
-    "Features.SceneBrightness.Description":  "Aiuta le persone sensibili alla luce e, per i creatori di contenuti, a compensare i tassi di compressione su YouTube / Twitch.",
-    "Features.SceneBrightness.Dialogue.Enabled":  "Luminosità scena abilitata: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Modifica il livello di luminosità della scena.",
-    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Attiva/disattiva la modalità Super Bright.",
-    "Features.SceneBrightness.Dialogue.Title":  "Impostazioni della luminosità della scena"
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Cambia il livello di luminosità della scena."
 }

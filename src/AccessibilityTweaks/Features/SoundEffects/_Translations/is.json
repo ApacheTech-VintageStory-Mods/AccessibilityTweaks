@@ -1,14 +1,14 @@
 ﻿{
-    "Features.SoundEffects.Dialogue.lblVolume":  "Bindi:",
-    "Features.SoundEffects.Dialogue.lblPitch":  "Bik:",
-    "Features.SoundEffects.Dialogue.Title":  "Hljóðbrellur",
+    "Features.SoundEffects.Dialogue.Title":  "Hljóðáhrif",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Lagfærðu biluð hljóð",
     "Features.SoundEffects.Dialogue.lblSearch":  "Leita:",
-    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Þögguð hljóðbrellur heyrast ekki.",
-    "Features.SoundEffects.Dialogue.PlaySound":  "Spila hljóð",
-    "Features.SoundEffects.Dialogue.lblMute":  "Deyfa:",
-    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Sía hljóðbrellur, eftir nafni.",
-    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Sýndu aðeins hljóð sem eru í spilun:",
-    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Breyttu hlutfallslegu hljóðstyrk hljóðbrellunnar.",
-    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Breyttu hlutfallslegri tónhæð hljóðáhrifanna. Þetta getur hjálpað fólki með eyrnasuð eða önnur heyrnarskerðing.",
-    "Features.SoundEffects.Dialogue.RightButtonText":  "Lagaðu brotin hljóð"
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Síaðu hljóðáhrif, eftir nafni.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Eini þátturinn sem spilar hljóð núna:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Hljóðstyrkur:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Breyttu hlutfallslegum styrk hljóðáhrifanna.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Hljóðlaust:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Daufar hljóðáhrif eru ekki heyranleg.",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Kynning:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Breyttu hlutfallslegum tónhæð hljóðsins. Þetta getur hjálpað fólki með suð í eyrum eða öðrum heyrnartapsvandamálum.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Spila hljóð"
 }

@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera och rörelse",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillåt/Neka spelet från att flytta musen utan din tillåtelse.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "När det är aktiverat växlas smygande med smygtangenten - tryck en gång för att aktivera och tryck igen för att inaktivera smygning.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp-styrka:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hur mycket världen förvrids under en tidsstorm.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perceptionsförvrängningsstyrka:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hur mycket världen vrids när du är full.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitchstyrka:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hur mycket världen förvrids under en tidsstorm.",
     "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamerans skakstyrka:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hur mycket världen vrider sig under en temporär storm.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch styrka:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ofrivilliga musrörelser:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perception Warp Styrka:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hur mycket världen vrider sig under en temporär storm.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Växla smyga:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skakningar, rekyl när de träffas och andra haptiska återkopplingseffekter.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp Styrka:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hur mycket världen förvrider sig när du är full\"."
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skakningar, rekyl vid träff och andra haptiska återkopplingseffekter.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ofrivillig musrörelse:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillåt/förbjud spelet att flytta musen utan din tillåtelse.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Växla smygning:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "När det är aktiverat slås smygandet av med Smygknappen – tryck en gång för att aktivera, och tryck igen för att inaktivera smygande."
 }

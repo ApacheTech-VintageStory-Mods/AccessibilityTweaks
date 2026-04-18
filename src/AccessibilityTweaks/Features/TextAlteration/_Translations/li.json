@@ -1,0 +1,9 @@
+﻿{
+    "Features.TextAlteration.Dialogue.Title":  "Teksto keitimas",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Laikinųjų audrų metu:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Įjungti / išjungti automatinį pokalbio teksto keitimą laikinos audros metu.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Būdamas apsvaigęs:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Įjungti / išjungti automatinį pokalbio teksto keitimą apsvaigus.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Badaujant:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Įjungti / išjungti automatinį pokalbio teksto keitimą badaujant."
+}

@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.Title":  "Oro poveikis",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Debesys:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Perjungia debesų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Dulkės:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Perjungia dulkių dalelių efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Rūko efektai:",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Perjungia rūko efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Rūko efektai:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Perjungia rūko efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Kruša:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Perjungia krušos dalelių efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Žaibo blyksniai:",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Perjungia žaibo mirksinčios šviesos efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Lietaus lašai:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Perjungia lietaus lašų dalelių efektų atvaizdavimą.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Snaigės:",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Perjungia snaigės dalelių efektų atvaizdavimą."
+}

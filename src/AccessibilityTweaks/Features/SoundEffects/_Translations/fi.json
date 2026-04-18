@@ -1,14 +1,14 @@
 ﻿{
-    "Features.SoundEffects.Dialogue.lblVolume":  "Tilavuus:",
-    "Features.SoundEffects.Dialogue.lblPitch":  "Piki:",
     "Features.SoundEffects.Dialogue.Title":  "Äänitehosteet",
-    "Features.SoundEffects.Dialogue.lblSearch":  "Etsiä:",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Korjaa rikkinäiset äänet",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Haku:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Suodata ääniefektejä nimeltä.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Ainoa tällä hetkellä soittava ohjelma on ääniä:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volyymi:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Muuta ääniefektin suhteellista äänenvoimakkuutta.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Mykistä:",
     "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Vaimennetut äänitehosteet eivät ole kuultavissa.",
-    "Features.SoundEffects.Dialogue.PlaySound":  "Toista ääni",
-    "Features.SoundEffects.Dialogue.lblMute":  "Mykistää:",
-    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Suodata äänitehosteet nimen mukaan.",
-    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Näytä vain parhaillaan toistettavat äänet:",
-    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Muuta äänitehosteen suhteellista äänenvoimakkuutta.",
-    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Muuta äänitehosteen suhteellista korkeutta. Tämä voi auttaa ihmisiä, joilla on tinnitus tai muut kuulonaleneman ongelmat.",
-    "Features.SoundEffects.Dialogue.RightButtonText":  "Korjaa rikkinäiset äänet"
+    "Features.SoundEffects.Dialogue.lblPitch":  "Syöttö:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Muuta ääniefektin suhteellista sävelkorkeutta. Tämä voi auttaa ihmisiä, joilla on tinnitus tai muita kuulonmenetelmiä.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Toista ääni"
 }

@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.Enabled":  "Įjungtas scenos ryškumas: {0}",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Scenos ryškumo lygis: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Scenos ryškumo nustatymai",
+    "Features.SceneBrightness.Description":  "Padeda žmonėms, jautriems šviesai, ir turinio kūrėjams, kompensuojant suspaudimo rodiklius \"YouTube\" / \"Twitch\".",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Įjungta:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Perjunkite itin ryškų režimą.",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Ryškumas:",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Keičia scenos ryškumo lygį."
+}

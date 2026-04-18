@@ -1,0 +1,15 @@
+﻿{
+    "Features.CameraMovement.Dialogue.Title":  "Камера і рух",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Глабальная сіла варпу:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Як моцна свет скажаецца падчас часавай буры.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сіла скрыўлення ўспрымання:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Як моцна свет скажаецца, пакуль ты п\u0027яны».",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сіла збояў:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Як моцна свет скажаецца падчас часавай буры.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сіла дрыжання камеры:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Дрыжанне, аддача пры трапленні і іншыя тактэлевізійныя эфекты.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Непрымусовы рух мышэй:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Дазвольце/Забароніце гульні рухаць мыш без вашага дазволу.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Пераключальнік скрытнасці:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Калі ўключана, скрытнасць пераключаецца з дапамогай клавішы Sneak — націсніце адзін раз, каб уключыць, і яшчэ раз, каб адключыць скрытнасць."
+}

@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "Vykročte o celý blok nahoru, aniž byste museli skákat.",
-    "Features.StepAssist.Enabled":  "Krokový asistent povolen.",
-    "Features.StepAssist.Disabled":  "Krokový asistent je deaktivován."
+    "Features.StepAssist.CommandDescription":  "Vystoupejte o celý blok bez nutnosti skákat.",
+    "Features.StepAssist.Enabled":  "Step Assist aktivován.",
+    "Features.StepAssist.Disabled":  "Step Assist deaktivován."
 }

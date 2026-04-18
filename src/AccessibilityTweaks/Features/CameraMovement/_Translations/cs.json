@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera a pohyb",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povolí/zakáže hře pohybovat myší bez vašeho svolení.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Pokud je tato možnost povolena, plížení se přepíná pomocí klávesy Sneak - jedním klepnutím ji povolíte a dalším klepnutím ji zakážete.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Síla chvění fotoaparátu:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak moc se svět zdeformuje během časové bouře.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Síla závad:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nedobrovolný pohyb myši:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Síla pokřivení vnímání:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak moc se svět zdeformuje během časové bouře.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Přepnout plížení:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Chvění, zpětný ráz při zásahu a další efekty haptické zpětné vazby.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globální warpová síla:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak moc se svět deformuje, když jsi opilý.\""
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globální síla warpu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak moc se svět během časové bouře zdeformuje.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Síla percepce Warp:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak moc se svět zkřiví, když jsi opilý\u0027.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Síla chyb:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak moc se svět během časové bouře zdeformuje.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Síla otřesu fotoaparátu:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Třes, zpětný ráz při zásahu a další haptické zpětné vazby.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mimovolní pohyb myši:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povolit/zakázat hře pohyb myší bez vašeho svolení.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Přepínání plížení:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Když je zapnuto, plížení se přepne klávesou Sneak – klepněte jednou pro zapnutí a znovu stiskněte pro deaktivaci plížení."
 }

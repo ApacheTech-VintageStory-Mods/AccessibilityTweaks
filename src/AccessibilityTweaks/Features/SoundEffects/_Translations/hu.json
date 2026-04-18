@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.Title":  "Hanghatások",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Javítsd meg a törött hangokat",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Keresés:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Szűrőhanghatások, név szerint.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Az egyetlen jelenlegi hangokat játszó műsor:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Kötet:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Változtasd meg a hanghatás relatív hangerejét.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Némítás:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "A tompa hanghatások nem hallhatók.",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Dobás:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Változtasd meg a hanghatás relatív hangmagasságát. Ez segíthet azoknak, akik fülzúgással vagy más hallásvesztéssel küzdenek.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Lejátszás hangja"
+}

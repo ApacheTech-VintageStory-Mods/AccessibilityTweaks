@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "ジャンプすることなくブロック全体をステップアップします。",
-    "Features.StepAssist.Enabled":  "ステップアシストが有効になっています。",
-    "Features.StepAssist.Disabled":  "ステップアシストは無効です。"
+    "Features.StepAssist.CommandDescription":  "ジャンプせずに一ブロック一歩進むことができます。",
+    "Features.StepAssist.Enabled":  "ステップアシスト有効。",
+    "Features.StepAssist.Disabled":  "ステップアシスト無効。"
 }

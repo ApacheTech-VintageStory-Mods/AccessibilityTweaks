@@ -1,9 +1,9 @@
 ﻿{
     "Features.TextAlteration.Dialogue.Title":  "Thay đổi văn bản",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Trong các cơn bão tạm thời:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Bật/Tắt tự động thay đổi văn bản trò chuyện trong cơn bão tạm thời.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Trong khi say:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Bật/Tắt tính năng tự động thay đổi văn bản trò chuyện khi say.",
     "Features.TextAlteration.Dialogue.lblWhileStarving":  "Trong khi đói:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Bật/Tắt tính năng tự động thay đổi văn bản trò chuyện khi say xỉn.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Bật/Tắt tự động thay đổi văn bản trò chuyện khi đói.",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Khi say xỉn:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Bật/Tắt tự động thay đổi văn bản trò chuyện trong cơn bão thời gian.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Trong Bão Tạm thời:"
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Bật/Tắt tự động thay đổi văn bản trò chuyện khi đói."
 }

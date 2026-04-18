@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Máy ảnh và chuyển động",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Cho phép / Không cho phép trò chơi di chuyển chuột của bạn mà không có sự cho phép của bạn.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Khi được bật, tính năng lén lút được chuyển đổi bằng phím Lén lút - nhấn một lần để bật và nhấn một lần nữa để tắt tính năng lén lút.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Độ rung máy ảnh:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Thế giới bẻ cong bao nhiêu trong một cơn bão tạm thời.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Sức mạnh dọc toàn cầu:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Thế giới bị bẻ cong bao nhiêu trong một cơn bão tạm thời.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Sức mạnh cong nhận thức:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Thế giới bóp méo bao nhiêu khi bạn say rượu\u0027.",
     "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Sức mạnh trục trặc:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Thế giới bị bẻ cong bao nhiêu trong một cơn bão tạm thời.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Cường độ rung máy:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rùng mình, giật khi bị đánh và các hiệu ứng phản hồi xúc giác khác.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Chuyển động chuột không tự nguyện:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Sức mạnh Warp nhận thức:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Thế giới bẻ cong bao nhiêu trong một cơn bão tạm thời.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Chuyển đổi Sneak:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rùng mình, giật khi va chạm và các hiệu ứng phản hồi xúc giác khác.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Sức mạnh Warp Toàn cầu:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Thế giới bóp méo bao nhiêu khi bạn say rượu\u0027."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Cho phép / Không cho phép trò chơi di chuyển chuột mà không có sự cho phép của bạn.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Chuyển đổi Lén lút:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Khi được bật, tính năng lén lút được chuyển đổi bằng phím Sneak - nhấn một lần để bật và nhấn lại để tắt tính năng lén lút."
 }

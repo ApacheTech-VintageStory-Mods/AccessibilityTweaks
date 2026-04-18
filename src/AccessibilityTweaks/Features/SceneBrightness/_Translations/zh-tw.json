@@ -1,10 +1,10 @@
 ﻿{
-    "Features.SceneBrightness.Dialogue.lblEnabled":  "已啟用：",
-    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "場景亮度等級：{0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness":  "輝：",
-    "Features.SceneBrightness.Description":  "幫助對光敏感的人和內容創作者補償 YouTube / Twitch 上的壓縮率。",
-    "Features.SceneBrightness.Dialogue.Enabled":  "場景亮度已啟用：{0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "變更場景的亮度等級。",
+    "Features.SceneBrightness.Dialogue.Enabled":  "場景亮度啟用： {0}",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "場景亮度等級： {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "場景亮度設定",
+    "Features.SceneBrightness.Description":  "幫助對光敏感的人，以及內容創作者在 YouTube / Twitch 上補償壓縮率。",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "啟用：",
     "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "切換超亮模式。",
-    "Features.SceneBrightness.Dialogue.Title":  "場景亮度設定"
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "亮度：",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "改變場景的亮度等級。"
 }

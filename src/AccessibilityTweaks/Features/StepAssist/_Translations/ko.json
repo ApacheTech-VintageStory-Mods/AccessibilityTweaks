@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "점프할 필요 없이 블록 전체를 올라갑니다.",
-    "Features.StepAssist.Enabled":  "단계 지원이 활성화되었습니다.",
-    "Features.StepAssist.Disabled":  "Step Assist가 비활성화되었습니다."
+    "Features.StepAssist.CommandDescription":  "점프하지 않고도 한 블록 한 블록 올라가세요.",
+    "Features.StepAssist.Enabled":  "스텝 어시스트 활성화.",
+    "Features.StepAssist.Disabled":  "스텝 어시스트 비활성화."
 }

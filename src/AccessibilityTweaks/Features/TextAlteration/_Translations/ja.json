@@ -1,9 +1,9 @@
 ﻿{
-    "Features.TextAlteration.Dialogue.Title":  "テキストの変更",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "飢えている間:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "酩酊状態でのチャットテキストの自動変更を有効/無効にします。",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "飢えている間のチャットテキストの自動変更を有効/無効にします。",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "酩酊状態で:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "一時的な嵐中のチャットテキストの自動変更を有効/無効にします。",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "一時的な嵐の間:"
+    "Features.TextAlteration.Dialogue.Title":  "本文の改変",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "時間嵐の間:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "時間嵐中のチャットテキストの自動変更を有効/無効にしてください。",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "酩酊状態:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "酔っている状態でチャットテキストの自動改変を有効/無効にしてください。",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "飢えながら:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "飢えている間にチャットテキストの自動改変を有効にするか無効にしてください。"
 }

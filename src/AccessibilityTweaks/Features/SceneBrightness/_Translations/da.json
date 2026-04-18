@@ -1,10 +1,10 @@
 ﻿{
-    "Features.SceneBrightness.Dialogue.lblEnabled":  "Aktiveret:",
-    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Scenelysstyrkeniveau: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness":  "Lysstyrke:",
-    "Features.SceneBrightness.Description":  "Hjælper folk med lysfølsomhed og for indholdsskabere, der kompenserer for komprimeringshastigheder på YouTube / Twitch.",
     "Features.SceneBrightness.Dialogue.Enabled":  "Scenelysstyrke aktiveret: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Ændrer scenens lysstyrkeniveau.",
-    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Skift til Super Bright Mode.",
-    "Features.SceneBrightness.Dialogue.Title":  "Indstillinger for scenelysstyrke"
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Scenelysstyrkeniveau: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Scenelysstyrkeindstillinger",
+    "Features.SceneBrightness.Description":  "Hjælper folk med lysfølsomhed, og for indholdsskabere ved at kompensere for komprimeringsrater på YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Aktiveret:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Slå Super Bright Mode til og fra.",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Lysstyrke:",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Ændrer lysstyrken i scenen."
 }

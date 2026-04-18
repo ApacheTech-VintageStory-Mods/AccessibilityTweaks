@@ -1,14 +1,14 @@
 ﻿{
-    "Features.SoundEffects.Dialogue.lblVolume":  "Lydstyrke:",
-    "Features.SoundEffects.Dialogue.lblPitch":  "Kaste:",
     "Features.SoundEffects.Dialogue.Title":  "Lydeffekter",
-    "Features.SoundEffects.Dialogue.lblSearch":  "Søge:",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Reparer ødelagte lyde",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Søg:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrer lydeffekterne efter navn.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Det eneste show, der i øjeblikket spiller lyde:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Volumen:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ændr den relative lydstyrke af lydeffekten.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Mute:",
     "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Dæmpede lydeffekter kan ikke høres.",
-    "Features.SoundEffects.Dialogue.PlaySound":  "Afspil lyd",
-    "Features.SoundEffects.Dialogue.lblMute":  "Stum:",
-    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtrer lydeffekter efter navn.",
-    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Vis kun lyde, der afspilles i øjeblikket:",
-    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Ændre den relative lydstyrke for lydeffekten.",
-    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Ændre lydeffektens relative tonehøjde. Dette kan hjælpe personer med tinnitus eller andre problemer med høretab.",
-    "Features.SoundEffects.Dialogue.RightButtonText":  "Ret ødelagte lyde"
+    "Features.SoundEffects.Dialogue.lblPitch":  "Pitch:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Ændr den relative tonehøjde på lydeffekten. Dette kan hjælpe personer med tinnitus eller andre høretabsproblemer.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Afspil lyd"
 }

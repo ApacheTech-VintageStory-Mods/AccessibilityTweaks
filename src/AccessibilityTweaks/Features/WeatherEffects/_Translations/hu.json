@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.Title":  "Időjárási hatások",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Felhők:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Kikapcsolja a felhők renderelését.",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Por:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Kikapcsolja a porrészecske effektek renderelését.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Köd hatások:",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Kikapcsolja a köd effektek renderelését.",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Köd hatások:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Kikapcsolja a ködhatások renderelését.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Jégesők:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Kapcsolja a jégeső-részecskehatások renderelését.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Villámcsapások:",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Kapcsolja a villámvillogó fényeffektek megjelenítését.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Esőcseppek:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Kapcsolja az esőcsepp részecskehatások renderelését.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Hópelyhek:",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Kapcsolja a hópehely részecskeeffektek renderelését."
+}

@@ -1,9 +1,9 @@
 ﻿{
-    "Features.TextAlteration.Dialogue.Title":  "Änderung des Textes",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Während des Hungerns:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktivieren/Deaktivieren der automatischen Änderung des Chat-Textes im Rausch.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktivieren/Deaktivieren der automatischen Änderung des Chat-Textes während des Hungerns.",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Während des Rausches:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktivieren/Deaktivieren der automatischen Änderung des Chat-Textes während eines temporalen Sturms.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Bei temporalen Stürmen:"
+    "Features.TextAlteration.Dialogue.Title":  "Textänderung",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Während temporaler Stürme:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktivieren/deaktivieren Sie die automatische Änderung des Chat-Textes während eines Zeitsturms.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Im Rausch:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktivieren/deaktivieren Sie die automatische Änderung von Chat-Texten im Alkoholeinfluss.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Während des Hungers:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktiviere oder deaktiviere die automatische Änderung des Chattextes während des Hungers."
 }

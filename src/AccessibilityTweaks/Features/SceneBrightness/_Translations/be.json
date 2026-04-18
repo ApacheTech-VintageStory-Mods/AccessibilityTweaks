@@ -1,0 +1,10 @@
+﻿{
+    "Features.SceneBrightness.Dialogue.Enabled":  "Уключана яркасць сцэны: {0}",
+    "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Узровень яркасці сцэны: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Налады яркасці сцэны",
+    "Features.SceneBrightness.Description":  "Дапамагае людзям з адчувальнасцю да святла, а для стваральнікаў кантэнту кампенсуе хуткасць сціскання на YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Уключана:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Уключыце рэжым Super Bright.",
+    "Features.SceneBrightness.Dialogue.lblBrightness":  "Яркасць:",
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Змяняе ўзровень яркасці сцэны."
+}

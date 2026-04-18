@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "無需跳躍即可升級一整塊。",
-    "Features.StepAssist.Enabled":  "已啟用步驟輔助。",
+    "Features.StepAssist.CommandDescription":  "不用跳躍就能跨上整個街區。",
+    "Features.StepAssist.Enabled":  "步進輔助已啟用。",
     "Features.StepAssist.Disabled":  "步進輔助已停用。"
 }

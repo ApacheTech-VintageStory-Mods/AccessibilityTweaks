@@ -1,14 +1,14 @@
 ﻿{
-    "Features.SoundEffects.Dialogue.lblVolume":  "卷：",
-    "Features.SoundEffects.Dialogue.lblPitch":  "投：",
-    "Features.SoundEffects.Dialogue.Title":  "音響效果",
-    "Features.SoundEffects.Dialogue.lblSearch":  "尋：",
-    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "聽不到靜音的音效。",
-    "Features.SoundEffects.Dialogue.PlaySound":  "播放聲音",
-    "Features.SoundEffects.Dialogue.lblMute":  "啞：",
-    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "按名稱過濾音效。",
-    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "僅顯示當前播放的聲音：",
-    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "變更音效的相對音量。",
-    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "變更音效的相對音高。這可以幫助患有耳鳴或其他聽力損失問題的人。",
-    "Features.SoundEffects.Dialogue.RightButtonText":  "修復損壞的聲音"
+    "Features.SoundEffects.Dialogue.Title":  "音效",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "修復壞掉的聲音",
+    "Features.SoundEffects.Dialogue.lblSearch":  "搜尋：",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "依名稱過濾音效。",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "目前唯一播放音效的節目：",
+    "Features.SoundEffects.Dialogue.lblVolume":  "音量：",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "改變音效的相對音量。",
+    "Features.SoundEffects.Dialogue.lblMute":  "靜音：",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "靜音音效無法聽見。",
+    "Features.SoundEffects.Dialogue.lblPitch":  "提案：",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "改變音效的相對音高。這對耳鳴或其他聽力損失患者有幫助。",
+    "Features.SoundEffects.Dialogue.PlaySound":  "播放音效"
 }

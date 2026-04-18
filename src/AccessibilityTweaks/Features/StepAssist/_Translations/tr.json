@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "Atlamaya gerek kalmadan bütün bir bloğu yukarı çıkarın.",
-    "Features.StepAssist.Enabled":  "Adım Yardımı etkinleştirildi.",
-    "Features.StepAssist.Disabled":  "Adım Yardımı devre dışı bırakıldı."
+    "Features.StepAssist.CommandDescription":  "Zıplamaya gerek kalmadan bir blok yukarı çık.",
+    "Features.StepAssist.Enabled":  "Step Assist etkinleştirildi.",
+    "Features.StepAssist.Disabled":  "Step Assist devre dışı bırakıldı."
 }

@@ -1,9 +1,9 @@
 ﻿{
-    "Features.TextAlteration.Dialogue.Title":  "Endring av tekst",
+    "Features.TextAlteration.Dialogue.Title":  "Tekstendring",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Under temporale stormer:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktiver/Deaktiver automatisk endring av chattekst under en tidsmessig storm.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "Når du er beruset:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktiver/deaktiver automatisk endring av chattekst mens du er beruset.",
     "Features.TextAlteration.Dialogue.lblWhileStarving":  "Mens du sulter:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Aktiver/deaktiver automatisk endring av chat-tekst mens du er beruset.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktiver/deaktiver automatisk endring av chat-tekst mens du sulter.",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "I beruset tilstand:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Aktiver/deaktiver automatisk endring av chat-tekst under en tidsstorm.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Under tidsmessige stormer:"
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Aktiver/deaktiver automatisk endring av chattekst mens du er sulten."
 }

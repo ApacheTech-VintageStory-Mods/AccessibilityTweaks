@@ -1,10 +1,10 @@
 ﻿{
-    "Features.SceneBrightness.Dialogue.lblEnabled":  "Kích hoạt:",
+    "Features.SceneBrightness.Dialogue.Enabled":  "Đã bật độ sáng cảnh: {0}",
     "Features.SceneBrightness.Dialogue.BrightnessLevel":  "Mức độ sáng cảnh: {0}",
+    "Features.SceneBrightness.Dialogue.Title":  "Cài đặt độ sáng cảnh",
+    "Features.SceneBrightness.Description":  "Giúp những người nhạy cảm với ánh sáng và đối với người sáng tạo nội dung, bù đắp cho tốc độ nén trên YouTube / Twitch.",
+    "Features.SceneBrightness.Dialogue.lblEnabled":  "Đã bật:",
+    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Chuyển đổi Chế độ siêu sáng.",
     "Features.SceneBrightness.Dialogue.lblBrightness":  "Độ sáng:",
-    "Features.SceneBrightness.Description":  "Giúp những người có độ nhạy sáng và cho người sáng tạo nội dung, bù cho tốc độ nén trên YouTube / Twitch.",
-    "Features.SceneBrightness.Dialogue.Enabled":  "Độ sáng cảnh được bật: {0}",
-    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Thay đổi mức độ sáng của cảnh.",
-    "Features.SceneBrightness.Dialogue.lblEnabled.HoverText":  "Chuyển đổi chế độ siêu sáng.",
-    "Features.SceneBrightness.Dialogue.Title":  "Cài đặt độ sáng cảnh"
+    "Features.SceneBrightness.Dialogue.lblBrightness.HoverText":  "Thay đổi mức độ sáng của cảnh."
 }

@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "الكاميرا والحركة",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "اسمح / عدم السماح للعبة بتحريك الماوس دون إذنك.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "عند التمكين، يتم تبديل التسلل باستخدام مفتاح التسلل - انقر مرة واحدة للتمكين، ثم انقر مرة أخرى لتعطيل التسلل.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "قوة الوارب العالمية:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "كم يتشوه العالم أثناء عاصفة زمنية.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "قوة الإدراك في الانحناء:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "كم يتشوه العالم وأنت مخمور.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "قوة الأعطال:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "كم يتشوه العالم أثناء عاصفة زمنية.",
     "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "قوة اهتزاز الكاميرا:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "كم يتشوه العالم خلال عاصفة مؤقتة.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "قوة الخلل:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "حركة الفأر اللاإرادية:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "قوة الاعوجاج الإدراك:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "كم يتشوه العالم خلال عاصفة مؤقتة.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "الارتجاف، الارتداد عند الإصابة، وتأثيرات ردود فعل لمسية أخرى.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "حركة الفأر غير الإرادية:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "السماح أو منع اللعبة من تحريك الفأرة بدون إذنك.",
     "Features.CameraMovement.Dialogue.lblToggleSneak":  "تبديل التسلل:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "الارتعاش والارتداد عند الضرب وتأثيرات ردود الفعل اللمسية الأخرى.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "قوة الاعوجاج العالمية:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "كم يتشوه العالم وأنت في حالة سكر\"."
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "عند تفعيلها، يتم تفعيل التسلل باستخدام مفتاح التسلل - اضغط مرة واحدة لتفعيل، ثم اضغط مرة أخرى لتعطيل التسلل."
 }

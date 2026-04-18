@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Cámara y movimiento",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permitir/No permitir que el juego mueva el mouse sin su permiso.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Cuando está habilitado, el sigilo se alterna con la tecla Sigilo: toque una vez para habilitar y toque nuevamente para deshabilitar el sigilo.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Fuerza de vibración de la cámara:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Cuánto se deforma el mundo durante una tormenta temporal.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Fuerza de falla:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Fuerza global de curvatura:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Cuánto se distorsiona el mundo durante una tormenta temporal.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Fuerza de la Distorsión de la Percepción:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Cuánto se deforma el mundo cuando estás borracho\u0027.",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Fuerza de fallo:",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Cuánto se distorsiona el mundo durante una tormenta temporal.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Fuerza de vibración de cámara:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Temblores, retroceso al golpear y otros efectos de retroalimentación háptica.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimiento involuntario del ratón:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Fuerza de distorsión de percepción:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Cuánto se deforma el mundo durante una tormenta temporal.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permite/prohíbe que el juego mueva el ratón sin tu permiso.",
     "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar sigilo:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Escalofríos, retroceso cuando se golpea y otros efectos de retroalimentación háptica.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Fuerza de distorsión global:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Cuánto se deforma el mundo mientras estás borracho\u0027."
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Cuando está activado, el sigilo se activa usando la tecla Sigilo: toca una vez para activarlo y toca otra vez para desactivar el sigilo."
 }

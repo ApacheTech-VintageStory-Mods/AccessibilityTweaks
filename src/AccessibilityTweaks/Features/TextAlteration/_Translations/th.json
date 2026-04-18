@@ -1,9 +1,9 @@
 ﻿{
-    "Features.TextAlteration.Dialogue.Title":  "การดัดแปลงข้อความ",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "ขณะหิวโหย:",
+    "Features.TextAlteration.Dialogue.Title":  "การแก้ไขข้อความ",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "ในช่วงพายุชั่วคราว:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "เปิด/ปิดการแก้ไขข้อความแชทอัตโนมัติระหว่างพายุชั่วคราว",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "ขณะมึนเมา:",
     "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "เปิด/ปิดการแก้ไขข้อความแชทอัตโนมัติขณะมึนเมา",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "เปิด/ปิดการเปลี่ยนแปลงข้อความแชทอัตโนมัติในขณะที่อดอาหาร",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "ขณะมึนึมา:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "เปิด/ปิดการเปลี่ยนแปลงข้อความแชทอัตโนมัติระหว่างพายุชั่วคราว",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "ในช่วงพายุชั่วคราว:"
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "ขณะอดอาหาร:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "เปิด/ปิดการแก้ไขข้อความแชทอัตโนมัติในขณะที่อดอยาก"
 }

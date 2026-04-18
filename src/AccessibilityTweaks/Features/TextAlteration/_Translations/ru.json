@@ -1,9 +1,9 @@
 ﻿{
     "Features.TextAlteration.Dialogue.Title":  "Изменение текста",
-    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Во время голодания:",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Включение/отключение автоматического изменения текста чата в состоянии алкогольного опьянения.",
-    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Включить/Выключить автоматическое изменение текста чата во время голодания.",
-    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "В состоянии алкогольного опьянения:",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Включение/выключение автоматического изменения текста чата во время временного шторма.",
-    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Во время временных штормов:"
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm":  "Во время временных бурь:",
+    "Features.TextAlteration.Dialogue.lblDuringTemporalStorm.HoverText":  "Включите/отключите автоматическое изменение текста чата во время временной бури.",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk":  "В состоянии опьянения:",
+    "Features.TextAlteration.Dialogue.lblWhileDrunk.HoverText":  "Включите/отключите автоматическое изменение чата в состоянии опьянения.",
+    "Features.TextAlteration.Dialogue.lblWhileStarving":  "Когда я голодаю:",
+    "Features.TextAlteration.Dialogue.lblWhileStarving.HoverText":  "Включите/отключите автоматическое изменение текста чата во время голодания."
 }

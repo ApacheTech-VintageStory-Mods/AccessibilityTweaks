@@ -1,0 +1,19 @@
+﻿{
+    "Features.WeatherEffects.Dialogue.Title":  "Эфекты надвор\u0027я",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled":  "Аблокі:",
+    "Features.WeatherEffects.Dialogue.lblCloudsEnabled.HoverText":  "Пераключае рэндэрынг аблокаў.",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled":  "Пыл:",
+    "Features.WeatherEffects.Dialogue.lblDustParticlesEnabled.HoverText":  "Пераключае рэндэрынг эфектаў пылавых часціц.",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled":  "Эфекты туману:",
+    "Features.WeatherEffects.Dialogue.lblFogEnabled.HoverText":  "Пераключае рэндэрынг эфектаў туману.",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled":  "Эфекты туману:",
+    "Features.WeatherEffects.Dialogue.lblMistEnabled.HoverText":  "Пераключае рэндэрынг эфектаў туману.",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled":  "Градавыя камяні:",
+    "Features.WeatherEffects.Dialogue.lblHailstonesEnabled.HoverText":  "Пераключае рэндэрынг эфектаў часціц граду.",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled":  "Маланкавы ўспышкі:",
+    "Features.WeatherEffects.Dialogue.lblLightningEnabled.HoverText":  "Пераключае рэндэрынг эфектаў мігаючага святла маланкай.",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled":  "Кроплі дажджу:",
+    "Features.WeatherEffects.Dialogue.lblRaindropsEnabled.HoverText":  "Пераключае рэндэрынг эфектаў кропель дажджу.",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled":  "Сняжынкі:",
+    "Features.WeatherEffects.Dialogue.lblSnowflakesEnabled.HoverText":  "Пераключае рэндэрынг эфектаў часціц сняжынкі."
+}

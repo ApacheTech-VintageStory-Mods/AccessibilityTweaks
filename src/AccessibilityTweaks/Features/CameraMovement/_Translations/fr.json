@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Caméra et mouvement",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Autoriser/Interdire au jeu de déplacer votre souris sans votre permission.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Lorsqu’elle est activée, la furtivité est activée à l’aide de la touche Sneak - appuyez une fois pour l’activer, puis appuyez à nouveau pour désactiver la furtivité.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Force de bougé de l’appareil photo :",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "À quel point le monde se déforme lors d’une tempête temporelle.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Force du glitch :",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Résistance globale du warp :",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "À quel point le monde se déforme pendant une tempête temporelle.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Puissance de distorsion de perception :",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "À quel point le monde se déforme quand tu es ivre ».",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Résistance au bug :",
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "À quel point le monde se déforme pendant une tempête temporelle.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Puissance de tremblement de la caméra :",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Frissons, recul au toucher, et autres effets de retour haptique.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mouvement involontaire de la souris :",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Force de distorsion de perception :",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "À quel point le monde se déforme lors d’une tempête temporelle.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Basculer Furtif :",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Frissons, recul lorsqu’on est touché et autres effets de retour haptique.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Force de distorsion globale :",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Comme le monde se déforme pendant que vous êtes ivre\"."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Autoriser/interdire au jeu de déplacer votre souris sans votre permission.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Basculez la discrétion :",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Une fois activé, la discrétion est activée via la touche Discrétion – appuyez une fois pour activer, puis appuyez encore pour désactiver la discrétion."
 }

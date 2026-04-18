@@ -1,0 +1,14 @@
+﻿{
+    "Features.SoundEffects.Dialogue.Title":  "Garso efektai",
+    "Features.SoundEffects.Dialogue.RightButtonText":  "Sugedusių garsų taisymas",
+    "Features.SoundEffects.Dialogue.lblSearch":  "Paieška:",
+    "Features.SoundEffects.Dialogue.lblSearch.HoverText":  "Filtruokite garso efektus pagal pavadinimą.",
+    "Features.SoundEffects.Dialogue.lblCurrentlyPlaying":  "Rodyti tik šiuo metu leidžiamus garsus:",
+    "Features.SoundEffects.Dialogue.lblVolume":  "Tūris:",
+    "Features.SoundEffects.Dialogue.lblVolume.HoverText":  "Pakeiskite santykinį garso efekto garsumą.",
+    "Features.SoundEffects.Dialogue.lblMute":  "Nutildyti:",
+    "Features.SoundEffects.Dialogue.lblMute.HoverText":  "Nutildyti garso efektai nėra girdimi.",
+    "Features.SoundEffects.Dialogue.lblPitch":  "Žingsnis:",
+    "Features.SoundEffects.Dialogue.lblPitch.HoverText":  "Pakeiskite santykinį garso efekto aukštį. Tai gali padėti žmonėms, sergantiems spengimu ausyse ar kitomis klausos praradimo problemomis.",
+    "Features.SoundEffects.Dialogue.PlaySound":  "Leisti garsą"
+}

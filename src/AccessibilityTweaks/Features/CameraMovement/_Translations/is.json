@@ -1,15 +1,15 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Myndavél og hreyfing",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Leyfa/banna leiknum að hreyfa músina án þíns leyfis.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Þegar það er virkt er slökkt á laumu með því að nota laumutakkann - pikkaðu einu sinni til að virkja og pikkaðu aftur til að slökkva á laumu.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Hristingur myndavélar:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hversu mikið heimurinn sveigist í tímastormi.",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Styrkur í alþjóðlegum warp:",
+    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hversu mikið heimurinn aflagast í tímastormi.",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Styrkur skynjunarbeygju:",
+    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hversu mikið heimurinn snýst þegar þú ert drukkinn.",
     "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Styrkur galla:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ósjálfráðar hreyfingar músa:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Styrkur skynjunarskekkju:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hversu mikið heimurinn sveigist í tímastormi.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Skipta um laumu:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skjálfti, hrökkva við högg og önnur haptic viðbrögð.",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp styrkur:",
-    "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hversu mikið heimurinn skekkist á meðan þú ert fullur\"."
+    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hversu mikið heimurinn aflagast í tímastormi.",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Styrkur myndavélarhristingar:",
+    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skjálfti, afturkast þegar það er slegið, og önnur haptísk viðbrögð.",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Óviljandi músarhreyfing:",
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Leyfðu/bannaðu leiknum að hreyfa músina án leyfis þíns.",
+    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Slökkva á laumuspili:",
+    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Þegar það er virkjað er laumuspil virkjað með laumuspilslyklinum – ýttu einu sinni til að virkja, og ýttu aftur til að slökkva á laumuspili."
 }

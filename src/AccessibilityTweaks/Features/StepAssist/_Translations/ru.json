@@ -1,5 +1,5 @@
 ﻿{
-    "Features.StepAssist.CommandDescription":  "Поднимитесь на целый блок вверх без необходимости прыгать.",
-    "Features.StepAssist.Enabled":  "Пошаговая помощь включена.",
-    "Features.StepAssist.Disabled":  "Функция Step Assist отключена."
+    "Features.StepAssist.CommandDescription":  "Подняться на целый квартал без прыжков.",
+    "Features.StepAssist.Enabled":  "Step Assist включен.",
+    "Features.StepAssist.Disabled":  "Шаговая помощь отключена."
 }
