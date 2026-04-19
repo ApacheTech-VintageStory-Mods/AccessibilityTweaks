@@ -42,7 +42,7 @@ public sealed class ColourCorrectionDialogue : FeatureSettingsDialogue<ColourCor
         left = left.BelowCopy(fixedDeltaY: switchPadding + 5);
         right = right.BelowCopy(fixedDeltaY: switchPadding + 5);
 
-        var names = Enum.GetNames(typeof(ColourVisionType)).ToArray();
+        var names = Enum.GetNames<ColourVisionType>().ToArray();
         var values = names.Select(p => T($"Presets.{p}")).ToArray();
         composer.AddStaticText(T("lblPreset"), font, left);
         composer.AddHoverText(T("lblPreset.HoverText"), font, 260, left);
@@ -98,7 +98,7 @@ public sealed class ColourCorrectionDialogue : FeatureSettingsDialogue<ColourCor
 
     private void OnSelectionChanged(string code, bool selected)
     {
-        Settings.Preset = (ColourVisionType)Enum.Parse(typeof(ColourVisionType), code);
+        Settings.Preset = Enum.Parse<ColourVisionType>(code);
         RefreshValues();
     }
 
