@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Камера и движение",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Глобальная сила варпа:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Как сильно мир искажается во время временной бури.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сила искажения восприятия:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Как сильно мир искажается, пока ты пьян».",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сила глитча:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Как сильно мир искажается во время временной бури.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сила дрожи камеры:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Дрожь, отдача при попадании и другие тактильные эффекты.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Сила эффекта глитча:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Сколько сущностей мерцает во время временной бури.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Мультипликатор психоделической силы:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Насколько сильно действуют психоделики на игрока?",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Непроизвольное движение мышей:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Разрешать/запретить игре двигать мышь без вашего разрешения.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Переключение скрытности:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "При включении скрытность переключается с помощью клавиши «Скрытность» — нажмите один раз, чтобы включить, и ещё раз, чтобы отключить скрытность."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Разрешать/запретить игре двигать мышь без вашего разрешения."
 }

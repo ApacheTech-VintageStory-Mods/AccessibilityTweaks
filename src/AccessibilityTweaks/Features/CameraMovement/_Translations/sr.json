@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera i kretanje",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globalna Varp snaga:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Koliko se svet iskrivljuje tokom vremenske oluje.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Percepcija Varp snaga:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Koliko se svet iskrivljuje dok si pijan\".",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch Snaga:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Koliko se svet iskrivljuje tokom vremenske oluje.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamera Shake Snaga:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Drhtanje, trzaj kada udari, i drugi haptički povratni efekti.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch Efekat Snaga:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Koliko entiteta treperi tokom vremenske oluje.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Multiplikator psihodelične snage:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Koliko snažno se efekti psihodelika primenjuju na igrača.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nevoljni pokret miša:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Dozvoli / zabrani igru da pomera miša bez vaše dozvole.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Toggle Sneak:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Kada je omogućeno, šunjanje se prebacuje pomoću tastera Sneak - dodirnite jednom da biste omogućili, a zatim dodirnite ponovo da biste onemogućili šunjanje."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Dozvoli / zabrani igru da pomera miša bez vaše dozvole."
 }

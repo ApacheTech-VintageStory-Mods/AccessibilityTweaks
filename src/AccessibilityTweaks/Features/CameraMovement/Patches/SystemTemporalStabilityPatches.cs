@@ -1,4 +1,6 @@
-﻿using System.Reflection.Emit;
+﻿using Newtonsoft.Json.Linq;
+using System.Reflection.Emit;
+using System.Runtime;
 
 namespace AccessibilityTweaks.Features.CameraMovement.Patches;
 

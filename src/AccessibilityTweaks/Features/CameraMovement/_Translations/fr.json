@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Caméra et mouvement",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Résistance globale du warp :",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "À quel point le monde se déforme pendant une tempête temporelle.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Puissance de distorsion de perception :",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "À quel point le monde se déforme quand tu es ivre ».",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Résistance au bug :",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "À quel point le monde se déforme pendant une tempête temporelle.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Puissance de tremblement de la caméra :",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Frissons, recul au toucher, et autres effets de retour haptique.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Force de l’effet de glitch :",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Combien d’entités vacillent pendant une tempête temporelle.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Multiplicateur de force psychédélique :",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "À quel point les effets des psychédéliques sont appliqués au joueur.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mouvement involontaire de la souris :",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Autoriser/interdire au jeu de déplacer votre souris sans votre permission.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Basculez la discrétion :",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Une fois activé, la discrétion est activée via la touche Discrétion – appuyez une fois pour activer, puis appuyez encore pour désactiver la discrétion."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Autoriser/interdire au jeu de déplacer votre souris sans votre permission."
 }

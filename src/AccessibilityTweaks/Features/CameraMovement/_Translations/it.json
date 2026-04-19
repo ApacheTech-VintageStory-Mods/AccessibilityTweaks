@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Camera e movimento",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Forza globale della curvatura:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Quanto il mondo si deforma durante una tempesta temporale.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Forza del Warp della Percezione:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Quanto il mondo si deforma mentre sei ubriaco\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Forza del Glitch:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Quanto il mondo si deforma durante una tempesta temporale.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Forza del tremore della telecamera:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Brividi, rinculo quando colpito e altri effetti di feedback aptico.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Forza dell\u0027effetto glitch:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Quante entità tremolano durante una tempesta temporale.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Moltiplicatore di Forza Psichedelica:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Quanto fortemente gli effetti degli psichedelici vengono applicati al giocatore.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento involontario del topo:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permettere/impedire al gioco di muovere il mouse senza il tuo permesso.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Toggle Furtività:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Quando attivato, lo stesore si attiva usando il tasto Furtività: tocca una volta per abilitare e tocca di nuovo per disabilitare lo stelio."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permettere/impedire al gioco di muovere il mouse senza il tuo permesso."
 }

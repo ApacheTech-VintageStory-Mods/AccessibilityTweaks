@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Máy ảnh và chuyển động",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Sức mạnh dọc toàn cầu:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Thế giới bị bẻ cong bao nhiêu trong một cơn bão tạm thời.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Sức mạnh cong nhận thức:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Thế giới bóp méo bao nhiêu khi bạn say rượu\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Sức mạnh trục trặc:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Thế giới bị bẻ cong bao nhiêu trong một cơn bão tạm thời.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Cường độ rung máy:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rùng mình, giật khi bị đánh và các hiệu ứng phản hồi xúc giác khác.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Sức mạnh hiệu ứng trục trặc:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Bao nhiêu thực thể nhấp nháy trong một cơn bão tạm thời.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Hệ số sức mạnh ảo giác:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Tác dụng của thuốc ảo giác được áp dụng mạnh mẽ như thế nào cho người chơi.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Chuyển động chuột không tự nguyện:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Cho phép / Không cho phép trò chơi di chuyển chuột mà không có sự cho phép của bạn.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Chuyển đổi Lén lút:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Khi được bật, tính năng lén lút được chuyển đổi bằng phím Sneak - nhấn một lần để bật và nhấn lại để tắt tính năng lén lút."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Cho phép / Không cho phép trò chơi di chuyển chuột mà không có sự cho phép của bạn."
 }

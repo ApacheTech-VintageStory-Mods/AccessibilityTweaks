@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "镜头与运动",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "全球曲速强度：",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "世界在时间风暴中会扭曲多少。",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "感知扭曲强度：",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "你喝醉时世界会扭曲得多么严重。”",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "漏洞强度：",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "世界在时间风暴中会扭曲多少。",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "相机震动强度：",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "发抖、被击中时后坐力以及其他触觉反馈效果。",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "故障效果强度：",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "在时间风暴中，实体会闪烁多少。",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "迷幻药强度倍增器：",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "迷幻药效果对玩家的施加程度。",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "不自主的老鼠运动：",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "允许/禁止游戏在未经你允许的情况下移动鼠标。",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "切换潜行：",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "启用后，潜行通过潜行键切换——轻触一次启用，再轻触一次关闭潜行。"
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "允许/禁止游戏在未经你允许的情况下移动鼠标。"
 }

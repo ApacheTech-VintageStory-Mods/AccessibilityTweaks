@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera és mozgás",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globális Warp Erő:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Mennyire torzul a világ egy idővihar alatt.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Észlelési torzítás erő:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Mennyire torzul a világ, amíg részeg vagy\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch erősség:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Mennyire torzul a világ egy idővihar alatt.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamera rázkódásának ereje:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Reszketés, visszahúzódás ütés közben és más haptikus visszacsatolási hatások.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch hatás erőssége:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Mennyi entitás villogik egy idővihar alatt.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Pszichedelikus erőszorzó:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Milyen erősen hatnak a pszichedelikus szerek hatásai a játékosra.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Akaratlan egérmozgás:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Engedd vagy tiltd meg, hogy a játék az egeret az engedélyed nélkül mozgatja.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Toggle Sneak:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Ha engedélyezve, a lopakodás a Sneak gombbal kapcsolható – egyszer koppint az engedélyezéshez, majd újra a lopakodás letiltásához."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Engedd vagy tiltd meg, hogy a játék az egeret az engedélyed nélkül mozgatja."
 }

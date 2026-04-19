@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "カメラと動き",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "グローバルワープ強度:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "時間の嵐の間に世界がどれほど歪むか。",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "知覚ワープ強度:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "酔っている間に世界がどれだけ歪むか。",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "グリッチの強さ:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "時間の嵐の間に世界がどれほど歪むか。",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "カメラの揺れ強度:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "震え、攻撃時の反動、その他の触覚フィードバック効果。",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "グリッチ効果の強さ:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "時間の嵐の間にどれだけ存在がちらつくか。",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "サイケデリックの強さ倍率:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "サイケデリックの効果がプレイヤーにどれほど強く与えられるか。",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "不随意のマウスの動き:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "ゲームがあなたの許可なしにマウスを動かすのを許可または禁止してください。",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "トグルスニーク:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "有効にすると、スニークキーでスニークを切り替えます。一度タップすると有効になり、もう一度タップするとスニークを無効にします。"
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "ゲームがあなたの許可なしにマウスを動かすのを許可または禁止してください。"
 }

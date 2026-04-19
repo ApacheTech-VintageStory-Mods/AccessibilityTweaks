@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Cámara y movimiento",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Fuerza global de curvatura:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Cuánto se distorsiona el mundo durante una tormenta temporal.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Fuerza de la Distorsión de la Percepción:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Cuánto se deforma el mundo cuando estás borracho\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Fuerza de fallo:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Cuánto se distorsiona el mundo durante una tormenta temporal.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Fuerza de vibración de cámara:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Temblores, retroceso al golpear y otros efectos de retroalimentación háptica.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Fuerza del efecto glitch:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Cuánto parpadean las entidades durante una tormenta temporal.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Multiplicador de fuerza psicodélica:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Qué intensamente se aplican los efectos de los psicodélicos al jugador.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimiento involuntario del ratón:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permite/prohíbe que el juego mueva el ratón sin tu permiso.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar sigilo:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Cuando está activado, el sigilo se activa usando la tecla Sigilo: toca una vez para activarlo y toca otra vez para desactivar el sigilo."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permite/prohíbe que el juego mueva el ratón sin tu permiso."
 }

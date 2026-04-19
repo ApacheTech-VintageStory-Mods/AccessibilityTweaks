@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Câmara e Movimento",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Força da Dobra Global:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "O quanto o mundo se distorce durante uma tempestade temporal.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Força da Distorção da Perceção:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Como o mundo se distorce quando estás bêbado\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Força do Glitch:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "O quanto o mundo se distorce durante uma tempestade temporal.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Força de Tremor da Câmara:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Tremores, recuo ao ser atingido e outros efeitos de feedback háptico.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Força do Efeito de Glitch:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Quanto as entidades cintilam durante uma tempestade temporal.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Multiplicador de Força Psicadélica:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Quão fortemente os efeitos dos psicadélicos são aplicados ao jogador.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Movimento Involuntário do Rato:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permita/Proibir que o jogo mova o rato sem a tua permissão.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Alternar Furtividade:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Quando ativado, a furtividade é ativada usando a tecla Furtividade – toca uma vez para ativar e toca outra vez para desativar a furtividade."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Permita/Proibir que o jogo mova o rato sem a tua permissão."
 }

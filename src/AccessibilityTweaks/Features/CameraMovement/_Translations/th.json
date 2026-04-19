@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "กล้องและการเคลื่อนไหว",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "ความแข็งแกร่งของวาร์ปทั่วโลก:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในช่วงพายุชั่วคราว",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "การรับรู้ความแข็งแกร่งของวาร์ป:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในขณะที่คุณเมา\u0027",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "ความแข็งแกร่งของความผิดพลาด:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "โลกบิดเบี้ยวมากแค่ไหนในช่วงพายุชั่วคราว",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "ความแรงของการสั่นไหวของกล้อง:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "ตัวสั่น หดตัวเมื่อถูกกระแทก และเอฟเฟกต์การตอบสนองแบบสัมผัสอื่นๆ",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "ความแข็งแกร่งของเอฟเฟกต์ Glitch:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "จํานวนเอนทิตีที่กะพริบระหว่างพายุชั่วคราว",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "ตัวคูณความแข็งแกร่งของประสาทหลอน:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "เอฟเฟกต์ของประสาทหลอนถูกนําไปใช้กับผู้เล่นอย่างรุนแรงเพียงใด",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "การเคลื่อนไหวของเมาส์โดยไม่สมัครใจ:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "อนุญาต/ไม่อนุญาตให้เกมขยับเมาส์โดยไม่ได้รับอนุญาตจากคุณ",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "สลับการแอบ:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "เมื่อเปิดใช้งาน การแอบดูจะสลับโดยใช้ปุ่มแอบ - แตะหนึ่งครั้งเพื่อเปิดใช้งาน และแตะอีกครั้งเพื่อปิดใช้งานการแอบ"
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "อนุญาต/ไม่อนุญาตให้เกมขยับเมาส์โดยไม่ได้รับอนุญาตจากคุณ"
 }

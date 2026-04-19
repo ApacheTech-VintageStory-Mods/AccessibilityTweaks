@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "카메라와 움직임",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "전 세계 워프 강도:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "시간의 폭풍 동안 세상이 얼마나 왜곡되는지.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "지각 왜곡 강도:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "술에 취하면 세상이 얼마나 뒤틀리는지.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "글리치 강도:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "시간의 폭풍 동안 세상이 얼마나 왜곡되는지.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "카메라 흔들림 강도:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "떨림, 맞을 때 반동, 그리고 기타 햅틱 피드백 효과들.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "글리치 효과 강도:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "시간 폭풍 동안 얼마나 많은 존재들이 깜빡이는지.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "환각제 강도 배수기:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "환각제의 효과가 플레이어에게 얼마나 강하게 적용되는지.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "무의식적인 마우스 움직임:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "게임이 사용자의 허락 없이 마우스를 움직이는 것을 허용하거나 금지하세요.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "스틱 토글:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "활성화되면 은신 키를 사용해 토글 기능을 하며, 한 번 탭하면 활성화되고 다시 탭하면 은신을 비활성화합니다."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "게임이 사용자의 허락 없이 마우스를 움직이는 것을 허용하거나 금지하세요."
 }

@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Camera en beweging",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globale Warpsterkte:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hoeveel de wereld vervormt tijdens een temporele storm.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Kracht van waarnemingsvervorming:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hoeveel de wereld vervormt terwijl je dronken bent.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitchsterkte:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hoeveel de wereld vervormt tijdens een temporele storm.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Sterkte van cameraschudden:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rillen, terugslag bij een treffer, en andere haptische feedbackeffecten.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch-effect Sterkte:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Hoeveel entiteiten flikkeren tijdens een temporele storm.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psychedelische Sterktemultiplier:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Hoe sterk de effecten van psychedelica op de speler worden toegepast.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Onvrijwillige muisbeweging:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Sta toe of verbied het spel om je muis te bewegen zonder jouw toestemming.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Toggle Sneak:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Wanneer ingeschakeld, wordt sluipen ingeschakeld met de Sluip-toets - tik één keer om te activeren en tik opnieuw om sluipen uit te schakelen."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Sta toe of verbied het spel om je muis te bewegen zonder jouw toestemming."
 }

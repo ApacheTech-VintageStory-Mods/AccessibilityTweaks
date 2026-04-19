@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Камера та рух",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Глобальна сила варпу:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Наскільки світ спотворюється під час часової бурі.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Сила Сприйняття Спотворення:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Як сильно світ спотворюється, поки ти п\u0027яний».",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Сила глюків:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Наскільки світ спотворюється під час часової бурі.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Сила тремтіння камери:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Тремтіння, віддача при попаданні та інші тактильні ефекти.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Сила ефекту глюків:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Скільки сутностей мерехтить під час часової бурі.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Психоделічний множник сили:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Наскільки сильно діють психоделіки на гравця?",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Мимовільний рух миші:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Дозволити/заборонити грі рухати мишкою без вашого дозволу.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Перемикання прихованості:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "При увімкненому режимі непомітність перемикається за допомогою клавіші Sneak — натисніть один раз, щоб увімкнути, і ще раз, щоб вимкнути прихованість."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Дозволити/заборонити грі рухати мишкою без вашого дозволу."
 }

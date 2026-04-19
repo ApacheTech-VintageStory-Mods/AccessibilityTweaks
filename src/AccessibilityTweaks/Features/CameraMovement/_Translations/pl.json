@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera i ruch",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globalna siła napędu napędowego:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak bardzo świat się wypacza podczas burzy czasowej.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Siła percepcji Warp:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak bardzo świat się wypacza, gdy jesteś pijany\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Siła błędu:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak bardzo świat się wypacza podczas burzy czasowej.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Siła drgań aparatu:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Drżenie, odrzut po uderzeniu i inne efekty haptycznego sprzężenia zwrotnego.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Siła efektu błędu:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Jak bardzo byty migotają podczas burzy czasowej.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Mnożnik siły psychodelicznych:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Jak silnie działają psychodeliki na graczu.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mimowolne ruchy myszy:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Pozwól/Zakaz gry poruszania myszką bez twojej zgody.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Przełączaj się na skradanie:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Po włączeniu skradanie się przełącza się za pomocą klawisza Skradanie – stuknięcie raz włączy, a potem ponownie, aby wyłączyć skradanie."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Pozwól/Zakaz gry poruszania myszką bez twojej zgody."
 }

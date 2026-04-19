@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera ir judėjimas",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Pasaulinis metmenų stiprumas:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Kiek pasaulis deformuojasi per laikiną audrą.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Suvokimo metmenų stiprumas:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Kiek pasaulis deformuojasi, kai esi girtas\".",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch stiprumas:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Kiek pasaulis deformuojasi per laikiną audrą.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Fotoaparato drebėjimo stiprumas:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Drebulys, atatranka pataikius ir kiti haptinio grįžtamojo ryšio efektai.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch efekto stiprumas:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Kiek esybių mirga per laikiną audrą.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psichodelinio stiprumo daugiklis:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Kaip stipriai psichodelinių medžiagų poveikis taikomas žaidėjui.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nevalingas pelės judėjimas:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Leisti / neleisti žaidimui judinti pelės be jūsų leidimo.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Perjungti sėlinimą:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Kai įjungta, sėlinimas perjungiamas naudojant klavišą \"Sneak\" - bakstelėkite vieną kartą, kad įjungtumėte, ir bakstelėkite dar kartą, kad išjungtumėte sėlinimą."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Leisti / neleisti žaidimui judinti pelės be jūsų leidimo."
 }

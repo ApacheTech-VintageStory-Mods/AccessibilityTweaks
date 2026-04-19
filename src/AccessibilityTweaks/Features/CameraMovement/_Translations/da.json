@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera og bevægelse",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp-styrke:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hvor meget verden forvrider sig under en tidsstorm.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Perceptions-warp-styrke:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hvor meget verden forvrider sig, mens du er fuld\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Styrke ved fejl:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hvor meget verden forvrider sig under en tidsstorm.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamerarystningsstyrke:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Rysten, rekyl ved ram og andre haptiske feedback-effekter.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch-effekt styrke:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Hvor meget væsener flimrer under en tidsstorm.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psykedelisk styrkemultiplikator:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Hvor stærkt effekten af psykedelika anvendes på spilleren.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ufrivillig musebevægelse:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillad/forbyd spillet at bevæge musen uden din tilladelse.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Skift snig:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Når det er aktiveret, slås snigen til og til med snig-tasten – tryk én gang for at aktivere, og tryk igen for at deaktivere snig."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillad/forbyd spillet at bevæge musen uden din tilladelse."
 }

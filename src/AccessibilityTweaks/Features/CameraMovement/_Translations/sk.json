@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera a pohyb",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globálna sila warpu:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Ako veľmi sa svet deformuje počas časovej búrky.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Sila percepčného warpu:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Ako veľmi sa svet krúti, keď si opitý\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Sila glitchu:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Ako veľmi sa svet deformuje počas časovej búrky.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Sila trasenia fotoaparátu:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Trasenie, spätný ráz pri zásahu a ďalšie haptické spätné väzby.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Sila efektu chyby:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Ako veľmi entity blikajú počas časovej búrky.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psychedelický násobiteľ sily:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Ako silno sa účinky psychedelík aplikujú na hráča.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Nevedomý pohyb myši:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povoliť/zakázať hre pohybovať myšou bez vášho povolenia.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Prepnúť skrývanie:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Keď je zapnuté, plíženie sa prepína pomocou klávesu Sneak – raz ťukni na zapnutie a potom znova na deaktiváciu plíženia."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povoliť/zakázať hre pohybovať myšou bez vášho povolenia."
 }

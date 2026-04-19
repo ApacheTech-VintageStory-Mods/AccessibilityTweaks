@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera und Bewegung",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globale Warpstärke:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Wie stark sich die Welt während eines temporalen Sturms verzerrt.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Wahrnehmungs-Warp-Stärke:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Wie sehr sich die Welt verzerrt, wenn du betrunken bist\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-Stärke:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Wie stark sich die Welt während eines temporalen Sturms verzerrt.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Stärke des Kamera-Schüttelns:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Zittern, Rückstoß beim Treffer und andere haptische Rückkopplungseffekte.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Stärke des Glitch-Effekts:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Wie viele Entitäten während eines temporalen Sturms flackern.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psychedelischer Stärkemultiplikator:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Wie stark die Wirkung von Psychedelika auf den Spieler angewendet wird.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Unwillkürliche Mausbewegung:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Erlauben oder verbieten, dass das Spiel deine Maus ohne deine Erlaubnis bewegt.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Schleichen umschalten:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Wenn aktiviert, wird das Schleichen mit der Schleichtaste aktiviert – einmal tippen, um zu aktivieren, und erneut drücken, um das Schleichen zu deaktivieren."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Erlauben oder verbieten, dass das Spiel deine Maus ohne deine Erlaubnis bewegt."
 }

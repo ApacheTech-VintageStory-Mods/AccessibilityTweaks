@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera ve Hareket",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Küresel Warp Gücü:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Zaman fırtınasında dünya ne kadar bükülüyor.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Algı Warp Gücü:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Sarhoşken dünya ne kadar çarpılıyor\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Hata Gücü:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Zaman fırtınasında dünya ne kadar bükülüyor.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kamera Titreme Gücü:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Titreme, vurulduğunda geri tepme ve diğer haptik geri besleme etkileri.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Hata Etkisi Gücü:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Zaman fırtınasında ne kadar varlık titrediği.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psikedelik Güç Çarpanı:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Psikedeliklerin etkilerinin oyuncuya ne kadar güçlü uygulandığı.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "İstemsiz Fare Hareketi:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Oyunun fareyi izniniz olmadan hareket ettirmesine izin ver/yasak.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Gizliliği Anahtarla:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Etkinleştirildiğinde, gizlenme Sneak tuşu ile açılır - bir kez dokunarak etkinleştirir, tekrar dokunarak gizliliği devre dışı bırakır."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Oyunun fareyi izniniz olmadan hareket ettirmesine izin ver/yasak."
 }

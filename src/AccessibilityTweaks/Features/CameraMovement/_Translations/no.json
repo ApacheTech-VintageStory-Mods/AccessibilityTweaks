@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera og bevegelse",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Global Warp-styrke:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Hvor mye verden forvrenges under en tidsstorm.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Persepsjonsforvrengningsstyrke:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Hvor mye verden vrir seg når du er full.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-styrke:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Hvor mye verden forvrenges under en tidsstorm.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kameraristingsstyrke:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Skjelving, rekyl når jeg treffer, og andre haptiske tilbakemeldingseffekter.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch-effekt styrke:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Hvor mye entiteter flimrer under en tidsstorm.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psykedelisk styrkemultiplikator:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Hvor sterkt effektene av psykedelika anvendes på spilleren.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Ufrivillig musebevegelse:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillat/Forby at spillet beveger musen uten din tillatelse.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Veksle sniking:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Når det er aktivert, slås sniking av og til med Snik-tasten – trykk én gang for å aktivere, og trykk igjen for å deaktivere sniking."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Tillat/Forby at spillet beveger musen uten din tillatelse."
 }

@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera a pohyb",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globální síla warpu:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Jak moc se svět během časové bouře zdeformuje.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Síla percepce Warp:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Jak moc se svět zkřiví, když jsi opilý\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Síla chyb:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Jak moc se svět během časové bouře zdeformuje.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Síla otřesu fotoaparátu:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Třes, zpětný ráz při zásahu a další haptické zpětné vazby.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Síla efektu chyby:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Kolik entit bliká během časové bouře.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Násobič síly psychedelických látek:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Jak silně jsou účinky psychedelik aplikovány na hráče.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Mimovolní pohyb myši:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povolit/zakázat hře pohyb myší bez vašeho svolení.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Přepínání plížení:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Když je zapnuto, plížení se přepne klávesou Sneak – klepněte jednou pro zapnutí a znovu stiskněte pro deaktivaci plížení."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Povolit/zakázat hře pohyb myší bez vašeho svolení."
 }

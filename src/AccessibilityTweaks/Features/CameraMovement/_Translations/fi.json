@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "Kamera ja liike",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "Globaali Warp-voima:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "Kuinka paljon maailma vääristyy ajamyrskyn aikana.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "Havainnon vääristymisen voima:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "Kuinka paljon maailma vääristyy, kun olet humalassa\u0027.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "Glitch-voima:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "Kuinka paljon maailma vääristyy ajamyrskyn aikana.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "Kameran tärinän voimakkuus:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "Värinä, rekyyli osuessa ja muita haptisia palautevaikutuksia.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "Glitch-efektin voimakkuus:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "Kuinka paljon olentoja välkkyy ajallisen myrskyn aikana.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "Psykedeelinen voimakerroin:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "Kuinka voimakkaasti psykedeelien vaikutukset kohdistuvat pelaajaan.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "Tahaton hiiren liike:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Salli tai kiellä pelin liikuttaa hiirtä ilman lupaasi.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "Hiiviskelyn kytkentä:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "Kun hiipiminen on käytössä, hiiviskely kytketään päälle Sneak-näppäimellä – napauta kerran aktivoidaksesi ja napauta uudelleen estääksesi hiipimisen."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "Salli tai kiellä pelin liikuttaa hiirtä ilman lupaasi."
 }

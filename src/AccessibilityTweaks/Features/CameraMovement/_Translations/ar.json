@@ -1,15 +1,11 @@
 ﻿{
     "Features.CameraMovement.Dialogue.Title":  "الكاميرا والحركة",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier":  "قوة الوارب العالمية:",
-    "Features.CameraMovement.Dialogue.lblGlobalWarpMultiplier.HoverText":  "كم يتشوه العالم أثناء عاصفة زمنية.",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier":  "قوة الإدراك في الانحناء:",
     "Features.CameraMovement.Dialogue.lblPerceptionWarpMultiplier.HoverText":  "كم يتشوه العالم وأنت مخمور.",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier":  "قوة الأعطال:",
-    "Features.CameraMovement.Dialogue.lblGlitchStrengthMultiplier.HoverText":  "كم يتشوه العالم أثناء عاصفة زمنية.",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier":  "قوة اهتزاز الكاميرا:",
-    "Features.CameraMovement.Dialogue.lblCameraShakeMultiplier.HoverText":  "الارتجاف، الارتداد عند الإصابة، وتأثيرات ردود فعل لمسية أخرى.",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier":  "قوة تأثير الخلل:",
+    "Features.CameraMovement.Dialogue.lblGlitchEffectStrengthMultiplier.HoverText":  "كم من الكيانات تومض أثناء العاصفة الزمنية.",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier":  "مضاعف قوة المخدرات المهلوسة:",
+    "Features.CameraMovement.Dialogue.lblPsychedelicStrengthMultiplier.HoverText":  "مدى قوة تأثير المهلوسات على اللاعب.",
     "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement":  "حركة الفأر غير الإرادية:",
-    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "السماح أو منع اللعبة من تحريك الفأرة بدون إذنك.",
-    "Features.CameraMovement.Dialogue.lblToggleSneak":  "تبديل التسلل:",
-    "Features.CameraMovement.Dialogue.lblToggleSneak.HoverText":  "عند تفعيلها، يتم تفعيل التسلل باستخدام مفتاح التسلل - اضغط مرة واحدة لتفعيل، ثم اضغط مرة أخرى لتعطيل التسلل."
+    "Features.CameraMovement.Dialogue.lblInvoluntaryMouseMovement.HoverText":  "السماح أو منع اللعبة من تحريك الفأرة بدون إذنك."
 }
