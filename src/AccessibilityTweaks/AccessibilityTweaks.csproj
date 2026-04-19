@@ -11,5 +11,12 @@
 	<ItemGroup>
 		<None Remove="$(ProjectDir)\**\.gitkeep" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="OpenTK.Graphics">
+			<HintPath>$(VINTAGE_STORY)\Lib\OpenTK.Graphics.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
 	
 </Project>
